@@ -1,0 +1,180 @@
+\doxysection{main.\+cpp File Reference}
+\hypertarget{main_8cpp}{}\label{main_8cpp}\index{main.cpp@{main.cpp}}
+
+
+Boucle principale et gestion des événements clavier.  
+
+
+{\ttfamily \#include "{}Sdl.\+hpp"{}}\newline
+{\ttfamily \#include "{}Geometry.\+hpp"{}}\newline
+{\ttfamily \#include "{}Scene.\+hpp"{}}\newline
+{\ttfamily \#include $<$cmath$>$}\newline
+{\ttfamily \#include $<$iostream$>$}\newline
+\doxysubsubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{main_8cpp_a6ca502f882ebcc537dec54df94f57059}{handle\+Keyboard}} (\mbox{\hyperlink{class_camera}{Camera}} \&camera, const Uint8 \texorpdfstring{$\ast$}{*}keys)
+\begin{DoxyCompactList}\small\item\em Gère les événements clavier. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{main_8cpp_a3f8bbedc9cc7a81915ae12b5d66c00cd}{add\+Cube}} (\mbox{\hyperlink{class_scene}{Scene}} \&scene, float angle)
+\begin{DoxyCompactList}\small\item\em Crée et ajoute le cube à la scène. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{main_8cpp_a413ed82437706932602a46bf716063ca}{add\+Sphere}} (\mbox{\hyperlink{class_scene}{Scene}} \&scene)
+\begin{DoxyCompactList}\small\item\em Crée et ajoute la sphère à la scène. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{main_8cpp_a43c63981d2c39c1e3e08614ee3f83b4f}{main\+Loop}} (\mbox{\hyperlink{class_sdl}{Sdl}} \&sdl, \mbox{\hyperlink{class_scene}{Scene}} \&scene)
+\begin{DoxyCompactList}\small\item\em Boucle principale du programme. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{main_8cpp_a0ddf1224851353fc92bfbff6f499fa97}{main}} (int argc, char \texorpdfstring{$\ast$}{*}argv\mbox{[}$\,$\mbox{]})
+\begin{DoxyCompactList}\small\item\em main \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Variables}
+\begin{DoxyCompactItemize}
+\item 
+const int \mbox{\hyperlink{main_8cpp_a5e6ce0dd58078611570510dc4b8d81f3}{WINDOW\+\_\+\+WIDTH}} = 1000
+\begin{DoxyCompactList}\small\item\em Largeur de la fenêtre en pixels. \end{DoxyCompactList}\item 
+const int \mbox{\hyperlink{main_8cpp_ab76d138fa589df9a65fc05eb3bd56073}{WINDOW\+\_\+\+HEIGHT}} = 650
+\begin{DoxyCompactList}\small\item\em Hauteur de la fenêtre en pixels. \end{DoxyCompactList}\item 
+const float \mbox{\hyperlink{main_8cpp_a9f6db3e5a3b5d9b1d2877f031403cf4b}{CAMERA\+\_\+\+SPEED}} = 0.\+15f
+\begin{DoxyCompactList}\small\item\em Vitesse de déplacement de la caméra. \end{DoxyCompactList}\item 
+const float \mbox{\hyperlink{main_8cpp_aafdc8dcab294f37bef891a8e0a3813b8}{ROTATION\+\_\+\+SPEED}} = 0.\+02f
+\begin{DoxyCompactList}\small\item\em Vitesse de rotation du cube. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Boucle principale et gestion des événements clavier. 
+
+
+
+\label{doc-func-members}
+\Hypertarget{main_8cpp_doc-func-members}
+\doxysubsection{Function Documentation}
+\Hypertarget{main_8cpp_a3f8bbedc9cc7a81915ae12b5d66c00cd}\index{main.cpp@{main.cpp}!addCube@{addCube}}
+\index{addCube@{addCube}!main.cpp@{main.cpp}}
+\doxysubsubsection{\texorpdfstring{addCube()}{addCube()}}
+{\footnotesize\ttfamily \label{main_8cpp_a3f8bbedc9cc7a81915ae12b5d66c00cd} 
+void add\+Cube (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_scene}{Scene}} \&}]{scene}{, }\item[{float}]{angle}{}\end{DoxyParamCaption})}
+
+
+
+Crée et ajoute le cube à la scène. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em scene} & \\
+\hline
+{\em angle} & Angle de rotation actuel \\
+\hline
+\end{DoxyParams}
+\Hypertarget{main_8cpp_a413ed82437706932602a46bf716063ca}\index{main.cpp@{main.cpp}!addSphere@{addSphere}}
+\index{addSphere@{addSphere}!main.cpp@{main.cpp}}
+\doxysubsubsection{\texorpdfstring{addSphere()}{addSphere()}}
+{\footnotesize\ttfamily \label{main_8cpp_a413ed82437706932602a46bf716063ca} 
+void add\+Sphere (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_scene}{Scene}} \&}]{scene}{}\end{DoxyParamCaption})}
+
+
+
+Crée et ajoute la sphère à la scène. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em scene} & instance actuelle de \doxylink{class_scene}{Scene} \\
+\hline
+\end{DoxyParams}
+\Hypertarget{main_8cpp_a6ca502f882ebcc537dec54df94f57059}\index{main.cpp@{main.cpp}!handleKeyboard@{handleKeyboard}}
+\index{handleKeyboard@{handleKeyboard}!main.cpp@{main.cpp}}
+\doxysubsubsection{\texorpdfstring{handleKeyboard()}{handleKeyboard()}}
+{\footnotesize\ttfamily \label{main_8cpp_a6ca502f882ebcc537dec54df94f57059} 
+void handle\+Keyboard (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_camera}{Camera}} \&}]{camera}{, }\item[{const Uint8 \texorpdfstring{$\ast$}{*}}]{keys}{}\end{DoxyParamCaption})}
+
+
+
+Gère les événements clavier. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em camera} & instance actuelle de \doxylink{class_camera}{Camera} \\
+\hline
+{\em keys} & État des touches (géré par SDL) \\
+\hline
+\end{DoxyParams}
+\Hypertarget{main_8cpp_a0ddf1224851353fc92bfbff6f499fa97}\index{main.cpp@{main.cpp}!main@{main}}
+\index{main@{main}!main.cpp@{main.cpp}}
+\doxysubsubsection{\texorpdfstring{main()}{main()}}
+{\footnotesize\ttfamily \label{main_8cpp_a0ddf1224851353fc92bfbff6f499fa97} 
+int main (\begin{DoxyParamCaption}\item[{int}]{argc}{, }\item[{char \texorpdfstring{$\ast$}{*}}]{argv}{\mbox{[}$\,$\mbox{]}}\end{DoxyParamCaption})}
+
+
+
+main 
+
+
+\begin{DoxyParams}{Parameters}
+{\em argc} & \\
+\hline
+{\em argv} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+le code de sortie (0 si succès) 
+\end{DoxyReturn}
+\Hypertarget{main_8cpp_a43c63981d2c39c1e3e08614ee3f83b4f}\index{main.cpp@{main.cpp}!mainLoop@{mainLoop}}
+\index{mainLoop@{mainLoop}!main.cpp@{main.cpp}}
+\doxysubsubsection{\texorpdfstring{mainLoop()}{mainLoop()}}
+{\footnotesize\ttfamily \label{main_8cpp_a43c63981d2c39c1e3e08614ee3f83b4f} 
+int main\+Loop (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_sdl}{Sdl}} \&}]{sdl}{, }\item[{\mbox{\hyperlink{class_scene}{Scene}} \&}]{scene}{}\end{DoxyParamCaption})}
+
+
+
+Boucle principale du programme. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em sdl} & instance actuelle de \doxylink{class_sdl}{Sdl} \\
+\hline
+{\em scene} & instance actuelle de \doxylink{class_scene}{Scene} \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+le code de sortie (0 si succès) 
+\end{DoxyReturn}
+
+
+\label{doc-var-members}
+\Hypertarget{main_8cpp_doc-var-members}
+\doxysubsection{Variable Documentation}
+\Hypertarget{main_8cpp_a9f6db3e5a3b5d9b1d2877f031403cf4b}\index{main.cpp@{main.cpp}!CAMERA\_SPEED@{CAMERA\_SPEED}}
+\index{CAMERA\_SPEED@{CAMERA\_SPEED}!main.cpp@{main.cpp}}
+\doxysubsubsection{\texorpdfstring{CAMERA\_SPEED}{CAMERA\_SPEED}}
+{\footnotesize\ttfamily \label{main_8cpp_a9f6db3e5a3b5d9b1d2877f031403cf4b} 
+const float CAMERA\+\_\+\+SPEED = 0.\+15f}
+
+
+
+Vitesse de déplacement de la caméra. 
+
+\Hypertarget{main_8cpp_aafdc8dcab294f37bef891a8e0a3813b8}\index{main.cpp@{main.cpp}!ROTATION\_SPEED@{ROTATION\_SPEED}}
+\index{ROTATION\_SPEED@{ROTATION\_SPEED}!main.cpp@{main.cpp}}
+\doxysubsubsection{\texorpdfstring{ROTATION\_SPEED}{ROTATION\_SPEED}}
+{\footnotesize\ttfamily \label{main_8cpp_aafdc8dcab294f37bef891a8e0a3813b8} 
+const float ROTATION\+\_\+\+SPEED = 0.\+02f}
+
+
+
+Vitesse de rotation du cube. 
+
+\Hypertarget{main_8cpp_ab76d138fa589df9a65fc05eb3bd56073}\index{main.cpp@{main.cpp}!WINDOW\_HEIGHT@{WINDOW\_HEIGHT}}
+\index{WINDOW\_HEIGHT@{WINDOW\_HEIGHT}!main.cpp@{main.cpp}}
+\doxysubsubsection{\texorpdfstring{WINDOW\_HEIGHT}{WINDOW\_HEIGHT}}
+{\footnotesize\ttfamily \label{main_8cpp_ab76d138fa589df9a65fc05eb3bd56073} 
+const int WINDOW\+\_\+\+HEIGHT = 650}
+
+
+
+Hauteur de la fenêtre en pixels. 
+
+\Hypertarget{main_8cpp_a5e6ce0dd58078611570510dc4b8d81f3}\index{main.cpp@{main.cpp}!WINDOW\_WIDTH@{WINDOW\_WIDTH}}
+\index{WINDOW\_WIDTH@{WINDOW\_WIDTH}!main.cpp@{main.cpp}}
+\doxysubsubsection{\texorpdfstring{WINDOW\_WIDTH}{WINDOW\_WIDTH}}
+{\footnotesize\ttfamily \label{main_8cpp_a5e6ce0dd58078611570510dc4b8d81f3} 
+const int WINDOW\+\_\+\+WIDTH = 1000}
+
+
+
+Largeur de la fenêtre en pixels. 
+

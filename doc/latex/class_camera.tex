@@ -1,0 +1,161 @@
+\doxysection{Camera Class Reference}
+\hypertarget{class_camera}{}\label{class_camera}\index{Camera@{Camera}}
+
+
+Représente la caméra (œil) dans la scène.  
+
+
+
+
+{\ttfamily \#include $<$Scene.\+hpp$>$}
+
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_camera_a01f94c3543f56ede7af49dc778f19331}{Camera}} ()
+\begin{DoxyCompactList}\small\item\em Constructeur par défaut. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_camera_a602ace2505317857e166230185d5657f}{move\+Forward}} (float delta)
+\begin{DoxyCompactList}\small\item\em Déplace la caméra vers l\textquotesingle{}avant/arrière. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_camera_ad19fb4cd22e7fbb13c5ccdebde2e7d26}{move\+Right}} (float delta)
+\begin{DoxyCompactList}\small\item\em Déplace la caméra vers la droite. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_camera_a415bb9c099f94380e37568fb51d09301}{move\+Left}} (float delta)
+\begin{DoxyCompactList}\small\item\em Déplace la caméra vers la gauche. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_camera_a5885485a0533799bb5046db6785b2a57}{move\+Up}} (float delta)
+\begin{DoxyCompactList}\small\item\em Déplace la caméra vers le haut/bas. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_point3d}{Point3d}} \mbox{\hyperlink{class_camera_a0066f943a8ba56bc7b8d76ab31e4d1aa}{position}}
+\begin{DoxyCompactList}\small\item\em Position de l\textquotesingle{}oeil. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_point3d}{Point3d}} \mbox{\hyperlink{class_camera_a015f64ddb4eab82351844c339dfec8f4}{direction}}
+\begin{DoxyCompactList}\small\item\em Direction de l\textquotesingle{}oeil. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_point3d}{Point3d}} \mbox{\hyperlink{class_camera_ab5524221e33d11b2128e79aa32d9fad3}{up}}
+\begin{DoxyCompactList}\small\item\em Vecteur haut. \end{DoxyCompactList}\item 
+float \mbox{\hyperlink{class_camera_aff7393c9cfbccd7e369091f00008da93}{fov}}
+\begin{DoxyCompactList}\small\item\em Champ de vision (field of view) \end{DoxyCompactList}\item 
+float \mbox{\hyperlink{class_camera_a78d8722a95e4f7770d79c950bda2bfdc}{near\+Plane}}
+\begin{DoxyCompactList}\small\item\em Plan de projection proche. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Représente la caméra (œil) dans la scène. 
+
+\label{doc-constructors}
+\Hypertarget{class_camera_doc-constructors}
+\doxysubsection{Constructor \& Destructor Documentation}
+\Hypertarget{class_camera_a01f94c3543f56ede7af49dc778f19331}\index{Camera@{Camera}!Camera@{Camera}}
+\index{Camera@{Camera}!Camera@{Camera}}
+\doxysubsubsection{\texorpdfstring{Camera()}{Camera()}}
+{\footnotesize\ttfamily \label{class_camera_a01f94c3543f56ede7af49dc778f19331} 
+Camera\+::\+Camera (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+
+
+Constructeur par défaut. 
+
+
+
+\label{doc-func-members}
+\Hypertarget{class_camera_doc-func-members}
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_camera_a602ace2505317857e166230185d5657f}\index{Camera@{Camera}!moveForward@{moveForward}}
+\index{moveForward@{moveForward}!Camera@{Camera}}
+\doxysubsubsection{\texorpdfstring{moveForward()}{moveForward()}}
+{\footnotesize\ttfamily \label{class_camera_a602ace2505317857e166230185d5657f} 
+void Camera\+::move\+Forward (\begin{DoxyParamCaption}\item[{float}]{delta}{}\end{DoxyParamCaption})}
+
+
+
+Déplace la caméra vers l\textquotesingle{}avant/arrière. 
+
+\Hypertarget{class_camera_a415bb9c099f94380e37568fb51d09301}\index{Camera@{Camera}!moveLeft@{moveLeft}}
+\index{moveLeft@{moveLeft}!Camera@{Camera}}
+\doxysubsubsection{\texorpdfstring{moveLeft()}{moveLeft()}}
+{\footnotesize\ttfamily \label{class_camera_a415bb9c099f94380e37568fb51d09301} 
+void Camera\+::move\+Left (\begin{DoxyParamCaption}\item[{float}]{delta}{}\end{DoxyParamCaption})}
+
+
+
+Déplace la caméra vers la gauche. 
+
+\Hypertarget{class_camera_ad19fb4cd22e7fbb13c5ccdebde2e7d26}\index{Camera@{Camera}!moveRight@{moveRight}}
+\index{moveRight@{moveRight}!Camera@{Camera}}
+\doxysubsubsection{\texorpdfstring{moveRight()}{moveRight()}}
+{\footnotesize\ttfamily \label{class_camera_ad19fb4cd22e7fbb13c5ccdebde2e7d26} 
+void Camera\+::move\+Right (\begin{DoxyParamCaption}\item[{float}]{delta}{}\end{DoxyParamCaption})}
+
+
+
+Déplace la caméra vers la droite. 
+
+\Hypertarget{class_camera_a5885485a0533799bb5046db6785b2a57}\index{Camera@{Camera}!moveUp@{moveUp}}
+\index{moveUp@{moveUp}!Camera@{Camera}}
+\doxysubsubsection{\texorpdfstring{moveUp()}{moveUp()}}
+{\footnotesize\ttfamily \label{class_camera_a5885485a0533799bb5046db6785b2a57} 
+void Camera\+::move\+Up (\begin{DoxyParamCaption}\item[{float}]{delta}{}\end{DoxyParamCaption})}
+
+
+
+Déplace la caméra vers le haut/bas. 
+
+
+
+\label{doc-variable-members}
+\Hypertarget{class_camera_doc-variable-members}
+\doxysubsection{Member Data Documentation}
+\Hypertarget{class_camera_a015f64ddb4eab82351844c339dfec8f4}\index{Camera@{Camera}!direction@{direction}}
+\index{direction@{direction}!Camera@{Camera}}
+\doxysubsubsection{\texorpdfstring{direction}{direction}}
+{\footnotesize\ttfamily \label{class_camera_a015f64ddb4eab82351844c339dfec8f4} 
+\mbox{\hyperlink{class_point3d}{Point3d}} Camera\+::direction}
+
+
+
+Direction de l\textquotesingle{}oeil. 
+
+\Hypertarget{class_camera_aff7393c9cfbccd7e369091f00008da93}\index{Camera@{Camera}!fov@{fov}}
+\index{fov@{fov}!Camera@{Camera}}
+\doxysubsubsection{\texorpdfstring{fov}{fov}}
+{\footnotesize\ttfamily \label{class_camera_aff7393c9cfbccd7e369091f00008da93} 
+float Camera\+::fov}
+
+
+
+Champ de vision (field of view) 
+
+\Hypertarget{class_camera_a78d8722a95e4f7770d79c950bda2bfdc}\index{Camera@{Camera}!nearPlane@{nearPlane}}
+\index{nearPlane@{nearPlane}!Camera@{Camera}}
+\doxysubsubsection{\texorpdfstring{nearPlane}{nearPlane}}
+{\footnotesize\ttfamily \label{class_camera_a78d8722a95e4f7770d79c950bda2bfdc} 
+float Camera\+::near\+Plane}
+
+
+
+Plan de projection proche. 
+
+\Hypertarget{class_camera_a0066f943a8ba56bc7b8d76ab31e4d1aa}\index{Camera@{Camera}!position@{position}}
+\index{position@{position}!Camera@{Camera}}
+\doxysubsubsection{\texorpdfstring{position}{position}}
+{\footnotesize\ttfamily \label{class_camera_a0066f943a8ba56bc7b8d76ab31e4d1aa} 
+\mbox{\hyperlink{class_point3d}{Point3d}} Camera\+::position}
+
+
+
+Position de l\textquotesingle{}oeil. 
+
+\Hypertarget{class_camera_ab5524221e33d11b2128e79aa32d9fad3}\index{Camera@{Camera}!up@{up}}
+\index{up@{up}!Camera@{Camera}}
+\doxysubsubsection{\texorpdfstring{up}{up}}
+{\footnotesize\ttfamily \label{class_camera_ab5524221e33d11b2128e79aa32d9fad3} 
+\mbox{\hyperlink{class_point3d}{Point3d}} Camera\+::up}
+
+
+
+Vecteur haut. 
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{_scene_8hpp}{Scene.\+hpp}}\item 
+\mbox{\hyperlink{_scene_8cpp}{Scene.\+cpp}}\end{DoxyCompactItemize}

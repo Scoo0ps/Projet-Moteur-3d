@@ -1,0 +1,134 @@
+\doxysection{Triangle3d Class Reference}
+\hypertarget{class_triangle3d}{}\label{class_triangle3d}\index{Triangle3d@{Triangle3d}}
+
+
+Triangle dans l\textquotesingle{}espace 3D.  
+
+
+
+
+{\ttfamily \#include $<$Geometry.\+hpp$>$}
+
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_triangle3d_aa13418bab4a87ce62f8e9c99d57e641d}{Triangle3d}} ()
+\begin{DoxyCompactList}\small\item\em Constructeur par défaut. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_triangle3d_ac30c624660aaae6ec18f4f739ec035c7}{Triangle3d}} (const \mbox{\hyperlink{class_point3d}{Point3d}} \&\mbox{\hyperlink{class_triangle3d_ae46837d6449d31b94785331bacca522c}{p1}}, const \mbox{\hyperlink{class_point3d}{Point3d}} \&\mbox{\hyperlink{class_triangle3d_a131fab4a61da2a4899cb44cd89b4bd18}{p2}}, const \mbox{\hyperlink{class_point3d}{Point3d}} \&\mbox{\hyperlink{class_triangle3d_aa374f57ad517d2645b1b025334876e7e}{p3}})
+\begin{DoxyCompactList}\small\item\em Constructeur avec trois points (sommets) \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_point3d}{Point3d}} \mbox{\hyperlink{class_triangle3d_aa00eed63fff90698818b304fc861f1d5}{normal}} () const
+\begin{DoxyCompactList}\small\item\em Calcule la normale du triangle. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_point3d}{Point3d}} \mbox{\hyperlink{class_triangle3d_a4f873c6f810b27424980675cb516ed38}{center}} () const
+\begin{DoxyCompactList}\small\item\em Calcule le centre du triangle. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_point3d}{Point3d}} \mbox{\hyperlink{class_triangle3d_ae46837d6449d31b94785331bacca522c}{p1}}
+\begin{DoxyCompactList}\small\item\em Premier sommet. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_point3d}{Point3d}} \mbox{\hyperlink{class_triangle3d_a131fab4a61da2a4899cb44cd89b4bd18}{p2}}
+\begin{DoxyCompactList}\small\item\em Deuxième sommet. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_point3d}{Point3d}} \mbox{\hyperlink{class_triangle3d_aa374f57ad517d2645b1b025334876e7e}{p3}}
+\begin{DoxyCompactList}\small\item\em Troisième sommet. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Triangle dans l\textquotesingle{}espace 3D. 
+
+\label{doc-constructors}
+\Hypertarget{class_triangle3d_doc-constructors}
+\doxysubsection{Constructor \& Destructor Documentation}
+\Hypertarget{class_triangle3d_aa13418bab4a87ce62f8e9c99d57e641d}\index{Triangle3d@{Triangle3d}!Triangle3d@{Triangle3d}}
+\index{Triangle3d@{Triangle3d}!Triangle3d@{Triangle3d}}
+\doxysubsubsection{\texorpdfstring{Triangle3d()}{Triangle3d()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily \label{class_triangle3d_aa13418bab4a87ce62f8e9c99d57e641d} 
+Triangle3d\+::\+Triangle3d (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+
+
+Constructeur par défaut. 
+
+\Hypertarget{class_triangle3d_ac30c624660aaae6ec18f4f739ec035c7}\index{Triangle3d@{Triangle3d}!Triangle3d@{Triangle3d}}
+\index{Triangle3d@{Triangle3d}!Triangle3d@{Triangle3d}}
+\doxysubsubsection{\texorpdfstring{Triangle3d()}{Triangle3d()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily \label{class_triangle3d_ac30c624660aaae6ec18f4f739ec035c7} 
+Triangle3d\+::\+Triangle3d (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{class_point3d}{Point3d}} \&}]{p1}{, }\item[{const \mbox{\hyperlink{class_point3d}{Point3d}} \&}]{p2}{, }\item[{const \mbox{\hyperlink{class_point3d}{Point3d}} \&}]{p3}{}\end{DoxyParamCaption})}
+
+
+
+Constructeur avec trois points (sommets) 
+
+
+\begin{DoxyParams}{Parameters}
+{\em p1} & \\
+\hline
+{\em p2} & \\
+\hline
+{\em p3} & \\
+\hline
+\end{DoxyParams}
+
+
+\label{doc-func-members}
+\Hypertarget{class_triangle3d_doc-func-members}
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_triangle3d_a4f873c6f810b27424980675cb516ed38}\index{Triangle3d@{Triangle3d}!center@{center}}
+\index{center@{center}!Triangle3d@{Triangle3d}}
+\doxysubsubsection{\texorpdfstring{center()}{center()}}
+{\footnotesize\ttfamily \label{class_triangle3d_a4f873c6f810b27424980675cb516ed38} 
+\mbox{\hyperlink{class_point3d}{Point3d}} Triangle3d\+::center (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption}) const}
+
+
+
+Calcule le centre du triangle. 
+
+\Hypertarget{class_triangle3d_aa00eed63fff90698818b304fc861f1d5}\index{Triangle3d@{Triangle3d}!normal@{normal}}
+\index{normal@{normal}!Triangle3d@{Triangle3d}}
+\doxysubsubsection{\texorpdfstring{normal()}{normal()}}
+{\footnotesize\ttfamily \label{class_triangle3d_aa00eed63fff90698818b304fc861f1d5} 
+\mbox{\hyperlink{class_point3d}{Point3d}} Triangle3d\+::normal (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption}) const}
+
+
+
+Calcule la normale du triangle. 
+
+
+
+\label{doc-variable-members}
+\Hypertarget{class_triangle3d_doc-variable-members}
+\doxysubsection{Member Data Documentation}
+\Hypertarget{class_triangle3d_ae46837d6449d31b94785331bacca522c}\index{Triangle3d@{Triangle3d}!p1@{p1}}
+\index{p1@{p1}!Triangle3d@{Triangle3d}}
+\doxysubsubsection{\texorpdfstring{p1}{p1}}
+{\footnotesize\ttfamily \label{class_triangle3d_ae46837d6449d31b94785331bacca522c} 
+\mbox{\hyperlink{class_point3d}{Point3d}} Triangle3d\+::p1}
+
+
+
+Premier sommet. 
+
+\Hypertarget{class_triangle3d_a131fab4a61da2a4899cb44cd89b4bd18}\index{Triangle3d@{Triangle3d}!p2@{p2}}
+\index{p2@{p2}!Triangle3d@{Triangle3d}}
+\doxysubsubsection{\texorpdfstring{p2}{p2}}
+{\footnotesize\ttfamily \label{class_triangle3d_a131fab4a61da2a4899cb44cd89b4bd18} 
+\mbox{\hyperlink{class_point3d}{Point3d}} Triangle3d\+::p2}
+
+
+
+Deuxième sommet. 
+
+\Hypertarget{class_triangle3d_aa374f57ad517d2645b1b025334876e7e}\index{Triangle3d@{Triangle3d}!p3@{p3}}
+\index{p3@{p3}!Triangle3d@{Triangle3d}}
+\doxysubsubsection{\texorpdfstring{p3}{p3}}
+{\footnotesize\ttfamily \label{class_triangle3d_aa374f57ad517d2645b1b025334876e7e} 
+\mbox{\hyperlink{class_point3d}{Point3d}} Triangle3d\+::p3}
+
+
+
+Troisième sommet. 
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{_geometry_8hpp}{Geometry.\+hpp}}\item 
+\mbox{\hyperlink{_geometry_8cpp}{Geometry.\+cpp}}\end{DoxyCompactItemize}

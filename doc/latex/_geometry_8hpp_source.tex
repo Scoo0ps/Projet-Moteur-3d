@@ -1,0 +1,124 @@
+\doxysection{Geometry.\+hpp}
+\hypertarget{_geometry_8hpp_source}{}\label{_geometry_8hpp_source}\mbox{\hyperlink{_geometry_8hpp}{Go to the documentation of this file.}}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{00001\ }
+\DoxyCodeLine{00005\ }
+\DoxyCodeLine{00006\ \textcolor{preprocessor}{\#ifndef\ GEOMETRY\_HPP}}
+\DoxyCodeLine{00007\ \textcolor{preprocessor}{\#define\ GEOMETRY\_HPP}}
+\DoxyCodeLine{00008\ }
+\DoxyCodeLine{00009\ \textcolor{preprocessor}{\#include\ <vector>}}
+\DoxyCodeLine{00010\ \textcolor{preprocessor}{\#include\ <cmath>}}
+\DoxyCodeLine{00011\ }
+\DoxyCodeLine{00016\ \textcolor{keyword}{class\ }\mbox{\hyperlink{class_point3d_a228c1c7fe8c7a25f88df0f58de506292}{Point3d}}\ \{}
+\DoxyCodeLine{00017\ \textcolor{keyword}{public}:}
+\DoxyCodeLine{00018\ \ \ \ \ \textcolor{keywordtype}{float}\ \mbox{\hyperlink{class_point3d_a090e284864e42307083c120c7d59a18c}{x}};\ }
+\DoxyCodeLine{00019\ \ \ \ \ \textcolor{keywordtype}{float}\ \mbox{\hyperlink{class_point3d_a87e58cd468ab781b6259ab42aa02befd}{y}};\ }
+\DoxyCodeLine{00020\ \ \ \ \ \textcolor{keywordtype}{float}\ \mbox{\hyperlink{class_point3d_a262f96e4e47cf4a1760197f2d4128683}{z}};\ }
+\DoxyCodeLine{00021\ }
+\DoxyCodeLine{00025\ \ \ \ \ \mbox{\hyperlink{class_point3d_a228c1c7fe8c7a25f88df0f58de506292}{Point3d}}();}
+\DoxyCodeLine{00026\ }
+\DoxyCodeLine{00033\ \ \ \ \ \mbox{\hyperlink{class_point3d_a228c1c7fe8c7a25f88df0f58de506292}{Point3d}}(\textcolor{keywordtype}{float}\ \mbox{\hyperlink{class_point3d_a090e284864e42307083c120c7d59a18c}{x}},\ \textcolor{keywordtype}{float}\ \mbox{\hyperlink{class_point3d_a87e58cd468ab781b6259ab42aa02befd}{y}},\ \textcolor{keywordtype}{float}\ \mbox{\hyperlink{class_point3d_a262f96e4e47cf4a1760197f2d4128683}{z}});}
+\DoxyCodeLine{00034\ }
+\DoxyCodeLine{00038\ \ \ \ \ \mbox{\hyperlink{class_point3d_a228c1c7fe8c7a25f88df0f58de506292}{Point3d}}\ \mbox{\hyperlink{class_point3d_af6b828bb30bf1269d8dc8cd3a555a893}{operator-\/}}(\textcolor{keyword}{const}\ \mbox{\hyperlink{class_point3d_a228c1c7fe8c7a25f88df0f58de506292}{Point3d}}\&\ other)\ \textcolor{keyword}{const};}
+\DoxyCodeLine{00039\ }
+\DoxyCodeLine{00043\ \ \ \ \ \mbox{\hyperlink{class_point3d_a228c1c7fe8c7a25f88df0f58de506292}{Point3d}}\ \mbox{\hyperlink{class_point3d_a25cdad9739fd3e001c513b292b79744e}{operator+}}(\textcolor{keyword}{const}\ \mbox{\hyperlink{class_point3d_a228c1c7fe8c7a25f88df0f58de506292}{Point3d}}\&\ other)\ \textcolor{keyword}{const};}
+\DoxyCodeLine{00044\ }
+\DoxyCodeLine{00048\ \ \ \ \ \mbox{\hyperlink{class_point3d_a228c1c7fe8c7a25f88df0f58de506292}{Point3d}}\ \mbox{\hyperlink{class_point3d_a89380d23954942e6420130018abc96ed}{operator*}}(\textcolor{keywordtype}{float}\ scalar)\ \textcolor{keyword}{const};}
+\DoxyCodeLine{00049\ }
+\DoxyCodeLine{00053\ \ \ \ \ \mbox{\hyperlink{class_point3d_a228c1c7fe8c7a25f88df0f58de506292}{Point3d}}\ \mbox{\hyperlink{class_point3d_ac2e167b7ea039f3560cc51b73e2290af}{cross}}(\textcolor{keyword}{const}\ \mbox{\hyperlink{class_point3d_a228c1c7fe8c7a25f88df0f58de506292}{Point3d}}\&\ other)\ \textcolor{keyword}{const};}
+\DoxyCodeLine{00054\ }
+\DoxyCodeLine{00058\ \ \ \ \ \textcolor{keywordtype}{float}\ \mbox{\hyperlink{class_point3d_a30ba4f04e2c58dce0f5f85bde0b683a7}{dot}}(\textcolor{keyword}{const}\ \mbox{\hyperlink{class_point3d_a228c1c7fe8c7a25f88df0f58de506292}{Point3d}}\&\ other)\ \textcolor{keyword}{const};}
+\DoxyCodeLine{00059\ }
+\DoxyCodeLine{00063\ \ \ \ \ \mbox{\hyperlink{class_point3d_a228c1c7fe8c7a25f88df0f58de506292}{Point3d}}\ \mbox{\hyperlink{class_point3d_a86c01fc205d06d0c6267e1220ede6bbe}{normalize}}()\ \textcolor{keyword}{const};}
+\DoxyCodeLine{00064\ \};}
+\DoxyCodeLine{00065\ }
+\DoxyCodeLine{00070\ \textcolor{keyword}{class\ }\mbox{\hyperlink{class_point2d_a7fdac7939d9bde8b239cec645fc50c86}{Point2d}}\ \{}
+\DoxyCodeLine{00071\ \textcolor{keyword}{public}:}
+\DoxyCodeLine{00072\ \ \ \ \ \textcolor{keywordtype}{int}\ \mbox{\hyperlink{class_point2d_a3491ec5f89149b0e91bbb91bc6f4308f}{x}};\ }
+\DoxyCodeLine{00073\ \ \ \ \ \textcolor{keywordtype}{int}\ \mbox{\hyperlink{class_point2d_a2626bd0c5cce36fb441a5c1720b2c537}{y}};\ }
+\DoxyCodeLine{00074\ \ \ \ \ \textcolor{keywordtype}{float}\ \mbox{\hyperlink{class_point2d_a95028438721ec269ff241fb5a3247d2e}{z}};\ }
+\DoxyCodeLine{00075\ }
+\DoxyCodeLine{00079\ \ \ \ \ \mbox{\hyperlink{class_point2d_a7fdac7939d9bde8b239cec645fc50c86}{Point2d}}();}
+\DoxyCodeLine{00080\ }
+\DoxyCodeLine{00087\ \ \ \ \ \mbox{\hyperlink{class_point2d_a7fdac7939d9bde8b239cec645fc50c86}{Point2d}}(\textcolor{keywordtype}{int}\ \mbox{\hyperlink{class_point2d_a3491ec5f89149b0e91bbb91bc6f4308f}{x}},\ \textcolor{keywordtype}{int}\ \mbox{\hyperlink{class_point2d_a2626bd0c5cce36fb441a5c1720b2c537}{y}},\ \textcolor{keywordtype}{float}\ \mbox{\hyperlink{class_point2d_a95028438721ec269ff241fb5a3247d2e}{z}});}
+\DoxyCodeLine{00088\ \};}
+\DoxyCodeLine{00089\ }
+\DoxyCodeLine{00094\ \textcolor{keyword}{class\ }\mbox{\hyperlink{class_triangle3d_aa13418bab4a87ce62f8e9c99d57e641d}{Triangle3d}}\ \{}
+\DoxyCodeLine{00095\ \textcolor{keyword}{public}:}
+\DoxyCodeLine{00096\ \ \ \ \ \mbox{\hyperlink{class_point3d}{Point3d}}\ \mbox{\hyperlink{class_triangle3d_ae46837d6449d31b94785331bacca522c}{p1}};\ }
+\DoxyCodeLine{00097\ \ \ \ \ \mbox{\hyperlink{class_point3d}{Point3d}}\ \mbox{\hyperlink{class_triangle3d_a131fab4a61da2a4899cb44cd89b4bd18}{p2}};\ }
+\DoxyCodeLine{00098\ \ \ \ \ \mbox{\hyperlink{class_point3d}{Point3d}}\ \mbox{\hyperlink{class_triangle3d_aa374f57ad517d2645b1b025334876e7e}{p3}};\ }
+\DoxyCodeLine{00099\ }
+\DoxyCodeLine{00103\ \ \ \ \ \mbox{\hyperlink{class_triangle3d_aa13418bab4a87ce62f8e9c99d57e641d}{Triangle3d}}();}
+\DoxyCodeLine{00104\ }
+\DoxyCodeLine{00111\ \ \ \ \ \mbox{\hyperlink{class_triangle3d_aa13418bab4a87ce62f8e9c99d57e641d}{Triangle3d}}(\textcolor{keyword}{const}\ \mbox{\hyperlink{class_point3d}{Point3d}}\&\ \mbox{\hyperlink{class_triangle3d_ae46837d6449d31b94785331bacca522c}{p1}},\ \textcolor{keyword}{const}\ \mbox{\hyperlink{class_point3d}{Point3d}}\&\ \mbox{\hyperlink{class_triangle3d_a131fab4a61da2a4899cb44cd89b4bd18}{p2}},\ \textcolor{keyword}{const}\ \mbox{\hyperlink{class_point3d}{Point3d}}\&\ \mbox{\hyperlink{class_triangle3d_aa374f57ad517d2645b1b025334876e7e}{p3}});}
+\DoxyCodeLine{00112\ }
+\DoxyCodeLine{00116\ \ \ \ \ \mbox{\hyperlink{class_point3d}{Point3d}}\ \mbox{\hyperlink{class_triangle3d_aa00eed63fff90698818b304fc861f1d5}{normal}}()\ \textcolor{keyword}{const};}
+\DoxyCodeLine{00117\ }
+\DoxyCodeLine{00121\ \ \ \ \ \mbox{\hyperlink{class_point3d}{Point3d}}\ \mbox{\hyperlink{class_triangle3d_a4f873c6f810b27424980675cb516ed38}{center}}()\ \textcolor{keyword}{const};}
+\DoxyCodeLine{00122\ \};}
+\DoxyCodeLine{00123\ }
+\DoxyCodeLine{00128\ \textcolor{keyword}{class\ }\mbox{\hyperlink{class_triangle2d_a8ee414877670a11f16c9c65d677452ff}{Triangle2d}}\ \{}
+\DoxyCodeLine{00129\ \textcolor{keyword}{public}:}
+\DoxyCodeLine{00130\ \ \ \ \ \mbox{\hyperlink{class_point2d}{Point2d}}\ \mbox{\hyperlink{class_triangle2d_af45b84fc9d7bd3cd6961daef6dc68a27}{p1}};\ }
+\DoxyCodeLine{00131\ \ \ \ \ \mbox{\hyperlink{class_point2d}{Point2d}}\ \mbox{\hyperlink{class_triangle2d_a381aeb33ea7f56bda5e39c26c171a359}{p2}};\ }
+\DoxyCodeLine{00132\ \ \ \ \ \mbox{\hyperlink{class_point2d}{Point2d}}\ \mbox{\hyperlink{class_triangle2d_a08428e6b4d545aa962bdcd7c21715b9f}{p3}};\ }
+\DoxyCodeLine{00133\ }
+\DoxyCodeLine{00137\ \ \ \ \ \mbox{\hyperlink{class_triangle2d_a8ee414877670a11f16c9c65d677452ff}{Triangle2d}}();}
+\DoxyCodeLine{00138\ }
+\DoxyCodeLine{00145\ \ \ \ \ \mbox{\hyperlink{class_triangle2d_a8ee414877670a11f16c9c65d677452ff}{Triangle2d}}(\textcolor{keyword}{const}\ \mbox{\hyperlink{class_point2d}{Point2d}}\&\ \mbox{\hyperlink{class_triangle2d_af45b84fc9d7bd3cd6961daef6dc68a27}{p1}},\ \textcolor{keyword}{const}\ \mbox{\hyperlink{class_point2d}{Point2d}}\&\ \mbox{\hyperlink{class_triangle2d_a381aeb33ea7f56bda5e39c26c171a359}{p2}},\ \textcolor{keyword}{const}\ \mbox{\hyperlink{class_point2d}{Point2d}}\&\ \mbox{\hyperlink{class_triangle2d_a08428e6b4d545aa962bdcd7c21715b9f}{p3}});}
+\DoxyCodeLine{00146\ \};}
+\DoxyCodeLine{00147\ }
+\DoxyCodeLine{00152\ \textcolor{keyword}{class\ }\mbox{\hyperlink{class_quad3d_a9e3da451b1e3e5b82f6fd7c68deb8208}{Quad3d}}\ \{}
+\DoxyCodeLine{00153\ \textcolor{keyword}{public}:}
+\DoxyCodeLine{00154\ \ \ \ \ \mbox{\hyperlink{class_triangle3d}{Triangle3d}}\ \mbox{\hyperlink{class_quad3d_a6c5e8e227a8812315eea0e82d5bd71d1}{t1}};\ }
+\DoxyCodeLine{00155\ \ \ \ \ \mbox{\hyperlink{class_triangle3d}{Triangle3d}}\ \mbox{\hyperlink{class_quad3d_a254c8a58e3fb9027f394df24862756a8}{t2}};\ }
+\DoxyCodeLine{00156\ }
+\DoxyCodeLine{00160\ \ \ \ \ \mbox{\hyperlink{class_quad3d_a9e3da451b1e3e5b82f6fd7c68deb8208}{Quad3d}}();}
+\DoxyCodeLine{00161\ }
+\DoxyCodeLine{00169\ \ \ \ \ \mbox{\hyperlink{class_quad3d_a9e3da451b1e3e5b82f6fd7c68deb8208}{Quad3d}}(\textcolor{keyword}{const}\ \mbox{\hyperlink{class_point3d}{Point3d}}\&\ p1,\ \textcolor{keyword}{const}\ \mbox{\hyperlink{class_point3d}{Point3d}}\&\ p2,\ }
+\DoxyCodeLine{00170\ \ \ \ \ \ \ \ \ \ \ \ \textcolor{keyword}{const}\ \mbox{\hyperlink{class_point3d}{Point3d}}\&\ p3,\ \textcolor{keyword}{const}\ \mbox{\hyperlink{class_point3d}{Point3d}}\&\ p4);}
+\DoxyCodeLine{00171\ }
+\DoxyCodeLine{00175\ \ \ \ \ std::vector<Triangle3d>\ \mbox{\hyperlink{class_quad3d_ad79aa5a7b77481607cb62d7945c362dc}{getTriangles}}()\ \textcolor{keyword}{const};}
+\DoxyCodeLine{00176\ \};}
+\DoxyCodeLine{00177\ }
+\DoxyCodeLine{00182\ \textcolor{keyword}{class\ }\mbox{\hyperlink{class_pave3d_a08834f7ea11f87991d7089d28bee43f8}{Pave3d}}\ \{}
+\DoxyCodeLine{00183\ \textcolor{keyword}{private}:}
+\DoxyCodeLine{00184\ \ \ \ \ \mbox{\hyperlink{class_point3d}{Point3d}}\ \mbox{\hyperlink{class_pave3d_a81234ac27ba8ede5892e6b206aae0597}{center}};\ }
+\DoxyCodeLine{00185\ \ \ \ \ \textcolor{keywordtype}{float}\ \mbox{\hyperlink{class_pave3d_aa92c112a83d054a29d120a8f80e7f0c1}{sizeX}};\ }
+\DoxyCodeLine{00186\ \ \ \ \ \textcolor{keywordtype}{float}\ \mbox{\hyperlink{class_pave3d_ae07e8b0c047b205743041a671b1f410f}{sizeY}};\ }
+\DoxyCodeLine{00187\ \ \ \ \ \textcolor{keywordtype}{float}\ \mbox{\hyperlink{class_pave3d_acdffb15ebf29c30391698c3d1d55cf0f}{sizeZ}};\ }
+\DoxyCodeLine{00188\ \ \ \ \ \textcolor{keywordtype}{float}\ \mbox{\hyperlink{class_pave3d_a1c74560caf98807323c5b742a1ce858c}{angleX}};\ }
+\DoxyCodeLine{00189\ \ \ \ \ \textcolor{keywordtype}{float}\ \mbox{\hyperlink{class_pave3d_a335700e11e58bee7ba52d7eb6c56e9d8}{angleY}};\ }
+\DoxyCodeLine{00190\ \ \ \ \ \textcolor{keywordtype}{float}\ \mbox{\hyperlink{class_pave3d_ac8ab0ae0cf37f50a86e0a02a0b0c3c73}{angleZ}};\ }
+\DoxyCodeLine{00191\ }
+\DoxyCodeLine{00192\ \textcolor{keyword}{public}:}
+\DoxyCodeLine{00200\ \ \ \ \ \mbox{\hyperlink{class_pave3d_a08834f7ea11f87991d7089d28bee43f8}{Pave3d}}(\textcolor{keyword}{const}\ \mbox{\hyperlink{class_point3d}{Point3d}}\&\ \mbox{\hyperlink{class_pave3d_a81234ac27ba8ede5892e6b206aae0597}{center}},\ \textcolor{keywordtype}{float}\ \mbox{\hyperlink{class_pave3d_aa92c112a83d054a29d120a8f80e7f0c1}{sizeX}},\ \textcolor{keywordtype}{float}\ \mbox{\hyperlink{class_pave3d_ae07e8b0c047b205743041a671b1f410f}{sizeY}},\ \textcolor{keywordtype}{float}\ \mbox{\hyperlink{class_pave3d_acdffb15ebf29c30391698c3d1d55cf0f}{sizeZ}});}
+\DoxyCodeLine{00201\ }
+\DoxyCodeLine{00205\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_pave3d_a4d9ba52906fc4827821f3ed7ca38b5b5}{setRotation}}(\textcolor{keywordtype}{float}\ \mbox{\hyperlink{class_pave3d_a1c74560caf98807323c5b742a1ce858c}{angleX}},\ \textcolor{keywordtype}{float}\ \mbox{\hyperlink{class_pave3d_a335700e11e58bee7ba52d7eb6c56e9d8}{angleY}},\ \textcolor{keywordtype}{float}\ \mbox{\hyperlink{class_pave3d_ac8ab0ae0cf37f50a86e0a02a0b0c3c73}{angleZ}});}
+\DoxyCodeLine{00206\ }
+\DoxyCodeLine{00210\ \ \ \ \ std::vector<Triangle3d>\ \mbox{\hyperlink{class_pave3d_aa4d2066cd148a40fb383be0d36b4d27b}{getTriangles}}()\ \textcolor{keyword}{const};}
+\DoxyCodeLine{00211\ }
+\DoxyCodeLine{00212\ \textcolor{keyword}{private}:}
+\DoxyCodeLine{00216\ \ \ \ \ \mbox{\hyperlink{class_point3d}{Point3d}}\ \mbox{\hyperlink{class_pave3d_a771a16d447d7b0d2e577bde7e9af5103}{rotatePoint}}(\textcolor{keyword}{const}\ \mbox{\hyperlink{class_point3d}{Point3d}}\&\ p)\ \textcolor{keyword}{const};}
+\DoxyCodeLine{00217\ \};}
+\DoxyCodeLine{00218\ }
+\DoxyCodeLine{00223\ \textcolor{keyword}{class\ }\mbox{\hyperlink{class_sphere3d_a7cf2aece521c7f372cade114f85dd6b6}{Sphere3d}}\ \{}
+\DoxyCodeLine{00224\ \textcolor{keyword}{private}:}
+\DoxyCodeLine{00225\ \ \ \ \ \mbox{\hyperlink{class_point3d}{Point3d}}\ \mbox{\hyperlink{class_sphere3d_a267c704e98d4f7b8a96628a9a9e6649b}{center}};\ }
+\DoxyCodeLine{00226\ \ \ \ \ \textcolor{keywordtype}{float}\ \mbox{\hyperlink{class_sphere3d_a014d4677c1da18452d87ebafc18f9890}{radius}};\ }
+\DoxyCodeLine{00227\ \ \ \ \ \textcolor{keywordtype}{int}\ \mbox{\hyperlink{class_sphere3d_a0c4283c50dd21fc0be05b6d649163b96}{meridians}};\ }
+\DoxyCodeLine{00228\ \ \ \ \ \textcolor{keywordtype}{int}\ \mbox{\hyperlink{class_sphere3d_a2147ad57862995c9c305c144edb2ea69}{parallels}};\ }
+\DoxyCodeLine{00229\ }
+\DoxyCodeLine{00230\ \textcolor{keyword}{public}:}
+\DoxyCodeLine{00238\ \ \ \ \ \mbox{\hyperlink{class_sphere3d_a7cf2aece521c7f372cade114f85dd6b6}{Sphere3d}}(\textcolor{keyword}{const}\ \mbox{\hyperlink{class_point3d}{Point3d}}\&\ \mbox{\hyperlink{class_sphere3d_a267c704e98d4f7b8a96628a9a9e6649b}{center}},\ \textcolor{keywordtype}{float}\ \mbox{\hyperlink{class_sphere3d_a014d4677c1da18452d87ebafc18f9890}{radius}},\ \textcolor{keywordtype}{int}\ \mbox{\hyperlink{class_sphere3d_a0c4283c50dd21fc0be05b6d649163b96}{meridians}},\ \textcolor{keywordtype}{int}\ \mbox{\hyperlink{class_sphere3d_a2147ad57862995c9c305c144edb2ea69}{parallels}});}
+\DoxyCodeLine{00239\ }
+\DoxyCodeLine{00243\ \ \ \ \ std::vector<Triangle3d>\ \mbox{\hyperlink{class_sphere3d_ae65597f503f8a8b2541bba0d04629d58}{getTriangles}}()\ \textcolor{keyword}{const};}
+\DoxyCodeLine{00244\ }
+\DoxyCodeLine{00245\ \textcolor{keyword}{private}:}
+\DoxyCodeLine{00249\ \ \ \ \ \mbox{\hyperlink{class_point3d}{Point3d}}\ \mbox{\hyperlink{class_sphere3d_aa045cbc0883567929efd478bc12d36d3}{spherePoint}}(\textcolor{keywordtype}{float}\ theta,\ \textcolor{keywordtype}{float}\ phi)\ \textcolor{keyword}{const};}
+\DoxyCodeLine{00250\ \};}
+\DoxyCodeLine{00251\ }
+\DoxyCodeLine{00252\ \textcolor{preprocessor}{\#endif\ }\textcolor{comment}{//\ GEOMETRY\_HPP}}
+
+\end{DoxyCode}

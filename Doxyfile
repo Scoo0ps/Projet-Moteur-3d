@@ -1,0 +1,20 @@
+# Minimal Doxyfile tuned for this project
+DOXYFILE_ENCODING      = UTF-8
+PROJECT_NAME           = "Moteur 3D - PRAP"
+PROJECT_BRIEF          = "Documentation du petit moteur 3D"
+OUTPUT_DIRECTORY       = doc
+GENERATE_HTML          = NO
+HTML_OUTPUT            = html
+GENERATE_LATEX         = YES
+INPUT                  = .
+FILE_PATTERNS          = *.cpp *.hpp
+RECURSIVE              = NO
+EXTRACT_ALL            = YES
+EXTRACT_PRIVATE        = YES
+JAVADOC_AUTOBRIEF      = YES
+MARKDOWN_SUPPORT       = YES
+GENERATE_TREEVIEW      = YES
+WARNINGS               = YES
+WARN_IF_UNDOCUMENTED   = YES
+WARN_IF_DOC_ERROR      = YES
+WARN_IF_INCOMPLETE_DOC = YES

@@ -1,0 +1,182 @@
+\doxysection{Point3d Class Reference}
+\hypertarget{class_point3d}{}\label{class_point3d}\index{Point3d@{Point3d}}
+
+
+Représente un point dans l\textquotesingle{}espace 3D.  
+
+
+
+
+{\ttfamily \#include $<$Geometry.\+hpp$>$}
+
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_point3d_a228c1c7fe8c7a25f88df0f58de506292}{Point3d}} ()
+\begin{DoxyCompactList}\small\item\em Constructeur par défaut. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_point3d_acbf8954dbcd789c71ce557c76fea1a57}{Point3d}} (float \mbox{\hyperlink{class_point3d_a090e284864e42307083c120c7d59a18c}{x}}, float \mbox{\hyperlink{class_point3d_a87e58cd468ab781b6259ab42aa02befd}{y}}, float \mbox{\hyperlink{class_point3d_a262f96e4e47cf4a1760197f2d4128683}{z}})
+\begin{DoxyCompactList}\small\item\em Constructeur avec coordonnées. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_point3d}{Point3d}} \mbox{\hyperlink{class_point3d_af6b828bb30bf1269d8dc8cd3a555a893}{operator-\/}} (const \mbox{\hyperlink{class_point3d}{Point3d}} \&other) const
+\begin{DoxyCompactList}\small\item\em Soustraction de deux points (retourne un vecteur) \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_point3d}{Point3d}} \mbox{\hyperlink{class_point3d_a25cdad9739fd3e001c513b292b79744e}{operator+}} (const \mbox{\hyperlink{class_point3d}{Point3d}} \&other) const
+\begin{DoxyCompactList}\small\item\em Addition de deux points. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_point3d}{Point3d}} \mbox{\hyperlink{class_point3d_a89380d23954942e6420130018abc96ed}{operator\texorpdfstring{$\ast$}{*}}} (float scalar) const
+\begin{DoxyCompactList}\small\item\em Multiplication par un scalaire. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_point3d}{Point3d}} \mbox{\hyperlink{class_point3d_ac2e167b7ea039f3560cc51b73e2290af}{cross}} (const \mbox{\hyperlink{class_point3d}{Point3d}} \&other) const
+\begin{DoxyCompactList}\small\item\em Produit vectoriel. \end{DoxyCompactList}\item 
+float \mbox{\hyperlink{class_point3d_a30ba4f04e2c58dce0f5f85bde0b683a7}{dot}} (const \mbox{\hyperlink{class_point3d}{Point3d}} \&other) const
+\begin{DoxyCompactList}\small\item\em Produit scalaire. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_point3d}{Point3d}} \mbox{\hyperlink{class_point3d_a86c01fc205d06d0c6267e1220ede6bbe}{normalize}} () const
+\begin{DoxyCompactList}\small\item\em Normalise le vecteur. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+float \mbox{\hyperlink{class_point3d_a090e284864e42307083c120c7d59a18c}{x}}
+\begin{DoxyCompactList}\small\item\em Coordonnée X. \end{DoxyCompactList}\item 
+float \mbox{\hyperlink{class_point3d_a87e58cd468ab781b6259ab42aa02befd}{y}}
+\begin{DoxyCompactList}\small\item\em Coordonnée Y. \end{DoxyCompactList}\item 
+float \mbox{\hyperlink{class_point3d_a262f96e4e47cf4a1760197f2d4128683}{z}}
+\begin{DoxyCompactList}\small\item\em Coordonnée Z. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Représente un point dans l\textquotesingle{}espace 3D. 
+
+\label{doc-constructors}
+\Hypertarget{class_point3d_doc-constructors}
+\doxysubsection{Constructor \& Destructor Documentation}
+\Hypertarget{class_point3d_a228c1c7fe8c7a25f88df0f58de506292}\index{Point3d@{Point3d}!Point3d@{Point3d}}
+\index{Point3d@{Point3d}!Point3d@{Point3d}}
+\doxysubsubsection{\texorpdfstring{Point3d()}{Point3d()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily \label{class_point3d_a228c1c7fe8c7a25f88df0f58de506292} 
+Point3d\+::\+Point3d (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+
+
+Constructeur par défaut. 
+
+\Hypertarget{class_point3d_acbf8954dbcd789c71ce557c76fea1a57}\index{Point3d@{Point3d}!Point3d@{Point3d}}
+\index{Point3d@{Point3d}!Point3d@{Point3d}}
+\doxysubsubsection{\texorpdfstring{Point3d()}{Point3d()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily \label{class_point3d_acbf8954dbcd789c71ce557c76fea1a57} 
+Point3d\+::\+Point3d (\begin{DoxyParamCaption}\item[{float}]{x}{, }\item[{float}]{y}{, }\item[{float}]{z}{}\end{DoxyParamCaption})}
+
+
+
+Constructeur avec coordonnées. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em x} & \\
+\hline
+{\em y} & \\
+\hline
+{\em z} & \\
+\hline
+\end{DoxyParams}
+
+
+\label{doc-func-members}
+\Hypertarget{class_point3d_doc-func-members}
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_point3d_ac2e167b7ea039f3560cc51b73e2290af}\index{Point3d@{Point3d}!cross@{cross}}
+\index{cross@{cross}!Point3d@{Point3d}}
+\doxysubsubsection{\texorpdfstring{cross()}{cross()}}
+{\footnotesize\ttfamily \label{class_point3d_ac2e167b7ea039f3560cc51b73e2290af} 
+\mbox{\hyperlink{class_point3d}{Point3d}} Point3d\+::cross (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{class_point3d}{Point3d}} \&}]{other}{}\end{DoxyParamCaption}) const}
+
+
+
+Produit vectoriel. 
+
+\Hypertarget{class_point3d_a30ba4f04e2c58dce0f5f85bde0b683a7}\index{Point3d@{Point3d}!dot@{dot}}
+\index{dot@{dot}!Point3d@{Point3d}}
+\doxysubsubsection{\texorpdfstring{dot()}{dot()}}
+{\footnotesize\ttfamily \label{class_point3d_a30ba4f04e2c58dce0f5f85bde0b683a7} 
+float Point3d\+::dot (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{class_point3d}{Point3d}} \&}]{other}{}\end{DoxyParamCaption}) const}
+
+
+
+Produit scalaire. 
+
+\Hypertarget{class_point3d_a86c01fc205d06d0c6267e1220ede6bbe}\index{Point3d@{Point3d}!normalize@{normalize}}
+\index{normalize@{normalize}!Point3d@{Point3d}}
+\doxysubsubsection{\texorpdfstring{normalize()}{normalize()}}
+{\footnotesize\ttfamily \label{class_point3d_a86c01fc205d06d0c6267e1220ede6bbe} 
+\mbox{\hyperlink{class_point3d}{Point3d}} Point3d\+::normalize (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption}) const}
+
+
+
+Normalise le vecteur. 
+
+\Hypertarget{class_point3d_a89380d23954942e6420130018abc96ed}\index{Point3d@{Point3d}!operator\texorpdfstring{$\ast$}{*}@{operator\texorpdfstring{$\ast$}{*}}}
+\index{operator\texorpdfstring{$\ast$}{*}@{operator\texorpdfstring{$\ast$}{*}}!Point3d@{Point3d}}
+\doxysubsubsection{\texorpdfstring{operator\texorpdfstring{$\ast$}{*}()}{operator*()}}
+{\footnotesize\ttfamily \label{class_point3d_a89380d23954942e6420130018abc96ed} 
+\mbox{\hyperlink{class_point3d}{Point3d}} Point3d\+::operator\texorpdfstring{$\ast$}{*} (\begin{DoxyParamCaption}\item[{float}]{scalar}{}\end{DoxyParamCaption}) const}
+
+
+
+Multiplication par un scalaire. 
+
+\Hypertarget{class_point3d_a25cdad9739fd3e001c513b292b79744e}\index{Point3d@{Point3d}!operator+@{operator+}}
+\index{operator+@{operator+}!Point3d@{Point3d}}
+\doxysubsubsection{\texorpdfstring{operator+()}{operator+()}}
+{\footnotesize\ttfamily \label{class_point3d_a25cdad9739fd3e001c513b292b79744e} 
+\mbox{\hyperlink{class_point3d}{Point3d}} Point3d\+::operator+ (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{class_point3d}{Point3d}} \&}]{other}{}\end{DoxyParamCaption}) const}
+
+
+
+Addition de deux points. 
+
+\Hypertarget{class_point3d_af6b828bb30bf1269d8dc8cd3a555a893}\index{Point3d@{Point3d}!operator-\/@{operator-\/}}
+\index{operator-\/@{operator-\/}!Point3d@{Point3d}}
+\doxysubsubsection{\texorpdfstring{operator-\/()}{operator-()}}
+{\footnotesize\ttfamily \label{class_point3d_af6b828bb30bf1269d8dc8cd3a555a893} 
+\mbox{\hyperlink{class_point3d}{Point3d}} Point3d\+::operator-\/ (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{class_point3d}{Point3d}} \&}]{other}{}\end{DoxyParamCaption}) const}
+
+
+
+Soustraction de deux points (retourne un vecteur) 
+
+
+
+\label{doc-variable-members}
+\Hypertarget{class_point3d_doc-variable-members}
+\doxysubsection{Member Data Documentation}
+\Hypertarget{class_point3d_a090e284864e42307083c120c7d59a18c}\index{Point3d@{Point3d}!x@{x}}
+\index{x@{x}!Point3d@{Point3d}}
+\doxysubsubsection{\texorpdfstring{x}{x}}
+{\footnotesize\ttfamily \label{class_point3d_a090e284864e42307083c120c7d59a18c} 
+float Point3d\+::x}
+
+
+
+Coordonnée X. 
+
+\Hypertarget{class_point3d_a87e58cd468ab781b6259ab42aa02befd}\index{Point3d@{Point3d}!y@{y}}
+\index{y@{y}!Point3d@{Point3d}}
+\doxysubsubsection{\texorpdfstring{y}{y}}
+{\footnotesize\ttfamily \label{class_point3d_a87e58cd468ab781b6259ab42aa02befd} 
+float Point3d\+::y}
+
+
+
+Coordonnée Y. 
+
+\Hypertarget{class_point3d_a262f96e4e47cf4a1760197f2d4128683}\index{Point3d@{Point3d}!z@{z}}
+\index{z@{z}!Point3d@{Point3d}}
+\doxysubsubsection{\texorpdfstring{z}{z}}
+{\footnotesize\ttfamily \label{class_point3d_a262f96e4e47cf4a1760197f2d4128683} 
+float Point3d\+::z}
+
+
+
+Coordonnée Z. 
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{_geometry_8hpp}{Geometry.\+hpp}}\item 
+\mbox{\hyperlink{_geometry_8cpp}{Geometry.\+cpp}}\end{DoxyCompactItemize}

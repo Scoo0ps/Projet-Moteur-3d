@@ -1,0 +1,187 @@
+\doxysection{Pave3d Class Reference}
+\hypertarget{class_pave3d}{}\label{class_pave3d}\index{Pave3d@{Pave3d}}
+
+
+Pavé composé de 6 faces (\doxylink{class_quad3d}{Quad3d})  
+
+
+
+
+{\ttfamily \#include $<$Geometry.\+hpp$>$}
+
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_pave3d_a08834f7ea11f87991d7089d28bee43f8}{Pave3d}} (const \mbox{\hyperlink{class_point3d}{Point3d}} \&\mbox{\hyperlink{class_pave3d_a81234ac27ba8ede5892e6b206aae0597}{center}}, float \mbox{\hyperlink{class_pave3d_aa92c112a83d054a29d120a8f80e7f0c1}{sizeX}}, float \mbox{\hyperlink{class_pave3d_ae07e8b0c047b205743041a671b1f410f}{sizeY}}, float \mbox{\hyperlink{class_pave3d_acdffb15ebf29c30391698c3d1d55cf0f}{sizeZ}})
+\begin{DoxyCompactList}\small\item\em Constructeur avec paramètres. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_pave3d_a4d9ba52906fc4827821f3ed7ca38b5b5}{set\+Rotation}} (float \mbox{\hyperlink{class_pave3d_a1c74560caf98807323c5b742a1ce858c}{angleX}}, float \mbox{\hyperlink{class_pave3d_a335700e11e58bee7ba52d7eb6c56e9d8}{angleY}}, float \mbox{\hyperlink{class_pave3d_ac8ab0ae0cf37f50a86e0a02a0b0c3c73}{angleZ}})
+\begin{DoxyCompactList}\small\item\em Définit les angles de rotation. \end{DoxyCompactList}\item 
+std\+::vector$<$ \mbox{\hyperlink{class_triangle3d}{Triangle3d}} $>$ \mbox{\hyperlink{class_pave3d_aa4d2066cd148a40fb383be0d36b4d27b}{get\+Triangles}} () const
+\begin{DoxyCompactList}\small\item\em Retourne tous les triangles du pavé \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_point3d}{Point3d}} \mbox{\hyperlink{class_pave3d_a771a16d447d7b0d2e577bde7e9af5103}{rotate\+Point}} (const \mbox{\hyperlink{class_point3d}{Point3d}} \&p) const
+\begin{DoxyCompactList}\small\item\em Applique la rotation à un point. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_point3d}{Point3d}} \mbox{\hyperlink{class_pave3d_a81234ac27ba8ede5892e6b206aae0597}{center}}
+\begin{DoxyCompactList}\small\item\em Centre du pavé \end{DoxyCompactList}\item 
+float \mbox{\hyperlink{class_pave3d_aa92c112a83d054a29d120a8f80e7f0c1}{sizeX}}
+\begin{DoxyCompactList}\small\item\em Taille en X (largeur) \end{DoxyCompactList}\item 
+float \mbox{\hyperlink{class_pave3d_ae07e8b0c047b205743041a671b1f410f}{sizeY}}
+\begin{DoxyCompactList}\small\item\em Taille en Y (hauteur) \end{DoxyCompactList}\item 
+float \mbox{\hyperlink{class_pave3d_acdffb15ebf29c30391698c3d1d55cf0f}{sizeZ}}
+\begin{DoxyCompactList}\small\item\em Taille en Z (profondeur) \end{DoxyCompactList}\item 
+float \mbox{\hyperlink{class_pave3d_a1c74560caf98807323c5b742a1ce858c}{angleX}}
+\begin{DoxyCompactList}\small\item\em Angle de rotation X. \end{DoxyCompactList}\item 
+float \mbox{\hyperlink{class_pave3d_a335700e11e58bee7ba52d7eb6c56e9d8}{angleY}}
+\begin{DoxyCompactList}\small\item\em Angle de rotation Y. \end{DoxyCompactList}\item 
+float \mbox{\hyperlink{class_pave3d_ac8ab0ae0cf37f50a86e0a02a0b0c3c73}{angleZ}}
+\begin{DoxyCompactList}\small\item\em Angle de rotation Z. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Pavé composé de 6 faces (\doxylink{class_quad3d}{Quad3d}) 
+
+\label{doc-constructors}
+\Hypertarget{class_pave3d_doc-constructors}
+\doxysubsection{Constructor \& Destructor Documentation}
+\Hypertarget{class_pave3d_a08834f7ea11f87991d7089d28bee43f8}\index{Pave3d@{Pave3d}!Pave3d@{Pave3d}}
+\index{Pave3d@{Pave3d}!Pave3d@{Pave3d}}
+\doxysubsubsection{\texorpdfstring{Pave3d()}{Pave3d()}}
+{\footnotesize\ttfamily \label{class_pave3d_a08834f7ea11f87991d7089d28bee43f8} 
+Pave3d\+::\+Pave3d (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{class_point3d}{Point3d}} \&}]{center}{, }\item[{float}]{sizeX}{, }\item[{float}]{sizeY}{, }\item[{float}]{sizeZ}{}\end{DoxyParamCaption})}
+
+
+
+Constructeur avec paramètres. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em center} & \\
+\hline
+{\em sizeX} & \\
+\hline
+{\em sizeY} & \\
+\hline
+{\em sizeZ} & \\
+\hline
+\end{DoxyParams}
+
+
+\label{doc-func-members}
+\Hypertarget{class_pave3d_doc-func-members}
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_pave3d_aa4d2066cd148a40fb383be0d36b4d27b}\index{Pave3d@{Pave3d}!getTriangles@{getTriangles}}
+\index{getTriangles@{getTriangles}!Pave3d@{Pave3d}}
+\doxysubsubsection{\texorpdfstring{getTriangles()}{getTriangles()}}
+{\footnotesize\ttfamily \label{class_pave3d_aa4d2066cd148a40fb383be0d36b4d27b} 
+std\+::vector$<$ \mbox{\hyperlink{class_triangle3d}{Triangle3d}} $>$ Pave3d\+::get\+Triangles (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption}) const}
+
+
+
+Retourne tous les triangles du pavé 
+
+\Hypertarget{class_pave3d_a771a16d447d7b0d2e577bde7e9af5103}\index{Pave3d@{Pave3d}!rotatePoint@{rotatePoint}}
+\index{rotatePoint@{rotatePoint}!Pave3d@{Pave3d}}
+\doxysubsubsection{\texorpdfstring{rotatePoint()}{rotatePoint()}}
+{\footnotesize\ttfamily \label{class_pave3d_a771a16d447d7b0d2e577bde7e9af5103} 
+\mbox{\hyperlink{class_point3d}{Point3d}} Pave3d\+::rotate\+Point (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{class_point3d}{Point3d}} \&}]{p}{}\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Applique la rotation à un point. 
+
+\Hypertarget{class_pave3d_a4d9ba52906fc4827821f3ed7ca38b5b5}\index{Pave3d@{Pave3d}!setRotation@{setRotation}}
+\index{setRotation@{setRotation}!Pave3d@{Pave3d}}
+\doxysubsubsection{\texorpdfstring{setRotation()}{setRotation()}}
+{\footnotesize\ttfamily \label{class_pave3d_a4d9ba52906fc4827821f3ed7ca38b5b5} 
+void Pave3d\+::set\+Rotation (\begin{DoxyParamCaption}\item[{float}]{angleX}{, }\item[{float}]{angleY}{, }\item[{float}]{angleZ}{}\end{DoxyParamCaption})}
+
+
+
+Définit les angles de rotation. 
+
+
+
+\label{doc-variable-members}
+\Hypertarget{class_pave3d_doc-variable-members}
+\doxysubsection{Member Data Documentation}
+\Hypertarget{class_pave3d_a1c74560caf98807323c5b742a1ce858c}\index{Pave3d@{Pave3d}!angleX@{angleX}}
+\index{angleX@{angleX}!Pave3d@{Pave3d}}
+\doxysubsubsection{\texorpdfstring{angleX}{angleX}}
+{\footnotesize\ttfamily \label{class_pave3d_a1c74560caf98807323c5b742a1ce858c} 
+float Pave3d\+::angleX\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Angle de rotation X. 
+
+\Hypertarget{class_pave3d_a335700e11e58bee7ba52d7eb6c56e9d8}\index{Pave3d@{Pave3d}!angleY@{angleY}}
+\index{angleY@{angleY}!Pave3d@{Pave3d}}
+\doxysubsubsection{\texorpdfstring{angleY}{angleY}}
+{\footnotesize\ttfamily \label{class_pave3d_a335700e11e58bee7ba52d7eb6c56e9d8} 
+float Pave3d\+::angleY\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Angle de rotation Y. 
+
+\Hypertarget{class_pave3d_ac8ab0ae0cf37f50a86e0a02a0b0c3c73}\index{Pave3d@{Pave3d}!angleZ@{angleZ}}
+\index{angleZ@{angleZ}!Pave3d@{Pave3d}}
+\doxysubsubsection{\texorpdfstring{angleZ}{angleZ}}
+{\footnotesize\ttfamily \label{class_pave3d_ac8ab0ae0cf37f50a86e0a02a0b0c3c73} 
+float Pave3d\+::angleZ\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Angle de rotation Z. 
+
+\Hypertarget{class_pave3d_a81234ac27ba8ede5892e6b206aae0597}\index{Pave3d@{Pave3d}!center@{center}}
+\index{center@{center}!Pave3d@{Pave3d}}
+\doxysubsubsection{\texorpdfstring{center}{center}}
+{\footnotesize\ttfamily \label{class_pave3d_a81234ac27ba8ede5892e6b206aae0597} 
+\mbox{\hyperlink{class_point3d}{Point3d}} Pave3d\+::center\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Centre du pavé 
+
+\Hypertarget{class_pave3d_aa92c112a83d054a29d120a8f80e7f0c1}\index{Pave3d@{Pave3d}!sizeX@{sizeX}}
+\index{sizeX@{sizeX}!Pave3d@{Pave3d}}
+\doxysubsubsection{\texorpdfstring{sizeX}{sizeX}}
+{\footnotesize\ttfamily \label{class_pave3d_aa92c112a83d054a29d120a8f80e7f0c1} 
+float Pave3d\+::sizeX\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Taille en X (largeur) 
+
+\Hypertarget{class_pave3d_ae07e8b0c047b205743041a671b1f410f}\index{Pave3d@{Pave3d}!sizeY@{sizeY}}
+\index{sizeY@{sizeY}!Pave3d@{Pave3d}}
+\doxysubsubsection{\texorpdfstring{sizeY}{sizeY}}
+{\footnotesize\ttfamily \label{class_pave3d_ae07e8b0c047b205743041a671b1f410f} 
+float Pave3d\+::sizeY\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Taille en Y (hauteur) 
+
+\Hypertarget{class_pave3d_acdffb15ebf29c30391698c3d1d55cf0f}\index{Pave3d@{Pave3d}!sizeZ@{sizeZ}}
+\index{sizeZ@{sizeZ}!Pave3d@{Pave3d}}
+\doxysubsubsection{\texorpdfstring{sizeZ}{sizeZ}}
+{\footnotesize\ttfamily \label{class_pave3d_acdffb15ebf29c30391698c3d1d55cf0f} 
+float Pave3d\+::sizeZ\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Taille en Z (profondeur) 
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{_geometry_8hpp}{Geometry.\+hpp}}\item 
+\mbox{\hyperlink{_geometry_8cpp}{Geometry.\+cpp}}\end{DoxyCompactItemize}

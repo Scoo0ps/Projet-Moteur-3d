@@ -1,0 +1,139 @@
+\doxysection{Sphere3d Class Reference}
+\hypertarget{class_sphere3d}{}\label{class_sphere3d}\index{Sphere3d@{Sphere3d}}
+
+
+Sphère composée d\textquotesingle{}un maillage de \doxylink{class_quad3d}{Quad3d}.  
+
+
+
+
+{\ttfamily \#include $<$Geometry.\+hpp$>$}
+
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_sphere3d_a7cf2aece521c7f372cade114f85dd6b6}{Sphere3d}} (const \mbox{\hyperlink{class_point3d}{Point3d}} \&\mbox{\hyperlink{class_sphere3d_a267c704e98d4f7b8a96628a9a9e6649b}{center}}, float \mbox{\hyperlink{class_sphere3d_a014d4677c1da18452d87ebafc18f9890}{radius}}, int \mbox{\hyperlink{class_sphere3d_a0c4283c50dd21fc0be05b6d649163b96}{meridians}}, int \mbox{\hyperlink{class_sphere3d_a2147ad57862995c9c305c144edb2ea69}{parallels}})
+\begin{DoxyCompactList}\small\item\em Constructeur. \end{DoxyCompactList}\item 
+std\+::vector$<$ \mbox{\hyperlink{class_triangle3d}{Triangle3d}} $>$ \mbox{\hyperlink{class_sphere3d_ae65597f503f8a8b2541bba0d04629d58}{get\+Triangles}} () const
+\begin{DoxyCompactList}\small\item\em Retourne tous les triangles de la sphère. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_point3d}{Point3d}} \mbox{\hyperlink{class_sphere3d_aa045cbc0883567929efd478bc12d36d3}{sphere\+Point}} (float theta, float phi) const
+\begin{DoxyCompactList}\small\item\em Calcule un point sur la sphère. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_point3d}{Point3d}} \mbox{\hyperlink{class_sphere3d_a267c704e98d4f7b8a96628a9a9e6649b}{center}}
+\begin{DoxyCompactList}\small\item\em Centre de la sphère. \end{DoxyCompactList}\item 
+float \mbox{\hyperlink{class_sphere3d_a014d4677c1da18452d87ebafc18f9890}{radius}}
+\begin{DoxyCompactList}\small\item\em Rayon de la sphère. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{class_sphere3d_a0c4283c50dd21fc0be05b6d649163b96}{meridians}}
+\begin{DoxyCompactList}\small\item\em Nombre de méridiens. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{class_sphere3d_a2147ad57862995c9c305c144edb2ea69}{parallels}}
+\begin{DoxyCompactList}\small\item\em Nombre de parallèles. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Sphère composée d\textquotesingle{}un maillage de \doxylink{class_quad3d}{Quad3d}. 
+
+\label{doc-constructors}
+\Hypertarget{class_sphere3d_doc-constructors}
+\doxysubsection{Constructor \& Destructor Documentation}
+\Hypertarget{class_sphere3d_a7cf2aece521c7f372cade114f85dd6b6}\index{Sphere3d@{Sphere3d}!Sphere3d@{Sphere3d}}
+\index{Sphere3d@{Sphere3d}!Sphere3d@{Sphere3d}}
+\doxysubsubsection{\texorpdfstring{Sphere3d()}{Sphere3d()}}
+{\footnotesize\ttfamily \label{class_sphere3d_a7cf2aece521c7f372cade114f85dd6b6} 
+Sphere3d\+::\+Sphere3d (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{class_point3d}{Point3d}} \&}]{center}{, }\item[{float}]{radius}{, }\item[{int}]{meridians}{, }\item[{int}]{parallels}{}\end{DoxyParamCaption})}
+
+
+
+Constructeur. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em center} & \\
+\hline
+{\em radius} & \\
+\hline
+{\em meridians} & \\
+\hline
+{\em parallels} & \\
+\hline
+\end{DoxyParams}
+
+
+\label{doc-func-members}
+\Hypertarget{class_sphere3d_doc-func-members}
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_sphere3d_ae65597f503f8a8b2541bba0d04629d58}\index{Sphere3d@{Sphere3d}!getTriangles@{getTriangles}}
+\index{getTriangles@{getTriangles}!Sphere3d@{Sphere3d}}
+\doxysubsubsection{\texorpdfstring{getTriangles()}{getTriangles()}}
+{\footnotesize\ttfamily \label{class_sphere3d_ae65597f503f8a8b2541bba0d04629d58} 
+std\+::vector$<$ \mbox{\hyperlink{class_triangle3d}{Triangle3d}} $>$ Sphere3d\+::get\+Triangles (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption}) const}
+
+
+
+Retourne tous les triangles de la sphère. 
+
+\Hypertarget{class_sphere3d_aa045cbc0883567929efd478bc12d36d3}\index{Sphere3d@{Sphere3d}!spherePoint@{spherePoint}}
+\index{spherePoint@{spherePoint}!Sphere3d@{Sphere3d}}
+\doxysubsubsection{\texorpdfstring{spherePoint()}{spherePoint()}}
+{\footnotesize\ttfamily \label{class_sphere3d_aa045cbc0883567929efd478bc12d36d3} 
+\mbox{\hyperlink{class_point3d}{Point3d}} Sphere3d\+::sphere\+Point (\begin{DoxyParamCaption}\item[{float}]{theta}{, }\item[{float}]{phi}{}\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Calcule un point sur la sphère. 
+
+
+
+\label{doc-variable-members}
+\Hypertarget{class_sphere3d_doc-variable-members}
+\doxysubsection{Member Data Documentation}
+\Hypertarget{class_sphere3d_a267c704e98d4f7b8a96628a9a9e6649b}\index{Sphere3d@{Sphere3d}!center@{center}}
+\index{center@{center}!Sphere3d@{Sphere3d}}
+\doxysubsubsection{\texorpdfstring{center}{center}}
+{\footnotesize\ttfamily \label{class_sphere3d_a267c704e98d4f7b8a96628a9a9e6649b} 
+\mbox{\hyperlink{class_point3d}{Point3d}} Sphere3d\+::center\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Centre de la sphère. 
+
+\Hypertarget{class_sphere3d_a0c4283c50dd21fc0be05b6d649163b96}\index{Sphere3d@{Sphere3d}!meridians@{meridians}}
+\index{meridians@{meridians}!Sphere3d@{Sphere3d}}
+\doxysubsubsection{\texorpdfstring{meridians}{meridians}}
+{\footnotesize\ttfamily \label{class_sphere3d_a0c4283c50dd21fc0be05b6d649163b96} 
+int Sphere3d\+::meridians\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Nombre de méridiens. 
+
+\Hypertarget{class_sphere3d_a2147ad57862995c9c305c144edb2ea69}\index{Sphere3d@{Sphere3d}!parallels@{parallels}}
+\index{parallels@{parallels}!Sphere3d@{Sphere3d}}
+\doxysubsubsection{\texorpdfstring{parallels}{parallels}}
+{\footnotesize\ttfamily \label{class_sphere3d_a2147ad57862995c9c305c144edb2ea69} 
+int Sphere3d\+::parallels\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Nombre de parallèles. 
+
+\Hypertarget{class_sphere3d_a014d4677c1da18452d87ebafc18f9890}\index{Sphere3d@{Sphere3d}!radius@{radius}}
+\index{radius@{radius}!Sphere3d@{Sphere3d}}
+\doxysubsubsection{\texorpdfstring{radius}{radius}}
+{\footnotesize\ttfamily \label{class_sphere3d_a014d4677c1da18452d87ebafc18f9890} 
+float Sphere3d\+::radius\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Rayon de la sphère. 
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{_geometry_8hpp}{Geometry.\+hpp}}\item 
+\mbox{\hyperlink{_geometry_8cpp}{Geometry.\+cpp}}\end{DoxyCompactItemize}

@@ -1,0 +1,269 @@
+\doxysection{Sdl Class Reference}
+\hypertarget{class_sdl}{}\label{class_sdl}\index{Sdl@{Sdl}}
+
+
+Classe encapsulant les fonctionnalités SDL2 pour le rendu graphique.  
+
+
+
+
+{\ttfamily \#include $<$Sdl.\+hpp$>$}
+
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_sdl_a1e6d3dfcf4bb1051b9dfa77f859ec801}{Sdl}} (const std\+::string \&title, int w, int h)
+\begin{DoxyCompactList}\small\item\em Constructeur de la classe \doxylink{class_sdl}{Sdl}. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_sdl_a855bbadc37c0f1e224fb1c8c1ab579d4}{\texorpdfstring{$\sim$}{\string~}\+Sdl}} ()
+\begin{DoxyCompactList}\small\item\em Destructeur de la classe \doxylink{class_sdl}{Sdl}. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_sdl_a288af96a1b73cf004228187fbbcafea2}{clear}} (uint8\+\_\+t r, uint8\+\_\+t g, uint8\+\_\+t b)
+\begin{DoxyCompactList}\small\item\em Efface le tampon de pixels avec une couleur. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_sdl_a87d81995e83eadcb9c618ddf12d985d2}{set\+Pixel}} (int x, int y, float depth, uint8\+\_\+t r, uint8\+\_\+t g, uint8\+\_\+t b)
+\begin{DoxyCompactList}\small\item\em Dessine un pixel dans le tampon. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_sdl_ac68afff4d03b27359c2958534ef52a43}{present}} ()
+\begin{DoxyCompactList}\small\item\em Présente le contenu du tampon à l\textquotesingle{}écran. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{class_sdl_a6b816ae01604002abb75a874d1c97d8a}{get\+Width}} () const
+\begin{DoxyCompactList}\small\item\em Retourne la largeur de la fenêtre. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{class_sdl_ad51292e8065e88bbe37596a0e11b50d2}{get\+Height}} () const
+\begin{DoxyCompactList}\small\item\em Retourne la hauteur de la fenêtre. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{class_sdl_a30e3084687e5cf1b996b7e573fc93519}{is\+Valid}} () const
+\begin{DoxyCompactList}\small\item\em Vérifie si SDL a été initialisé correctement. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+SDL\+\_\+\+Window \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{class_sdl_a2d2ea5eff56026bfd5e60fd861a3cc03}{window}}
+\begin{DoxyCompactList}\small\item\em Pointeur vers la fenêtre SDL. \end{DoxyCompactList}\item 
+SDL\+\_\+\+Renderer \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{class_sdl_a355c7250c9cca8a1064ca12184db89ae}{renderer}}
+\begin{DoxyCompactList}\small\item\em Pointeur vers le renderer SDL. \end{DoxyCompactList}\item 
+SDL\+\_\+\+Texture \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{class_sdl_a03d522bd385ca577dca02103e95470f9}{texture}}
+\begin{DoxyCompactList}\small\item\em Texture pour le rendu pixel par pixel. \end{DoxyCompactList}\item 
+uint32\+\_\+t \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{class_sdl_a8a60ad16fe2fe604047259fc376a61d5}{pixel\+Buffer}}
+\begin{DoxyCompactList}\small\item\em Tampon de pixels. \end{DoxyCompactList}\item 
+float \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{class_sdl_a8ccdda7cdeb44d7bfd373cb98f15a008}{depth\+Buffer}}
+\begin{DoxyCompactList}\small\item\em Tampon de profondeur (Z-\/buffer) \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{class_sdl_a4988037f9db1f127f2761af8b8bba4f6}{width}}
+\begin{DoxyCompactList}\small\item\em Largeur de la fenêtre. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{class_sdl_a74408c328f1c353e6bd85d7410811c68}{height}}
+\begin{DoxyCompactList}\small\item\em Hauteur de la fenêtre. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Classe encapsulant les fonctionnalités SDL2 pour le rendu graphique. 
+
+\label{doc-constructors}
+\Hypertarget{class_sdl_doc-constructors}
+\doxysubsection{Constructor \& Destructor Documentation}
+\Hypertarget{class_sdl_a1e6d3dfcf4bb1051b9dfa77f859ec801}\index{Sdl@{Sdl}!Sdl@{Sdl}}
+\index{Sdl@{Sdl}!Sdl@{Sdl}}
+\doxysubsubsection{\texorpdfstring{Sdl()}{Sdl()}}
+{\footnotesize\ttfamily \label{class_sdl_a1e6d3dfcf4bb1051b9dfa77f859ec801} 
+Sdl\+::\+Sdl (\begin{DoxyParamCaption}\item[{const std\+::string \&}]{title}{, }\item[{int}]{w}{, }\item[{int}]{h}{}\end{DoxyParamCaption})}
+
+
+
+Constructeur de la classe \doxylink{class_sdl}{Sdl}. 
+
+Constructeur initialisant SDL2, la fenêtre et les tampons.
+
+
+\begin{DoxyParams}{Parameters}
+{\em title} & Titre de la fenêtre \\
+\hline
+{\em w} & Largeur de la fenêtre \\
+\hline
+{\em h} & Hauteur de la fenêtre \\
+\hline
+\end{DoxyParams}
+\Hypertarget{class_sdl_a855bbadc37c0f1e224fb1c8c1ab579d4}\index{Sdl@{Sdl}!````~Sdl@{\texorpdfstring{$\sim$}{\string~}Sdl}}
+\index{````~Sdl@{\texorpdfstring{$\sim$}{\string~}Sdl}!Sdl@{Sdl}}
+\doxysubsubsection{\texorpdfstring{\texorpdfstring{$\sim$}{\string~}Sdl()}{\string~Sdl()}}
+{\footnotesize\ttfamily \label{class_sdl_a855bbadc37c0f1e224fb1c8c1ab579d4} 
+Sdl\+::\texorpdfstring{$\sim$}{\string~}\+Sdl (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+
+
+Destructeur de la classe \doxylink{class_sdl}{Sdl}. 
+
+Destructeur libérant les ressources SDL. 
+
+\label{doc-func-members}
+\Hypertarget{class_sdl_doc-func-members}
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_sdl_a288af96a1b73cf004228187fbbcafea2}\index{Sdl@{Sdl}!clear@{clear}}
+\index{clear@{clear}!Sdl@{Sdl}}
+\doxysubsubsection{\texorpdfstring{clear()}{clear()}}
+{\footnotesize\ttfamily \label{class_sdl_a288af96a1b73cf004228187fbbcafea2} 
+void Sdl\+::clear (\begin{DoxyParamCaption}\item[{uint8\+\_\+t}]{r}{, }\item[{uint8\+\_\+t}]{g}{, }\item[{uint8\+\_\+t}]{b}{}\end{DoxyParamCaption})}
+
+
+
+Efface le tampon de pixels avec une couleur. 
+
+Efface les tampons avec la couleur spécifiée.
+
+
+\begin{DoxyParams}{Parameters}
+{\em r} & Composante rouge (0-\/255) \\
+\hline
+{\em g} & Composante verte (0-\/255) \\
+\hline
+{\em b} & Composante bleue (0-\/255) \\
+\hline
+\end{DoxyParams}
+\Hypertarget{class_sdl_ad51292e8065e88bbe37596a0e11b50d2}\index{Sdl@{Sdl}!getHeight@{getHeight}}
+\index{getHeight@{getHeight}!Sdl@{Sdl}}
+\doxysubsubsection{\texorpdfstring{getHeight()}{getHeight()}}
+{\footnotesize\ttfamily \label{class_sdl_ad51292e8065e88bbe37596a0e11b50d2} 
+int Sdl\+::get\+Height (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption}) const}
+
+
+
+Retourne la hauteur de la fenêtre. 
+
+\begin{DoxyReturn}{Returns}
+Hauteur en pixels 
+\end{DoxyReturn}
+\Hypertarget{class_sdl_a6b816ae01604002abb75a874d1c97d8a}\index{Sdl@{Sdl}!getWidth@{getWidth}}
+\index{getWidth@{getWidth}!Sdl@{Sdl}}
+\doxysubsubsection{\texorpdfstring{getWidth()}{getWidth()}}
+{\footnotesize\ttfamily \label{class_sdl_a6b816ae01604002abb75a874d1c97d8a} 
+int Sdl\+::get\+Width (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption}) const}
+
+
+
+Retourne la largeur de la fenêtre. 
+
+\begin{DoxyReturn}{Returns}
+Largeur en pixels 
+\end{DoxyReturn}
+\Hypertarget{class_sdl_a30e3084687e5cf1b996b7e573fc93519}\index{Sdl@{Sdl}!isValid@{isValid}}
+\index{isValid@{isValid}!Sdl@{Sdl}}
+\doxysubsubsection{\texorpdfstring{isValid()}{isValid()}}
+{\footnotesize\ttfamily \label{class_sdl_a30e3084687e5cf1b996b7e573fc93519} 
+bool Sdl\+::is\+Valid (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption}) const}
+
+
+
+Vérifie si SDL a été initialisé correctement. 
+
+\begin{DoxyReturn}{Returns}
+true si l\textquotesingle{}initialisation est réussie 
+\end{DoxyReturn}
+\Hypertarget{class_sdl_ac68afff4d03b27359c2958534ef52a43}\index{Sdl@{Sdl}!present@{present}}
+\index{present@{present}!Sdl@{Sdl}}
+\doxysubsubsection{\texorpdfstring{present()}{present()}}
+{\footnotesize\ttfamily \label{class_sdl_ac68afff4d03b27359c2958534ef52a43} 
+void Sdl\+::present (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+
+
+Présente le contenu du tampon à l\textquotesingle{}écran. 
+
+Affiche le contenu du tampon à l\textquotesingle{}écran. \Hypertarget{class_sdl_a87d81995e83eadcb9c618ddf12d985d2}\index{Sdl@{Sdl}!setPixel@{setPixel}}
+\index{setPixel@{setPixel}!Sdl@{Sdl}}
+\doxysubsubsection{\texorpdfstring{setPixel()}{setPixel()}}
+{\footnotesize\ttfamily \label{class_sdl_a87d81995e83eadcb9c618ddf12d985d2} 
+void Sdl\+::set\+Pixel (\begin{DoxyParamCaption}\item[{int}]{x}{, }\item[{int}]{y}{, }\item[{float}]{depth}{, }\item[{uint8\+\_\+t}]{r}{, }\item[{uint8\+\_\+t}]{g}{, }\item[{uint8\+\_\+t}]{b}{}\end{DoxyParamCaption})}
+
+
+
+Dessine un pixel dans le tampon. 
+
+Dessine un pixel avec profondeur.
+
+
+\begin{DoxyParams}{Parameters}
+{\em x} & Coordonnée X \\
+\hline
+{\em y} & Coordonnée Y \\
+\hline
+{\em depth} & Profondeur du pixel \\
+\hline
+{\em r} & Composante rouge \\
+\hline
+{\em g} & Composante verte \\
+\hline
+{\em b} & Composante bleue \\
+\hline
+\end{DoxyParams}
+
+
+\label{doc-variable-members}
+\Hypertarget{class_sdl_doc-variable-members}
+\doxysubsection{Member Data Documentation}
+\Hypertarget{class_sdl_a8ccdda7cdeb44d7bfd373cb98f15a008}\index{Sdl@{Sdl}!depthBuffer@{depthBuffer}}
+\index{depthBuffer@{depthBuffer}!Sdl@{Sdl}}
+\doxysubsubsection{\texorpdfstring{depthBuffer}{depthBuffer}}
+{\footnotesize\ttfamily \label{class_sdl_a8ccdda7cdeb44d7bfd373cb98f15a008} 
+float\texorpdfstring{$\ast$}{*} Sdl\+::depth\+Buffer\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Tampon de profondeur (Z-\/buffer) 
+
+\Hypertarget{class_sdl_a74408c328f1c353e6bd85d7410811c68}\index{Sdl@{Sdl}!height@{height}}
+\index{height@{height}!Sdl@{Sdl}}
+\doxysubsubsection{\texorpdfstring{height}{height}}
+{\footnotesize\ttfamily \label{class_sdl_a74408c328f1c353e6bd85d7410811c68} 
+int Sdl\+::height\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Hauteur de la fenêtre. 
+
+\Hypertarget{class_sdl_a8a60ad16fe2fe604047259fc376a61d5}\index{Sdl@{Sdl}!pixelBuffer@{pixelBuffer}}
+\index{pixelBuffer@{pixelBuffer}!Sdl@{Sdl}}
+\doxysubsubsection{\texorpdfstring{pixelBuffer}{pixelBuffer}}
+{\footnotesize\ttfamily \label{class_sdl_a8a60ad16fe2fe604047259fc376a61d5} 
+uint32\+\_\+t\texorpdfstring{$\ast$}{*} Sdl\+::pixel\+Buffer\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Tampon de pixels. 
+
+\Hypertarget{class_sdl_a355c7250c9cca8a1064ca12184db89ae}\index{Sdl@{Sdl}!renderer@{renderer}}
+\index{renderer@{renderer}!Sdl@{Sdl}}
+\doxysubsubsection{\texorpdfstring{renderer}{renderer}}
+{\footnotesize\ttfamily \label{class_sdl_a355c7250c9cca8a1064ca12184db89ae} 
+SDL\+\_\+\+Renderer\texorpdfstring{$\ast$}{*} Sdl\+::renderer\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Pointeur vers le renderer SDL. 
+
+\Hypertarget{class_sdl_a03d522bd385ca577dca02103e95470f9}\index{Sdl@{Sdl}!texture@{texture}}
+\index{texture@{texture}!Sdl@{Sdl}}
+\doxysubsubsection{\texorpdfstring{texture}{texture}}
+{\footnotesize\ttfamily \label{class_sdl_a03d522bd385ca577dca02103e95470f9} 
+SDL\+\_\+\+Texture\texorpdfstring{$\ast$}{*} Sdl\+::texture\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Texture pour le rendu pixel par pixel. 
+
+\Hypertarget{class_sdl_a4988037f9db1f127f2761af8b8bba4f6}\index{Sdl@{Sdl}!width@{width}}
+\index{width@{width}!Sdl@{Sdl}}
+\doxysubsubsection{\texorpdfstring{width}{width}}
+{\footnotesize\ttfamily \label{class_sdl_a4988037f9db1f127f2761af8b8bba4f6} 
+int Sdl\+::width\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Largeur de la fenêtre. 
+
+\Hypertarget{class_sdl_a2d2ea5eff56026bfd5e60fd861a3cc03}\index{Sdl@{Sdl}!window@{window}}
+\index{window@{window}!Sdl@{Sdl}}
+\doxysubsubsection{\texorpdfstring{window}{window}}
+{\footnotesize\ttfamily \label{class_sdl_a2d2ea5eff56026bfd5e60fd861a3cc03} 
+SDL\+\_\+\+Window\texorpdfstring{$\ast$}{*} Sdl\+::window\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Pointeur vers la fenêtre SDL. 
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{_sdl_8hpp}{Sdl.\+hpp}}\item 
+\mbox{\hyperlink{_sdl_8cpp}{Sdl.\+cpp}}\end{DoxyCompactItemize}
