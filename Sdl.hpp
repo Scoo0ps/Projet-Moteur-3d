@@ -16,13 +16,13 @@
  */
 class Sdl {
 private:
-    SDL_Window* window;       ///< Pointeur vers la fenêtre SDL
-    SDL_Renderer* renderer;   ///< Pointeur vers le renderer SDL
-    SDL_Texture* texture;     ///< Texture pour le rendu pixel par pixel
-    uint32_t* pixelBuffer;    ///< Tampon de pixels
-    float* depthBuffer;       ///< Tampon de profondeur 
-    int width;                ///< Largeur de la fenêtre
-    int height;               ///< Hauteur de la fenêtre
+    SDL_Window* window; ///< Pointeur vers la fenêtre SDL
+    SDL_Renderer* renderer; ///< Pointeur vers le renderer SDL
+    SDL_Texture* texture; ///< Texture pour le rendu pixel par pixel
+    uint32_t* pixelBuffer; ///< Tampon de pixels
+    float* depthBuffer; ///< Tampon de profondeur 
+    int width; ///< Largeur de la fenêtre
+    int height; ///< Hauteur de la fenêtre
 
 public:
     /**

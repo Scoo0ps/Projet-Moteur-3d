@@ -153,8 +153,8 @@ std::vector<Triangle3d> Pave3d::getTriangles() const {
     };
 
     for (int i = 0; i < 6; ++i) {
-        auto tris = faces[i].getTriangles();
-        triangles.insert(triangles.end(), tris.begin(), tris.end());
+    std::vector<Triangle3d> tris = faces[i].getTriangles();
+    triangles.insert(triangles.end(), tris.begin(), tris.end());
     }
 
     return triangles;
@@ -189,7 +189,7 @@ std::vector<Triangle3d> Sphere3d::getTriangles() const {
 
             // Créer un quad et récupérer ses triangles
             Quad3d quad(p1, p2, p3, p4);
-            auto tris = quad.getTriangles();
+            std::vector<Triangle3d> tris = quad.getTriangles();
             triangles.insert(triangles.end(), tris.begin(), tris.end());
         }
     }
