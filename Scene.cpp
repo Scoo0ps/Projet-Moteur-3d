@@ -7,7 +7,6 @@
 #include <algorithm>
 #include <cmath>
 
-// IMPLEMENTATION DE Camera
 
 Camera::Camera()
     : position(0, 0, -5), direction(0, 0, 1), up(0, 1, 0),
@@ -37,7 +36,6 @@ void Camera::moveUp(float delta) {
     position.y += delta;
 }
 
-// IMPLEMENTATION DE Scene
 
 Scene::Scene(Sdl& sdl) 
     : sdl(sdl) {}
@@ -62,7 +60,6 @@ Camera& Scene::getCamera() {
     return camera;
 }
 
-// IMPLEMENTATION DE LA RASTERISATION
 
 Point2d Scene::project(const Point3d& p) const {
     // Transformation vers l'espace caméra

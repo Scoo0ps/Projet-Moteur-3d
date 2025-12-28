@@ -249,4 +249,4 @@ private:
     Point3d spherePoint(float theta, float phi) const;
 };
 
-#endif // GEOMETRY_HPP
+#endif 

@@ -8,7 +8,7 @@
 #include <cstring>
 
 /**
- * @brief Constructeur initialisant SDL2, la fenêtre et les tampons
+ * @brief Constructeur initialisant SDL, la fenêtre et les tampons
  */
 Sdl::Sdl(const std::string& title, int w, int h)
     : window(nullptr), renderer(nullptr), texture(nullptr),

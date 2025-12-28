@@ -1,0 +1,349 @@
+\begin{theindex}
+
+  \item {\texorpdfstring{$\sim$}{\string~}Sdl}
+    \subitem {Sdl}, \hyperpage{22}
+
+  \indexspace
+
+  \item {addCube}
+    \subitem {main.cpp}, \hyperpage{36}
+  \item {addSphere}
+    \subitem {main.cpp}, \hyperpage{36}
+  \item {addTriangles}
+    \subitem {Scene}, \hyperpage{19}
+  \item {angleX}
+    \subitem {Pave3d}, \hyperpage{10}
+  \item {angleY}
+    \subitem {Pave3d}, \hyperpage{10}
+  \item {angleZ}
+    \subitem {Pave3d}, \hyperpage{10}
+
+  \indexspace
+
+  \item {b}
+    \subitem {ColoredTriangle}, \hyperpage{8}
+
+  \indexspace
+
+  \item {Camera}, \hyperpage{5}
+    \subitem {Camera}, \hyperpage{6}
+    \subitem {direction}, \hyperpage{7}
+    \subitem {fov}, \hyperpage{7}
+    \subitem {moveForward}, \hyperpage{6}
+    \subitem {moveLeft}, \hyperpage{6}
+    \subitem {moveRight}, \hyperpage{6}
+    \subitem {moveUp}, \hyperpage{6}
+    \subitem {nearPlane}, \hyperpage{7}
+    \subitem {position}, \hyperpage{7}
+    \subitem {up}, \hyperpage{7}
+  \item {camera}
+    \subitem {Scene}, \hyperpage{21}
+  \item {CAMERA\_SPEED}
+    \subitem {main.cpp}, \hyperpage{37}
+  \item {center}
+    \subitem {Pave3d}, \hyperpage{11}
+    \subitem {Sphere3d}, \hyperpage{27}
+    \subitem {Triangle3d}, \hyperpage{30}
+  \item {clear}
+    \subitem {Sdl}, \hyperpage{23}
+  \item {clearTriangles}
+    \subitem {Scene}, \hyperpage{19}
+  \item {ColoredTriangle}, \hyperpage{7}
+    \subitem {b}, \hyperpage{8}
+    \subitem {g}, \hyperpage{8}
+    \subitem {r}, \hyperpage{8}
+    \subitem {triangle}, \hyperpage{8}
+  \item {cross}
+    \subitem {Point3d}, \hyperpage{14}
+
+  \indexspace
+
+  \item {depthBuffer}
+    \subitem {Sdl}, \hyperpage{24}
+  \item {direction}
+    \subitem {Camera}, \hyperpage{7}
+  \item {dot}
+    \subitem {Point3d}, \hyperpage{14}
+  \item {drawScanline}
+    \subitem {Scene}, \hyperpage{19}
+
+  \indexspace
+
+  \item {fillFlatBottom}
+    \subitem {Scene}, \hyperpage{19}
+  \item {fillFlatTop}
+    \subitem {Scene}, \hyperpage{19}
+  \item {fov}
+    \subitem {Camera}, \hyperpage{7}
+
+  \indexspace
+
+  \item {g}
+    \subitem {ColoredTriangle}, \hyperpage{8}
+  \item {Geometry.cpp}, \hyperpage{33}
+  \item {Geometry.hpp}, \hyperpage{33}
+  \item {getCamera}
+    \subitem {Scene}, \hyperpage{20}
+  \item {getHeight}
+    \subitem {Sdl}, \hyperpage{23}
+  \item {getTriangles}
+    \subitem {Pave3d}, \hyperpage{10}
+    \subitem {Quad3d}, \hyperpage{17}
+    \subitem {Sphere3d}, \hyperpage{26}
+  \item {getWidth}
+    \subitem {Sdl}, \hyperpage{23}
+
+  \indexspace
+
+  \item {handleKeyboard}
+    \subitem {main.cpp}, \hyperpage{36}
+  \item {height}
+    \subitem {Sdl}, \hyperpage{24}
+
+  \indexspace
+
+  \item {isTriangleVisible}
+    \subitem {Scene}, \hyperpage{20}
+  \item {isValid}
+    \subitem {Sdl}, \hyperpage{23}
+
+  \indexspace
+
+  \item {main}
+    \subitem {main.cpp}, \hyperpage{37}
+  \item {main.cpp}, \hyperpage{35}
+    \subitem {addCube}, \hyperpage{36}
+    \subitem {addSphere}, \hyperpage{36}
+    \subitem {CAMERA\_SPEED}, \hyperpage{37}
+    \subitem {handleKeyboard}, \hyperpage{36}
+    \subitem {main}, \hyperpage{37}
+    \subitem {mainLoop}, \hyperpage{37}
+    \subitem {ROTATION\_SPEED}, \hyperpage{37}
+    \subitem {WINDOW\_HEIGHT}, \hyperpage{38}
+    \subitem {WINDOW\_WIDTH}, \hyperpage{38}
+  \item {mainLoop}
+    \subitem {main.cpp}, \hyperpage{37}
+  \item {meridians}
+    \subitem {Sphere3d}, \hyperpage{27}
+  \item {moveForward}
+    \subitem {Camera}, \hyperpage{6}
+  \item {moveLeft}
+    \subitem {Camera}, \hyperpage{6}
+  \item {moveRight}
+    \subitem {Camera}, \hyperpage{6}
+  \item {moveUp}
+    \subitem {Camera}, \hyperpage{6}
+
+  \indexspace
+
+  \item {nearPlane}
+    \subitem {Camera}, \hyperpage{7}
+  \item {normal}
+    \subitem {Triangle3d}, \hyperpage{30}
+  \item {normalize}
+    \subitem {Point3d}, \hyperpage{14}
+
+  \indexspace
+
+  \item {operator+}
+    \subitem {Point3d}, \hyperpage{15}
+  \item {operator-\/}
+    \subitem {Point3d}, \hyperpage{15}
+  \item {operator\texorpdfstring{$\ast$}{*}}
+    \subitem {Point3d}, \hyperpage{15}
+
+  \indexspace
+
+  \item {p1}
+    \subitem {Triangle2d}, \hyperpage{29}
+    \subitem {Triangle3d}, \hyperpage{31}
+  \item {p2}
+    \subitem {Triangle2d}, \hyperpage{29}
+    \subitem {Triangle3d}, \hyperpage{31}
+  \item {p3}
+    \subitem {Triangle2d}, \hyperpage{29}
+    \subitem {Triangle3d}, \hyperpage{31}
+  \item {parallels}
+    \subitem {Sphere3d}, \hyperpage{27}
+  \item {Pave3d}, \hyperpage{9}
+    \subitem {angleX}, \hyperpage{10}
+    \subitem {angleY}, \hyperpage{10}
+    \subitem {angleZ}, \hyperpage{10}
+    \subitem {center}, \hyperpage{11}
+    \subitem {getTriangles}, \hyperpage{10}
+    \subitem {Pave3d}, \hyperpage{9}
+    \subitem {rotatePoint}, \hyperpage{10}
+    \subitem {setRotation}, \hyperpage{10}
+    \subitem {sizeX}, \hyperpage{11}
+    \subitem {sizeY}, \hyperpage{11}
+    \subitem {sizeZ}, \hyperpage{11}
+  \item {pixelBuffer}
+    \subitem {Sdl}, \hyperpage{24}
+  \item {Point2d}, \hyperpage{11}
+    \subitem {Point2d}, \hyperpage{12}
+    \subitem {x}, \hyperpage{12}
+    \subitem {y}, \hyperpage{12}
+    \subitem {z}, \hyperpage{13}
+  \item {Point3d}, \hyperpage{13}
+    \subitem {cross}, \hyperpage{14}
+    \subitem {dot}, \hyperpage{14}
+    \subitem {normalize}, \hyperpage{14}
+    \subitem {operator+}, \hyperpage{15}
+    \subitem {operator-\/}, \hyperpage{15}
+    \subitem {operator\texorpdfstring{$\ast$}{*}}, \hyperpage{15}
+    \subitem {Point3d}, \hyperpage{14}
+    \subitem {x}, \hyperpage{15}
+    \subitem {y}, \hyperpage{15}
+    \subitem {z}, \hyperpage{15}
+  \item {position}
+    \subitem {Camera}, \hyperpage{7}
+  \item {present}
+    \subitem {Sdl}, \hyperpage{23}
+  \item {project}
+    \subitem {Scene}, \hyperpage{20}
+
+  \indexspace
+
+  \item {Quad3d}, \hyperpage{16}
+    \subitem {getTriangles}, \hyperpage{17}
+    \subitem {Quad3d}, \hyperpage{16}
+    \subitem {t1}, \hyperpage{17}
+    \subitem {t2}, \hyperpage{17}
+
+  \indexspace
+
+  \item {r}
+    \subitem {ColoredTriangle}, \hyperpage{8}
+  \item {radius}
+    \subitem {Sphere3d}, \hyperpage{27}
+  \item {rasterizeTriangle}
+    \subitem {Scene}, \hyperpage{20}
+  \item {render}
+    \subitem {Scene}, \hyperpage{20}
+  \item {renderer}
+    \subitem {Sdl}, \hyperpage{25}
+  \item {rotatePoint}
+    \subitem {Pave3d}, \hyperpage{10}
+  \item {ROTATION\_SPEED}
+    \subitem {main.cpp}, \hyperpage{37}
+
+  \indexspace
+
+  \item {Scene}, \hyperpage{17}
+    \subitem {addTriangles}, \hyperpage{19}
+    \subitem {camera}, \hyperpage{21}
+    \subitem {clearTriangles}, \hyperpage{19}
+    \subitem {drawScanline}, \hyperpage{19}
+    \subitem {fillFlatBottom}, \hyperpage{19}
+    \subitem {fillFlatTop}, \hyperpage{19}
+    \subitem {getCamera}, \hyperpage{20}
+    \subitem {isTriangleVisible}, \hyperpage{20}
+    \subitem {project}, \hyperpage{20}
+    \subitem {rasterizeTriangle}, \hyperpage{20}
+    \subitem {render}, \hyperpage{20}
+    \subitem {Scene}, \hyperpage{18}
+    \subitem {sdl}, \hyperpage{21}
+    \subitem {triangles}, \hyperpage{21}
+  \item {Scene.cpp}, \hyperpage{38}
+  \item {Scene.hpp}, \hyperpage{38}
+  \item {Sdl}, \hyperpage{21}
+    \subitem {\texorpdfstring{$\sim$}{\string~}Sdl}, \hyperpage{22}
+    \subitem {clear}, \hyperpage{23}
+    \subitem {depthBuffer}, \hyperpage{24}
+    \subitem {getHeight}, \hyperpage{23}
+    \subitem {getWidth}, \hyperpage{23}
+    \subitem {height}, \hyperpage{24}
+    \subitem {isValid}, \hyperpage{23}
+    \subitem {pixelBuffer}, \hyperpage{24}
+    \subitem {present}, \hyperpage{23}
+    \subitem {renderer}, \hyperpage{25}
+    \subitem {Sdl}, \hyperpage{22}
+    \subitem {setPixel}, \hyperpage{24}
+    \subitem {texture}, \hyperpage{25}
+    \subitem {width}, \hyperpage{25}
+    \subitem {window}, \hyperpage{25}
+  \item {sdl}
+    \subitem {Scene}, \hyperpage{21}
+  \item {Sdl.cpp}, \hyperpage{40}
+  \item {Sdl.hpp}, \hyperpage{40}
+  \item {setPixel}
+    \subitem {Sdl}, \hyperpage{24}
+  \item {setRotation}
+    \subitem {Pave3d}, \hyperpage{10}
+  \item {sizeX}
+    \subitem {Pave3d}, \hyperpage{11}
+  \item {sizeY}
+    \subitem {Pave3d}, \hyperpage{11}
+  \item {sizeZ}
+    \subitem {Pave3d}, \hyperpage{11}
+  \item {Sphere3d}, \hyperpage{25}
+    \subitem {center}, \hyperpage{27}
+    \subitem {getTriangles}, \hyperpage{26}
+    \subitem {meridians}, \hyperpage{27}
+    \subitem {parallels}, \hyperpage{27}
+    \subitem {radius}, \hyperpage{27}
+    \subitem {Sphere3d}, \hyperpage{26}
+    \subitem {spherePoint}, \hyperpage{26}
+  \item {spherePoint}
+    \subitem {Sphere3d}, \hyperpage{26}
+
+  \indexspace
+
+  \item {t1}
+    \subitem {Quad3d}, \hyperpage{17}
+  \item {t2}
+    \subitem {Quad3d}, \hyperpage{17}
+  \item {texture}
+    \subitem {Sdl}, \hyperpage{25}
+  \item {triangle}
+    \subitem {ColoredTriangle}, \hyperpage{8}
+  \item {Triangle2d}, \hyperpage{27}
+    \subitem {p1}, \hyperpage{29}
+    \subitem {p2}, \hyperpage{29}
+    \subitem {p3}, \hyperpage{29}
+    \subitem {Triangle2d}, \hyperpage{28}
+  \item {Triangle3d}, \hyperpage{29}
+    \subitem {center}, \hyperpage{30}
+    \subitem {normal}, \hyperpage{30}
+    \subitem {p1}, \hyperpage{31}
+    \subitem {p2}, \hyperpage{31}
+    \subitem {p3}, \hyperpage{31}
+    \subitem {Triangle3d}, \hyperpage{30}
+  \item {triangles}
+    \subitem {Scene}, \hyperpage{21}
+
+  \indexspace
+
+  \item {up}
+    \subitem {Camera}, \hyperpage{7}
+
+  \indexspace
+
+  \item {width}
+    \subitem {Sdl}, \hyperpage{25}
+  \item {window}
+    \subitem {Sdl}, \hyperpage{25}
+  \item {WINDOW\_HEIGHT}
+    \subitem {main.cpp}, \hyperpage{38}
+  \item {WINDOW\_WIDTH}
+    \subitem {main.cpp}, \hyperpage{38}
+
+  \indexspace
+
+  \item {x}
+    \subitem {Point2d}, \hyperpage{12}
+    \subitem {Point3d}, \hyperpage{15}
+
+  \indexspace
+
+  \item {y}
+    \subitem {Point2d}, \hyperpage{12}
+    \subitem {Point3d}, \hyperpage{15}
+
+  \indexspace
+
+  \item {z}
+    \subitem {Point2d}, \hyperpage{13}
+    \subitem {Point3d}, \hyperpage{15}
+
+\end{theindex}

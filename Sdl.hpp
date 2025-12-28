@@ -1,8 +1,6 @@
 /**
  * @file Sdl.hpp
  * @brief Encapsulation de la bibliothèque SDL2
- * @author Projet PRAP
- * @date 2025
  */
 
 #ifndef SDL_HPP
@@ -14,7 +12,7 @@
 
 /**
  * @class Sdl
- * @brief Classe encapsulant les fonctionnalités SDL2 pour le rendu graphique
+ * @brief Classe contenant les fonctionnalités SDL pour le rendu graphique
  */
 class Sdl {
 private:
@@ -22,7 +20,7 @@ private:
     SDL_Renderer* renderer;   ///< Pointeur vers le renderer SDL
     SDL_Texture* texture;     ///< Texture pour le rendu pixel par pixel
     uint32_t* pixelBuffer;    ///< Tampon de pixels
-    float* depthBuffer;       ///< Tampon de profondeur (Z-buffer)
+    float* depthBuffer;       ///< Tampon de profondeur 
     int width;                ///< Largeur de la fenêtre
     int height;               ///< Hauteur de la fenêtre
 
@@ -83,4 +81,4 @@ public:
     bool isValid() const;
 };
 
-#endif // SDL_HPP
+#endif 

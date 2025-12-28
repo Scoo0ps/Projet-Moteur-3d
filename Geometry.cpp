@@ -5,7 +5,6 @@
 
 #include "Geometry.hpp"
 
-// ============== Point3d ==============
 
 Point3d::Point3d() : x(0), y(0), z(0) {}
 
@@ -43,13 +42,11 @@ Point3d Point3d::normalize() const {
     return *this;
 }
 
-// ============== Point2d ==============
 
 Point2d::Point2d() : x(0), y(0), z(0) {}
 
 Point2d::Point2d(int x, int y, float z) : x(x), y(y), z(z) {}
 
-// ============== Triangle3d ==============
 
 Triangle3d::Triangle3d() {}
 
@@ -70,14 +67,13 @@ Point3d Triangle3d::center() const {
     );
 }
 
-// ============== Triangle2d ==============
 
 Triangle2d::Triangle2d() {}
 
 Triangle2d::Triangle2d(const Point2d& p1, const Point2d& p2, const Point2d& p3)
     : p1(p1), p2(p2), p3(p3) {}
 
-// ============== Quad3d ==============
+
 
 Quad3d::Quad3d() {}
 
@@ -94,8 +90,6 @@ std::vector<Triangle3d> Quad3d::getTriangles() const {
     triangles.push_back(t2);
     return triangles;
 }
-
-// ============== Pave3d ==============
 
 Pave3d::Pave3d(const Point3d& center, float sx, float sy, float sz)
     : center(center), sizeX(sx), sizeY(sy), sizeZ(sz),
@@ -165,8 +159,6 @@ std::vector<Triangle3d> Pave3d::getTriangles() const {
 
     return triangles;
 }
-
-// ============== Sphere3d ==============
 
 Sphere3d::Sphere3d(const Point3d& center, float radius, int meridians, int parallels)
     : center(center), radius(radius), meridians(meridians), parallels(parallels) {}
