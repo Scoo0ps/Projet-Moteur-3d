@@ -1,21 +1,31 @@
-# Minimal Doxyfile tuned for this project
-DOXYFILE_ENCODING      = UTF-8
 PROJECT_NAME           = "Moteur 3D - PRAP"
-PROJECT_BRIEF          = "Documentation du petit moteur 3D"
 OUTPUT_DIRECTORY       = doc
-GENERATE_HTML          = NO
-HTML_OUTPUT            = html
-GENERATE_LATEX         = YES
+
+# INPUT
 INPUT                  = .
-FILE_PATTERNS          = *.cpp *.hpp
-RECURSIVE              = NO
+FILE_PATTERNS          = *.hpp *.h *.cpp
+RECURSIVE              = YES
+
+# Extraction
 EXTRACT_ALL            = YES
 EXTRACT_PRIVATE        = YES
-JAVADOC_AUTOBRIEF      = YES
-MARKDOWN_SUPPORT       = YES
-GENERATE_TREEVIEW      = YES
-WARNINGS               = YES
-WARN_IF_UNDOCUMENTED   = YES
-WARN_IF_DOC_ERROR      = YES
-WARN_IF_INCOMPLETE_DOC = YES
-COLLABORATION_GRAPH = YES
+EXTRACT_PROTECTED     = YES
+
+# Output
+GENERATE_HTML          = YES
+GENERATE_LATEX         = NO
+
+# Diagrams
+HAVE_DOT               = YES
+UML_LOOK               = YES
+CLASS_DIAGRAMS         = YES
+CLASS_GRAPH            = YES
+COLLABORATION_GRAPH    = YES
+TEMPLATE_RELATIONS     = YES
+GRAPHICAL_HIERARCHY    = YES
+
+# Graph tuning
+DOT_GRAPH_MAX_NODES    = 100
+MAX_DOT_GRAPH_DEPTH    = 0
+UML_LIMIT_NUM_FIELDS   = 50
+HIDE_UNDOC_RELATIONS   = NO
