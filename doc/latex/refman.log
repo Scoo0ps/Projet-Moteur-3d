@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Built by MSYS2 project) (preloaded format=pdflatex 2025.12.27)  27 DEC 2025 18:59
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Built by MSYS2 project) (preloaded format=pdflatex 2025.12.27)  28 DEC 2025 16:44
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1424,16 +1424,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 8--11
 
  []
 
-
-Underfull \hbox (badness 10000) detected at line 21
-[][][]
- []
-
-
-Underfull \hbox (badness 10000) detected at line 24
-[][][]
- []
-
 ) (./_sdl_8hpp_source.tex [40]) [41] [42
 
 ] (./refman.ind
@@ -1469,7 +1459,7 @@ xmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb><c:/msys64/mingw64/share/texmf-dis
 t/fonts/type1/urw/helvetic/uhvb8ac.pfb><c:/msys64/mingw64/share/texmf-dist/font
 s/type1/urw/helvetic/uhvr8a.pfb><c:/msys64/mingw64/share/texmf-dist/fonts/type1
 /urw/helvetic/uhvro8a.pfb>
-Output written on refman.pdf (53 pages, 224107 bytes).
+Output written on refman.pdf (53 pages, 223357 bytes).
 PDF statistics:
  2249 PDF objects out of 2487 (max. 8388607)
  2125 compressed objects within 22 object streams

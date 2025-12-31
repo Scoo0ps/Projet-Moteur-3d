@@ -130,7 +130,7 @@ int main(int argc, char* argv[]) {
     std::cout << "Démarrage du Moteur 3D" << std::endl;
     std::cout << "Flèches : Deplacer la camera" << std::endl;
     std::cout << "Espace : Monter" << std::endl;
-    std::cout << "Shift Gauche : Descendre" << std::endl;
+    std::cout << "Controle Gauche : Descendre" << std::endl;
     std::cout << "Echap : Quitter" << std::endl;
     
     // Création de la scène
