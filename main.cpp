@@ -71,7 +71,7 @@ void addSphere(Scene& scene) {
  * @param scene instance actuelle de Scene
  * @return le code de sortie (0 si succès)
  */
-int mainLoop(Sdl& sdl, Scene& scene) {
+int mainLoop(Scene& scene) {
     bool running = true;
     SDL_Event event;
     float rotationAngle = 0.0f;
@@ -143,5 +143,5 @@ int main(int argc, char* argv[]) {
     camera.position = Point3d(0.0f, 0.0f, -2.0f);
     camera.direction = Point3d(0.0f, 0.0f, 1.0f);
     
-    return mainLoop(sdl, scene);
+    return mainLoop(scene);
 }
