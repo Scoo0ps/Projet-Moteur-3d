@@ -63,7 +63,6 @@ struct ColoredTriangle {
 
 /**
  * @class Scene
- * @ingroup Engine3DClasses
  * @brief Gère le rendu de la scène 3D
  */
 class Scene {
