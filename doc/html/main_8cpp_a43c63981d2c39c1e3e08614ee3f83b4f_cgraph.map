@@ -1,0 +1,66 @@
+<map id="mainLoop" name="mainLoop">
+<area shape="rect" id="Node000001" title="Boucle principale du programme." alt="" coords="5,245,83,272"/>
+<area shape="rect" id="Node000002" href="$main_8cpp.html#a3f8bbedc9cc7a81915ae12b5d66c00cd" title="Crée et ajoute le cube à la scène." alt="" coords="200,89,274,116"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="52,243,84,201,129,155,157,136,186,121,188,125,160,141,132,159,88,205,57,246"/>
+<area shape="rect" id="Node000008" href="$main_8cpp.html#a413ed82437706932602a46bf716063ca" title="Crée et ajoute la sphère à la scène." alt="" coords="195,169,278,196"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="63,243,94,223,130,206,180,190,181,195,132,210,96,228,66,247"/>
+<area shape="rect" id="Node000011" href="$class_engine3_d_1_1_scene.html#a6f62266c5c737fc1b52920370cd063ee" title="Efface les triangles de la scène." alt="" coords="131,220,343,247"/>
+<area shape="poly" id="edge12_Node000001_Node000011" title=" " alt="" coords="83,251,115,247,116,252,83,256"/>
+<area shape="rect" id="Node000012" href="$class_engine3_d_1_1_scene.html#a1f8a56782e30aafa6f74158f8b36b0e8" title="Retourne une référence vers la caméra." alt="" coords="139,271,334,297"/>
+<area shape="poly" id="edge13_Node000001_Node000012" title=" " alt="" coords="83,261,124,267,124,272,83,266"/>
+<area shape="rect" id="Node000013" href="$main_8cpp.html#a6ca502f882ebcc537dec54df94f57059" title="Gère les événements clavier." alt="" coords="180,321,294,348"/>
+<area shape="poly" id="edge14_Node000001_Node000013" title=" " alt="" coords="66,270,96,289,132,307,165,318,163,323,130,312,94,294,63,275"/>
+<area shape="rect" id="Node000018" href="$class_engine3_d_1_1_scene.html#a31514c322149277ab158e3ebe4e4627b" title="Effectue le rendu de la scène." alt="" coords="153,472,320,499"/>
+<area shape="poly" id="edge19_Node000001_Node000018" title=" " alt="" coords="59,271,217,459,212,462,55,274"/>
+<area shape="rect" id="Node000003" href="$class_engine3_d_1_1_scene.html#a00742547f5704154300b459fdf626afc" title="Ajoute des triangles à la scène." alt="" coords="398,115,603,141"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="274,103,383,114,382,119,274,109"/>
+<area shape="rect" id="Node000004" href="$class_engine3_d_1_1_pave3d.html#a4119fbf8bcb7a8e53bf791e07dad4a36" title="Retourne tous les triangles du pavé" alt="" coords="396,13,605,40"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="273,87,390,49,420,42,422,47,392,55,275,92"/>
+<area shape="rect" id="Node000007" href="$class_engine3_d_1_1_pave3d.html#a17d8fdec0f274f775de834fe0b1a6366" title="Définit les angles de rotation." alt="" coords="398,64,603,91"/>
+<area shape="poly" id="edge6_Node000002_Node000007" title=" " alt="" coords="274,97,382,86,383,91,274,102"/>
+<area shape="rect" id="Node000005" href="$class_engine3_d_1_1_quad3d.html#aaa0bdee0dc9d2376064665d7caf6b0f5" title="Retourne les triangles du quad." alt="" coords="658,93,869,120"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="568,38,611,49,714,85,712,90,610,55,566,43"/>
+<area shape="rect" id="Node000006" href="$class_engine3_d_1_1_pave3d.html#a9ac0e8d9d88b16945a180d5e86b09879" title="Applique la rotation à un point." alt="" coords="678,5,849,48"/>
+<area shape="poly" id="edge5_Node000004_Node000006" title=" " alt="" coords="606,24,662,24,662,29,606,29"/>
+<area shape="poly" id="edge8_Node000008_Node000003" title=" " alt="" coords="278,172,418,142,419,148,280,177"/>
+<area shape="rect" id="Node000009" href="$class_engine3_d_1_1_sphere3d.html#a2021bf0962839e427e464bb61e8702e0" title="Retourne tous les triangles de la sphère." alt="" coords="430,165,571,208"/>
+<area shape="poly" id="edge9_Node000008_Node000009" title=" " alt="" coords="279,181,414,183,414,188,279,186"/>
+<area shape="poly" id="edge10_Node000009_Node000005" title=" " alt="" coords="571,163,702,122,703,128,573,168"/>
+<area shape="rect" id="Node000010" href="$class_engine3_d_1_1_sphere3d.html#aa65545be81f5e53f004d31e7a368879e" title="Calcule un point sur la sphère." alt="" coords="693,165,834,208"/>
+<area shape="poly" id="edge11_Node000009_Node000010" title=" " alt="" coords="572,184,677,184,677,189,572,189"/>
+<area shape="rect" id="Node000014" href="$class_engine3_d_1_1_camera.html#ac18b61991512f3ebf3ef1debbd696826" title="Déplace la caméra vers l&#39;avant/arrière." alt="" coords="391,232,610,259"/>
+<area shape="poly" id="edge15_Node000013_Node000014" title=" " alt="" coords="293,323,342,307,356,298,365,288,375,278,390,268,406,262,408,266,392,273,378,282,369,292,359,302,344,312,295,328"/>
+<area shape="rect" id="Node000015" href="$class_engine3_d_1_1_camera.html#abb855c0ef667db6bc7af192bd84dd4a2" title="Déplace la caméra vers la gauche." alt="" coords="404,283,598,309"/>
+<area shape="poly" id="edge16_Node000013_Node000015" title=" " alt="" coords="294,324,389,310,390,315,295,329"/>
+<area shape="rect" id="Node000016" href="$class_engine3_d_1_1_camera.html#a202134048c2aebba77b966d09c1bbbaa" title="Déplace la caméra vers la droite." alt="" coords="399,333,602,360"/>
+<area shape="poly" id="edge17_Node000013_Node000016" title=" " alt="" coords="294,335,384,339,383,344,294,340"/>
+<area shape="rect" id="Node000017" href="$class_engine3_d_1_1_camera.html#a74a770aa2d2934ca4728fddb668f67e6" title="Déplace la caméra vers le haut/bas." alt="" coords="406,384,595,411"/>
+<area shape="poly" id="edge18_Node000013_Node000017" title=" " alt="" coords="295,346,392,369,425,377,424,383,390,375,294,351"/>
+<area shape="rect" id="Node000019" href="$class_engine3_d_1_1_scene.html#a572a13e5c6c08eced30fc482cc9fdeee" title="Vérifie si un triangle est visible." alt="" coords="407,435,594,477"/>
+<area shape="poly" id="edge20_Node000018_Node000019" title=" " alt="" coords="321,473,391,465,392,471,321,479"/>
+<area shape="rect" id="Node000026" href="$class_engine3_d_1_1_scene.html#ac59015c65f655e7843507970be7178a4" title="Projette un point 3D en point 2D." alt="" coords="416,501,586,528"/>
+<area shape="poly" id="edge29_Node000018_Node000026" title=" " alt="" coords="321,492,400,501,400,506,321,497"/>
+<area shape="rect" id="Node000027" href="$class_engine3_d_1_1_scene.html#ae4f80fe1878d214d93eddd483c7c9e9b" title="Rasterise un triangle 2D." alt="" coords="410,556,591,599"/>
+<area shape="poly" id="edge30_Node000018_Node000027" title=" " alt="" coords="277,497,392,537,422,548,420,553,390,543,276,502"/>
+<area shape="rect" id="Node000020" href="$class_engine3_d_1_1_triangle3d.html#ac8467f3fbeb5ebd572c5b86dc8e5efba" title="Calcule le centre du triangle." alt="" coords="690,372,837,415"/>
+<area shape="poly" id="edge21_Node000019_Node000020" title=" " alt="" coords="592,431,675,412,676,417,594,437"/>
+<area shape="rect" id="Node000021" href="$class_engine3_d_1_1_point3d.html#ae2fe7656b9388965fb9e890a89b28dcb" title="Produit scalaire." alt="" coords="943,439,1100,465"/>
+<area shape="poly" id="edge22_Node000019_Node000021" title=" " alt="" coords="595,453,927,450,927,455,595,458"/>
+<area shape="rect" id="Node000023" href="$class_engine3_d_1_1_triangle3d.html#a36a10c8fdb5ead425abf77d7bd3ec6d4" title="Calcule la normale du triangle." alt="" coords="690,489,837,532"/>
+<area shape="poly" id="edge24_Node000019_Node000023" title=" " alt="" coords="595,473,676,490,674,495,594,478"/>
+<area shape="rect" id="Node000022" href="$class_engine3_d_1_1_point3d.html#a0fe8b9187cff415e2e11cc0043bbedb6" title="Constructeur par défaut." alt="" coords="1174,489,1312,532"/>
+<area shape="poly" id="edge23_Node000021_Node000022" title=" " alt="" coords="1082,463,1127,475,1160,484,1158,489,1125,480,1081,469"/>
+<area shape="rect" id="Node000024" href="$class_engine3_d_1_1_point3d.html#a5bda2a757a3d5c95fa931087c7b21ae6" title="Produit vectoriel." alt="" coords="952,489,1090,532"/>
+<area shape="poly" id="edge25_Node000023_Node000024" title=" " alt="" coords="837,508,936,508,936,513,837,513"/>
+<area shape="rect" id="Node000025" href="$class_engine3_d_1_1_point3d.html#a47b11f8208e5c25f2d5f04c49cd10bd4" title="Normalise le vecteur." alt="" coords="952,556,1090,599"/>
+<area shape="poly" id="edge27_Node000023_Node000025" title=" " alt="" coords="838,527,938,553,937,558,837,532"/>
+<area shape="poly" id="edge26_Node000024_Node000022" title=" " alt="" coords="1091,508,1158,508,1158,513,1091,513"/>
+<area shape="poly" id="edge28_Node000025_Node000022" title=" " alt="" coords="1090,554,1158,533,1160,538,1092,559"/>
+<area shape="rect" id="Node000028" href="$class_engine3_d_1_1_scene.html#a8837c73c8733a95bc50118d1aded5155" title="Rasterise la partie plate du triangle (haut ou bas)." alt="" coords="680,556,847,599"/>
+<area shape="poly" id="edge31_Node000027_Node000028" title=" " alt="" coords="592,575,665,575,665,580,592,580"/>
+<area shape="rect" id="Node000030" href="$class_engine3_d_1_1_scene.html#a817b9c0fd5988cb4867e3c73773b2584" title="Rasterise la partie plate supérieure du triangle." alt="" coords="670,623,857,649"/>
+<area shape="poly" id="edge33_Node000027_Node000030" title=" " alt="" coords="592,595,686,616,685,621,591,600"/>
+<area shape="rect" id="Node000029" href="$class_engine3_d_1_1_scene.html#a68735735b2e868f144acdb359c153025" title="Dessine une ligne horizontale du triangle via technique scanline." alt="" coords="917,623,1126,649"/>
+<area shape="poly" id="edge32_Node000028_Node000029" title=" " alt="" coords="848,594,945,616,944,621,847,599"/>
+<area shape="poly" id="edge34_Node000030_Node000029" title=" " alt="" coords="858,633,901,633,901,639,858,639"/>
+</map>

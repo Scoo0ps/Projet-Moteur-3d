@@ -1,0 +1,25 @@
+<map id="Engine3D::Scene" name="Engine3D::Scene">
+<area shape="rect" id="Node000001" title="Gère le rendu de la scène 3D." alt="" coords="593,749,721,1032"/>
+<area shape="rect" id="Node000002" href="$class_engine3_d_1_1_sdl.html" title="Classe contenant les fonctionnalités SDL pour le rendu graphique." alt="" coords="344,189,439,408"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="439,407,557,676,588,743,584,745,552,678,435,409"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="215,5,315,75"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="284,73,339,185,334,187,279,75"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="339,5,445,75"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="394,74,394,173,389,173,389,74"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="5,5,101,75"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="68,73,90,119,106,143,124,163,173,202,227,233,281,258,330,276,328,281,279,263,224,238,170,206,121,167,102,146,86,122,63,76"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="126,5,191,75"/>
+<area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="172,73,191,118,220,164,245,191,274,217,332,259,329,263,270,221,241,195,215,167,186,121,167,75"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="639,5,675,75"/>
+<area shape="poly" id="edge6_Node000002_Node000007" title=" " alt="" coords="641,51,602,70,562,101,549,117,542,132,535,148,523,167,489,208,453,245,449,241,485,204,519,164,530,146,537,130,545,114,559,97,600,66,638,46"/>
+<area shape="rect" id="Node000009" href="$class_engine3_d_1_1_camera.html" title="Représente la caméra (œil) dans la scène." alt="" coords="596,523,718,677"/>
+<area shape="poly" id="edge11_Node000009_Node000007" title=" " alt="" coords="660,75,660,506,654,506,654,75"/>
+<area shape="rect" id="Node000010" href="$class_engine3_d_1_1_point3d.html" title="Représente un point dans l&#39;espace 3D." alt="" coords="755,189,874,408"/>
+<area shape="poly" id="edge10_Node000010_Node000007" title=" " alt="" coords="677,69,748,185,744,187,673,72"/>
+<area shape="rect" id="Node000008" title=" " alt="" coords="469,5,494,75"/>
+<area shape="poly" id="edge7_Node000002_Node000008" title=" " alt="" coords="478,75,454,166,448,184,443,182,449,165,473,74"/>
+<area shape="poly" id="edge8_Node000001_Node000009" title=" " alt="" coords="660,677,660,733,654,733,654,677"/>
+<area shape="poly" id="edge9_Node000009_Node000010" title=" " alt="" coords="760,409,707,509,703,506,755,407"/>
+<area shape="rect" id="Node000011" title=" " alt="" coords="742,557,911,643"/>
+<area shape="poly" id="edge12_Node000001_Node000011" title=" " alt="" coords="805,644,732,768,727,765,800,641"/>
+</map>

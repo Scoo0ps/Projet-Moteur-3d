@@ -1,4 +1,4 @@
-\doxysection{main.\+cpp File Reference}
+\doxysection{Référence du fichier main.\+cpp}
 \hypertarget{main_8cpp}{}\label{main_8cpp}\index{main.cpp@{main.cpp}}
 
 
@@ -10,16 +10,24 @@ Boucle principale et gestion des événements clavier.
 {\ttfamily \#include "{}Scene.\+hpp"{}}\newline
 {\ttfamily \#include $<$cmath$>$}\newline
 {\ttfamily \#include $<$iostream$>$}\newline
-\doxysubsubsection*{Functions}
+Graphe des dépendances par inclusion de main.\+cpp\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{main_8cpp__incl}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Fonctions}
 \begin{DoxyCompactItemize}
 \item 
-void \mbox{\hyperlink{main_8cpp_a6ca502f882ebcc537dec54df94f57059}{handle\+Keyboard}} (\mbox{\hyperlink{class_camera}{Camera}} \&camera, const Uint8 \texorpdfstring{$\ast$}{*}keys)
+void \mbox{\hyperlink{main_8cpp_a6ca502f882ebcc537dec54df94f57059}{handle\+Keyboard}} (\mbox{\hyperlink{class_engine3_d_1_1_camera}{Camera}} \&camera, const Uint8 \texorpdfstring{$\ast$}{*}keys)
 \begin{DoxyCompactList}\small\item\em Gère les événements clavier. \end{DoxyCompactList}\item 
-void \mbox{\hyperlink{main_8cpp_a3f8bbedc9cc7a81915ae12b5d66c00cd}{add\+Cube}} (\mbox{\hyperlink{class_scene}{Scene}} \&scene, float angle)
+void \mbox{\hyperlink{main_8cpp_a3f8bbedc9cc7a81915ae12b5d66c00cd}{add\+Cube}} (\mbox{\hyperlink{class_engine3_d_1_1_scene}{Scene}} \&scene, float angle)
 \begin{DoxyCompactList}\small\item\em Crée et ajoute le cube à la scène. \end{DoxyCompactList}\item 
-void \mbox{\hyperlink{main_8cpp_a413ed82437706932602a46bf716063ca}{add\+Sphere}} (\mbox{\hyperlink{class_scene}{Scene}} \&scene)
+void \mbox{\hyperlink{main_8cpp_a413ed82437706932602a46bf716063ca}{add\+Sphere}} (\mbox{\hyperlink{class_engine3_d_1_1_scene}{Scene}} \&scene)
 \begin{DoxyCompactList}\small\item\em Crée et ajoute la sphère à la scène. \end{DoxyCompactList}\item 
-int \mbox{\hyperlink{main_8cpp_a43c63981d2c39c1e3e08614ee3f83b4f}{main\+Loop}} (\mbox{\hyperlink{class_sdl}{Sdl}} \&sdl, \mbox{\hyperlink{class_scene}{Scene}} \&scene)
+int \mbox{\hyperlink{main_8cpp_a43c63981d2c39c1e3e08614ee3f83b4f}{main\+Loop}} (\mbox{\hyperlink{class_engine3_d_1_1_sdl}{Sdl}} \&sdl, \mbox{\hyperlink{class_engine3_d_1_1_scene}{Scene}} \&scene)
 \begin{DoxyCompactList}\small\item\em Boucle principale du programme. \end{DoxyCompactList}\item 
 int \mbox{\hyperlink{main_8cpp_a0ddf1224851353fc92bfbff6f499fa97}{main}} (int argc, char \texorpdfstring{$\ast$}{*}argv\mbox{[}$\,$\mbox{]})
 \begin{DoxyCompactList}\small\item\em main \end{DoxyCompactList}\end{DoxyCompactItemize}
@@ -36,63 +44,111 @@ const float \mbox{\hyperlink{main_8cpp_aafdc8dcab294f37bef891a8e0a3813b8}{ROTATI
 \begin{DoxyCompactList}\small\item\em Vitesse de rotation du cube. \end{DoxyCompactList}\end{DoxyCompactItemize}
 
 
-\doxysubsection{Detailed Description}
+\doxysubsection{Description détaillée}
 Boucle principale et gestion des événements clavier. 
 
 
 
 \label{doc-func-members}
 \Hypertarget{main_8cpp_doc-func-members}
-\doxysubsection{Function Documentation}
+\doxysubsection{Documentation des fonctions}
 \Hypertarget{main_8cpp_a3f8bbedc9cc7a81915ae12b5d66c00cd}\index{main.cpp@{main.cpp}!addCube@{addCube}}
 \index{addCube@{addCube}!main.cpp@{main.cpp}}
 \doxysubsubsection{\texorpdfstring{addCube()}{addCube()}}
 {\footnotesize\ttfamily \label{main_8cpp_a3f8bbedc9cc7a81915ae12b5d66c00cd} 
-void add\+Cube (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_scene}{Scene}} \&}]{scene}{, }\item[{float}]{angle}{}\end{DoxyParamCaption})}
+void add\+Cube (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_engine3_d_1_1_scene}{Scene}} \&}]{scene}{, }\item[{float}]{angle}{}\end{DoxyParamCaption})}
 
 
 
 Crée et ajoute le cube à la scène. 
 
 
-\begin{DoxyParams}{Parameters}
+\begin{DoxyParams}{Paramètres}
 {\em scene} & \\
 \hline
 {\em angle} & Angle de rotation actuel \\
 \hline
 \end{DoxyParams}
+Voici le graphe d\textquotesingle{}appel pour cette fonction \+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{main_8cpp_a3f8bbedc9cc7a81915ae12b5d66c00cd_cgraph}
+\end{center}
+\end{figure}
+Voici le graphe des appelants de cette fonction \+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=302pt]{main_8cpp_a3f8bbedc9cc7a81915ae12b5d66c00cd_icgraph}
+\end{center}
+\end{figure}
 \Hypertarget{main_8cpp_a413ed82437706932602a46bf716063ca}\index{main.cpp@{main.cpp}!addSphere@{addSphere}}
 \index{addSphere@{addSphere}!main.cpp@{main.cpp}}
 \doxysubsubsection{\texorpdfstring{addSphere()}{addSphere()}}
 {\footnotesize\ttfamily \label{main_8cpp_a413ed82437706932602a46bf716063ca} 
-void add\+Sphere (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_scene}{Scene}} \&}]{scene}{}\end{DoxyParamCaption})}
+void add\+Sphere (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_engine3_d_1_1_scene}{Scene}} \&}]{scene}{}\end{DoxyParamCaption})}
 
 
 
 Crée et ajoute la sphère à la scène. 
 
 
-\begin{DoxyParams}{Parameters}
-{\em scene} & instance actuelle de \doxylink{class_scene}{Scene} \\
+\begin{DoxyParams}{Paramètres}
+{\em scene} & instance actuelle de \doxylink{class_engine3_d_1_1_scene}{Scene} \\
 \hline
 \end{DoxyParams}
+Voici le graphe d\textquotesingle{}appel pour cette fonction \+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{main_8cpp_a413ed82437706932602a46bf716063ca_cgraph}
+\end{center}
+\end{figure}
+Voici le graphe des appelants de cette fonction \+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=310pt]{main_8cpp_a413ed82437706932602a46bf716063ca_icgraph}
+\end{center}
+\end{figure}
 \Hypertarget{main_8cpp_a6ca502f882ebcc537dec54df94f57059}\index{main.cpp@{main.cpp}!handleKeyboard@{handleKeyboard}}
 \index{handleKeyboard@{handleKeyboard}!main.cpp@{main.cpp}}
 \doxysubsubsection{\texorpdfstring{handleKeyboard()}{handleKeyboard()}}
 {\footnotesize\ttfamily \label{main_8cpp_a6ca502f882ebcc537dec54df94f57059} 
-void handle\+Keyboard (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_camera}{Camera}} \&}]{camera}{, }\item[{const Uint8 \texorpdfstring{$\ast$}{*}}]{keys}{}\end{DoxyParamCaption})}
+void handle\+Keyboard (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_engine3_d_1_1_camera}{Camera}} \&}]{camera}{, }\item[{const Uint8 \texorpdfstring{$\ast$}{*}}]{keys}{}\end{DoxyParamCaption})}
 
 
 
 Gère les événements clavier. 
 
 
-\begin{DoxyParams}{Parameters}
-{\em camera} & instance actuelle de \doxylink{class_camera}{Camera} \\
+\begin{DoxyParams}{Paramètres}
+{\em camera} & instance actuelle de \doxylink{class_engine3_d_1_1_camera}{Camera} \\
 \hline
 {\em keys} & État des touches (géré par SDL) \\
 \hline
 \end{DoxyParams}
+Voici le graphe d\textquotesingle{}appel pour cette fonction \+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{main_8cpp_a6ca502f882ebcc537dec54df94f57059_cgraph}
+\end{center}
+\end{figure}
+Voici le graphe des appelants de cette fonction \+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=333pt]{main_8cpp_a6ca502f882ebcc537dec54df94f57059_icgraph}
+\end{center}
+\end{figure}
 \Hypertarget{main_8cpp_a0ddf1224851353fc92bfbff6f499fa97}\index{main.cpp@{main.cpp}!main@{main}}
 \index{main@{main}!main.cpp@{main.cpp}}
 \doxysubsubsection{\texorpdfstring{main()}{main()}}
@@ -104,40 +160,64 @@ int main (\begin{DoxyParamCaption}\item[{int}]{argc}{, }\item[{char \texorpdfstr
 main 
 
 
-\begin{DoxyParams}{Parameters}
+\begin{DoxyParams}{Paramètres}
 {\em argc} & \\
 \hline
 {\em argv} & \\
 \hline
 \end{DoxyParams}
-\begin{DoxyReturn}{Returns}
+\begin{DoxyReturn}{Renvoie}
 le code de sortie (0 si succès) 
 \end{DoxyReturn}
+Voici le graphe d\textquotesingle{}appel pour cette fonction \+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{main_8cpp_a0ddf1224851353fc92bfbff6f499fa97_cgraph}
+\end{center}
+\end{figure}
 \Hypertarget{main_8cpp_a43c63981d2c39c1e3e08614ee3f83b4f}\index{main.cpp@{main.cpp}!mainLoop@{mainLoop}}
 \index{mainLoop@{mainLoop}!main.cpp@{main.cpp}}
 \doxysubsubsection{\texorpdfstring{mainLoop()}{mainLoop()}}
 {\footnotesize\ttfamily \label{main_8cpp_a43c63981d2c39c1e3e08614ee3f83b4f} 
-int main\+Loop (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_sdl}{Sdl}} \&}]{sdl}{, }\item[{\mbox{\hyperlink{class_scene}{Scene}} \&}]{scene}{}\end{DoxyParamCaption})}
+int main\+Loop (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_engine3_d_1_1_sdl}{Sdl}} \&}]{sdl}{, }\item[{\mbox{\hyperlink{class_engine3_d_1_1_scene}{Scene}} \&}]{scene}{}\end{DoxyParamCaption})}
 
 
 
 Boucle principale du programme. 
 
 
-\begin{DoxyParams}{Parameters}
-{\em sdl} & instance actuelle de \doxylink{class_sdl}{Sdl} \\
+\begin{DoxyParams}{Paramètres}
+{\em sdl} & instance actuelle de \doxylink{class_engine3_d_1_1_sdl}{Sdl} \\
 \hline
-{\em scene} & instance actuelle de \doxylink{class_scene}{Scene} \\
+{\em scene} & instance actuelle de \doxylink{class_engine3_d_1_1_scene}{Scene} \\
 \hline
 \end{DoxyParams}
-\begin{DoxyReturn}{Returns}
+\begin{DoxyReturn}{Renvoie}
 le code de sortie (0 si succès) 
 \end{DoxyReturn}
+Voici le graphe d\textquotesingle{}appel pour cette fonction \+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{main_8cpp_a43c63981d2c39c1e3e08614ee3f83b4f_cgraph}
+\end{center}
+\end{figure}
+Voici le graphe des appelants de cette fonction \+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=211pt]{main_8cpp_a43c63981d2c39c1e3e08614ee3f83b4f_icgraph}
+\end{center}
+\end{figure}
 
 
 \label{doc-var-members}
 \Hypertarget{main_8cpp_doc-var-members}
-\doxysubsection{Variable Documentation}
+\doxysubsection{Documentation des variables}
 \Hypertarget{main_8cpp_a9f6db3e5a3b5d9b1d2877f031403cf4b}\index{main.cpp@{main.cpp}!CAMERA\_SPEED@{CAMERA\_SPEED}}
 \index{CAMERA\_SPEED@{CAMERA\_SPEED}!main.cpp@{main.cpp}}
 \doxysubsubsection{\texorpdfstring{CAMERA\_SPEED}{CAMERA\_SPEED}}

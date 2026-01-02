@@ -1,0 +1,27 @@
+<map id="Engine3D::Point3d::Point3d" name="Engine3D::Point3d::Point3d">
+<area shape="rect" id="Node000001" title="Constructeur par défaut." alt="" coords="1069,160,1208,203"/>
+<area shape="rect" id="Node000002" href="$class_engine3_d_1_1_point3d.html#a5bda2a757a3d5c95fa931087c7b21ae6" title="Produit vectoriel." alt="" coords="883,5,1021,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="1109,150,1069,105,1020,62,1002,51,1005,46,1023,58,1073,102,1113,146"/>
+<area shape="rect" id="Node000008" href="$class_engine3_d_1_1_point3d.html#ae2fe7656b9388965fb9e890a89b28dcb" title="Produit scalaire." alt="" coords="679,139,835,165"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="1054,178,835,161,836,155,1054,172"/>
+<area shape="rect" id="Node000009" href="$class_engine3_d_1_1_point3d.html#a47b11f8208e5c25f2d5f04c49cd10bd4" title="Normalise le vecteur." alt="" coords="883,72,1021,115"/>
+<area shape="poly" id="edge9_Node000001_Node000009" title=" " alt="" coords="1076,155,998,117,1000,113,1079,150"/>
+<area shape="rect" id="Node000010" href="$class_engine3_d_1_1_point3d.html#a4da094e0fe416bdbdd807fbe610a6897" title="Multiplication par un scalaire." alt="" coords="883,189,1021,232"/>
+<area shape="poly" id="edge11_Node000001_Node000010" title=" " alt="" coords="1054,197,1022,202,1022,197,1053,192"/>
+<area shape="rect" id="Node000011" href="$class_engine3_d_1_1_point3d.html#a10bb434bfbe5415fb46ba6d7e6897f2f" title="Addition de deux points." alt="" coords="883,256,1021,299"/>
+<area shape="poly" id="edge12_Node000001_Node000011" title=" " alt="" coords="1086,213,1023,246,1000,258,998,253,1020,242,1083,208"/>
+<area shape="rect" id="Node000012" href="$class_engine3_d_1_1_point3d.html#a44680614401a82d16c2e60ae4522de52" title="Soustraction de deux points (retourne un vecteur)." alt="" coords="883,323,1021,365"/>
+<area shape="poly" id="edge13_Node000001_Node000012" title=" " alt="" coords="1115,217,1075,265,1023,313,1005,324,1002,320,1020,309,1071,261,1111,213"/>
+<area shape="rect" id="Node000003" href="$class_engine3_d_1_1_triangle3d.html#a36a10c8fdb5ead425abf77d7bd3ec6d4" title="Calcule la normale du triangle." alt="" coords="684,72,830,115"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="874,56,822,74,821,69,873,51"/>
+<area shape="rect" id="Node000004" href="$class_engine3_d_1_1_scene.html#a572a13e5c6c08eced30fc482cc9fdeee" title="Vérifie si un triangle est visible." alt="" coords="443,101,631,144"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="668,108,632,113,631,107,668,103"/>
+<area shape="rect" id="Node000005" href="$class_engine3_d_1_1_scene.html#a31514c322149277ab158e3ebe4e4627b" title="Effectue le rendu de la scène." alt="" coords="228,109,395,136"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="428,125,396,125,396,120,428,120"/>
+<area shape="rect" id="Node000006" href="$main_8cpp.html#a43c63981d2c39c1e3e08614ee3f83b4f" title="Boucle principale du programme." alt="" coords="103,109,180,136"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="212,125,180,125,180,120,212,120"/>
+<area shape="rect" id="Node000007" href="$main_8cpp.html#a0ddf1224851353fc92bfbff6f499fa97" title="main" alt="" coords="5,109,55,136"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="87,125,55,125,55,120,87,120"/>
+<area shape="poly" id="edge8_Node000008_Node000004" title=" " alt="" coords="663,142,631,138,632,133,664,137"/>
+<area shape="poly" id="edge10_Node000009_Node000003" title=" " alt="" coords="867,96,830,96,830,91,867,91"/>
+</map>

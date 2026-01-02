@@ -1,0 +1,5 @@
+<map id="Engine3D::Scene::fillFlatTop" name="Engine3D::Scene::fillFlatTop">
+<area shape="rect" id="Node000001" title="Rasterise la partie plate supérieure du triangle." alt="" coords="5,5,193,32"/>
+<area shape="rect" id="Node000002" href="$class_engine3_d_1_1_scene.html#a68735735b2e868f144acdb359c153025" title="Dessine une ligne horizontale du triangle via technique scanline." alt="" coords="241,5,450,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="193,16,225,16,225,21,193,21"/>
+</map>

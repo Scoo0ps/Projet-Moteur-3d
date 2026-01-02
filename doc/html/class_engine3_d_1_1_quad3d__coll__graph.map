@@ -1,0 +1,9 @@
+<map id="Engine3D::Quad3d" name="Engine3D::Quad3d">
+<area shape="rect" id="Node000001" title="Quadrilatère composé de deux triangles." alt="" coords="13,749,134,861"/>
+<area shape="rect" id="Node000002" href="$class_engine3_d_1_1_triangle3d.html" title="Triangle dans l&#39;espace 3D." alt="" coords="5,523,141,656"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="76,656,76,733,70,733,70,656"/>
+<area shape="rect" id="Node000003" href="$class_engine3_d_1_1_point3d.html" title="Représente un point dans l&#39;espace 3D." alt="" coords="13,189,133,408"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="76,408,76,505,70,505,70,408"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="55,5,91,75"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="76,74,76,173,70,173,70,74"/>
+</map>

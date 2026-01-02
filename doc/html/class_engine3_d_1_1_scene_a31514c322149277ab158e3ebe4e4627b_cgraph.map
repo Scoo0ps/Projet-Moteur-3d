@@ -1,0 +1,30 @@
+<map id="Engine3D::Scene::render" name="Engine3D::Scene::render">
+<area shape="rect" id="Node000001" title="Effectue le rendu de la scène." alt="" coords="5,135,173,161"/>
+<area shape="rect" id="Node000002" href="$class_engine3_d_1_1_scene.html#a572a13e5c6c08eced30fc482cc9fdeee" title="Vérifie si un triangle est visible." alt="" coords="221,67,408,109"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="141,132,216,111,218,116,143,137"/>
+<area shape="rect" id="Node000009" href="$class_engine3_d_1_1_scene.html#ac59015c65f655e7843507970be7178a4" title="Projette un point 3D en point 2D." alt="" coords="229,135,400,161"/>
+<area shape="poly" id="edge10_Node000001_Node000009" title=" " alt="" coords="173,145,213,145,213,151,173,151"/>
+<area shape="rect" id="Node000010" href="$class_engine3_d_1_1_scene.html#ae4f80fe1878d214d93eddd483c7c9e9b" title="Rasterise un triangle 2D." alt="" coords="224,189,405,232"/>
+<area shape="poly" id="edge11_Node000001_Node000010" title=" " alt="" coords="140,159,221,182,219,187,139,164"/>
+<area shape="rect" id="Node000003" href="$class_engine3_d_1_1_triangle3d.html#ac8467f3fbeb5ebd572c5b86dc8e5efba" title="Calcule le centre du triangle." alt="" coords="476,5,623,48"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="398,63,461,47,462,52,400,69"/>
+<area shape="rect" id="Node000004" href="$class_engine3_d_1_1_point3d.html#ae2fe7656b9388965fb9e890a89b28dcb" title="Produit scalaire." alt="" coords="718,72,874,99"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="409,85,702,83,702,89,409,90"/>
+<area shape="rect" id="Node000006" href="$class_engine3_d_1_1_triangle3d.html#a36a10c8fdb5ead425abf77d7bd3ec6d4" title="Calcule la normale du triangle." alt="" coords="476,123,623,165"/>
+<area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="408,107,462,120,461,126,406,113"/>
+<area shape="rect" id="Node000005" href="$class_engine3_d_1_1_point3d.html#a0fe8b9187cff415e2e11cc0043bbedb6" title="Constructeur par défaut." alt="" coords="949,123,1087,165"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="857,97,901,108,934,117,933,122,900,113,855,102"/>
+<area shape="rect" id="Node000007" href="$class_engine3_d_1_1_point3d.html#a5bda2a757a3d5c95fa931087c7b21ae6" title="Produit vectoriel." alt="" coords="727,123,865,165"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="623,141,711,141,711,147,623,147"/>
+<area shape="rect" id="Node000008" href="$class_engine3_d_1_1_point3d.html#a47b11f8208e5c25f2d5f04c49cd10bd4" title="Normalise le vecteur." alt="" coords="727,189,865,232"/>
+<area shape="poly" id="edge8_Node000006_Node000008" title=" " alt="" coords="624,161,712,185,711,191,623,166"/>
+<area shape="poly" id="edge7_Node000007_Node000005" title=" " alt="" coords="865,141,933,141,933,147,865,147"/>
+<area shape="poly" id="edge9_Node000008_Node000005" title=" " alt="" coords="865,187,933,167,934,172,866,192"/>
+<area shape="rect" id="Node000011" href="$class_engine3_d_1_1_scene.html#a8837c73c8733a95bc50118d1aded5155" title="Rasterise la partie plate du triangle (haut ou bas)." alt="" coords="466,189,633,232"/>
+<area shape="poly" id="edge12_Node000010_Node000011" title=" " alt="" coords="406,208,451,208,451,213,406,213"/>
+<area shape="rect" id="Node000013" href="$class_engine3_d_1_1_scene.html#a817b9c0fd5988cb4867e3c73773b2584" title="Rasterise la partie plate supérieure du triangle." alt="" coords="456,256,643,283"/>
+<area shape="poly" id="edge14_Node000010_Node000013" title=" " alt="" coords="403,230,479,249,478,254,402,235"/>
+<area shape="rect" id="Node000012" href="$class_engine3_d_1_1_scene.html#a68735735b2e868f144acdb359c153025" title="Dessine une ligne horizontale du triangle via technique scanline." alt="" coords="691,256,901,283"/>
+<area shape="poly" id="edge13_Node000011_Node000012" title=" " alt="" coords="634,228,723,249,722,254,633,233"/>
+<area shape="poly" id="edge15_Node000013_Node000012" title=" " alt="" coords="644,267,676,267,676,272,644,272"/>
+</map>

@@ -9,6 +9,8 @@
 #include <cmath>
 #include <iostream>
 
+using namespace Engine3D;
+
 const int WINDOW_WIDTH = 1000; ///< Largeur de la fenêtre en pixels
 
 const int WINDOW_HEIGHT = 650; ///< Hauteur de la fenêtre en pixels

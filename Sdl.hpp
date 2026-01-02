@@ -11,6 +11,12 @@
 #include <cstdint>
 
 /**
+ * @namespace Engine3D
+ * @brief Espace de noms contenant toutes les classes du moteur 3D
+ */
+namespace Engine3D {
+
+/**
  * @class Sdl
  * @brief Classe contenant les fonctionnalités SDL pour le rendu graphique
  */
@@ -80,5 +86,7 @@ public:
      */
     bool isValid() const;
 };
+
+} 
 
 #endif 

@@ -1,0 +1,130 @@
+\doxysection{Référence de la classe Engine3D\+::Quad3d}
+\hypertarget{class_engine3_d_1_1_quad3d}{}\label{class_engine3_d_1_1_quad3d}\index{Engine3D::Quad3d@{Engine3D::Quad3d}}
+
+
+Quadrilatère composé de deux triangles.  
+
+
+
+
+{\ttfamily \#include $<$Geometry.\+hpp$>$}
+
+
+
+Graphe de collaboration de Engine3D\+::Quad3d\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=550pt]{class_engine3_d_1_1_quad3d__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Fonctions membres publiques}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_engine3_d_1_1_quad3d_a51ea9a42e17817adfa8af0c2ad00eca6}{Quad3d}} ()
+\begin{DoxyCompactList}\small\item\em Constructeur par défaut. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_engine3_d_1_1_quad3d_aff1986dade772147ffc6e0aae16e21da}{Quad3d}} (const \mbox{\hyperlink{class_engine3_d_1_1_point3d}{Point3d}} \&p1, const \mbox{\hyperlink{class_engine3_d_1_1_point3d}{Point3d}} \&p2, const \mbox{\hyperlink{class_engine3_d_1_1_point3d}{Point3d}} \&p3, const \mbox{\hyperlink{class_engine3_d_1_1_point3d}{Point3d}} \&p4)
+\begin{DoxyCompactList}\small\item\em Constructeur avec quatre points (dans le sens trigonométrique). \end{DoxyCompactList}\item 
+std\+::vector$<$ \mbox{\hyperlink{class_engine3_d_1_1_triangle3d}{Triangle3d}} $>$ \mbox{\hyperlink{class_engine3_d_1_1_quad3d_aaa0bdee0dc9d2376064665d7caf6b0f5}{get\+Triangles}} () const
+\begin{DoxyCompactList}\small\item\em Retourne les triangles du quad. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Attributs publics}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_engine3_d_1_1_triangle3d}{Triangle3d}} \mbox{\hyperlink{class_engine3_d_1_1_quad3d_a65955bd9a8f6b84b98782de86aab0bd9}{t1}}
+\begin{DoxyCompactList}\small\item\em Premier triangle. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_engine3_d_1_1_triangle3d}{Triangle3d}} \mbox{\hyperlink{class_engine3_d_1_1_quad3d_a56ad732901c1c322a4332bff278123bf}{t2}}
+\begin{DoxyCompactList}\small\item\em Deuxième triangle. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Description détaillée}
+Quadrilatère composé de deux triangles. 
+
+\label{doc-constructors}
+\Hypertarget{class_engine3_d_1_1_quad3d_doc-constructors}
+\doxysubsection{Documentation des constructeurs et destructeur}
+\Hypertarget{class_engine3_d_1_1_quad3d_a51ea9a42e17817adfa8af0c2ad00eca6}\index{Engine3D::Quad3d@{Engine3D::Quad3d}!Quad3d@{Quad3d}}
+\index{Quad3d@{Quad3d}!Engine3D::Quad3d@{Engine3D::Quad3d}}
+\doxysubsubsection{\texorpdfstring{Quad3d()}{Quad3d()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily \label{class_engine3_d_1_1_quad3d_a51ea9a42e17817adfa8af0c2ad00eca6} 
+Engine3\+D\+::\+Quad3d\+::\+Quad3d (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+
+
+Constructeur par défaut. 
+
+\Hypertarget{class_engine3_d_1_1_quad3d_aff1986dade772147ffc6e0aae16e21da}\index{Engine3D::Quad3d@{Engine3D::Quad3d}!Quad3d@{Quad3d}}
+\index{Quad3d@{Quad3d}!Engine3D::Quad3d@{Engine3D::Quad3d}}
+\doxysubsubsection{\texorpdfstring{Quad3d()}{Quad3d()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily \label{class_engine3_d_1_1_quad3d_aff1986dade772147ffc6e0aae16e21da} 
+Engine3\+D\+::\+Quad3d\+::\+Quad3d (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{class_engine3_d_1_1_point3d}{Point3d}} \&}]{p1}{, }\item[{const \mbox{\hyperlink{class_engine3_d_1_1_point3d}{Point3d}} \&}]{p2}{, }\item[{const \mbox{\hyperlink{class_engine3_d_1_1_point3d}{Point3d}} \&}]{p3}{, }\item[{const \mbox{\hyperlink{class_engine3_d_1_1_point3d}{Point3d}} \&}]{p4}{}\end{DoxyParamCaption})}
+
+
+
+Constructeur avec quatre points (dans le sens trigonométrique). 
+
+
+\begin{DoxyParams}{Paramètres}
+{\em p1} & \\
+\hline
+{\em p2} & \\
+\hline
+{\em p3} & \\
+\hline
+{\em p4} & \\
+\hline
+\end{DoxyParams}
+
+
+\label{doc-func-members}
+\Hypertarget{class_engine3_d_1_1_quad3d_doc-func-members}
+\doxysubsection{Documentation des fonctions membres}
+\Hypertarget{class_engine3_d_1_1_quad3d_aaa0bdee0dc9d2376064665d7caf6b0f5}\index{Engine3D::Quad3d@{Engine3D::Quad3d}!getTriangles@{getTriangles}}
+\index{getTriangles@{getTriangles}!Engine3D::Quad3d@{Engine3D::Quad3d}}
+\doxysubsubsection{\texorpdfstring{getTriangles()}{getTriangles()}}
+{\footnotesize\ttfamily \label{class_engine3_d_1_1_quad3d_aaa0bdee0dc9d2376064665d7caf6b0f5} 
+std\+::vector$<$ \mbox{\hyperlink{class_engine3_d_1_1_triangle3d}{Triangle3d}} $>$ Engine3\+D\+::\+Quad3d\+::get\+Triangles (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption}) const}
+
+
+
+Retourne les triangles du quad. 
+
+Voici le graphe des appelants de cette fonction \+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_engine3_d_1_1_quad3d_aaa0bdee0dc9d2376064665d7caf6b0f5_icgraph}
+\end{center}
+\end{figure}
+
+
+\label{doc-variable-members}
+\Hypertarget{class_engine3_d_1_1_quad3d_doc-variable-members}
+\doxysubsection{Documentation des données membres}
+\Hypertarget{class_engine3_d_1_1_quad3d_a65955bd9a8f6b84b98782de86aab0bd9}\index{Engine3D::Quad3d@{Engine3D::Quad3d}!t1@{t1}}
+\index{t1@{t1}!Engine3D::Quad3d@{Engine3D::Quad3d}}
+\doxysubsubsection{\texorpdfstring{t1}{t1}}
+{\footnotesize\ttfamily \label{class_engine3_d_1_1_quad3d_a65955bd9a8f6b84b98782de86aab0bd9} 
+\mbox{\hyperlink{class_engine3_d_1_1_triangle3d}{Triangle3d}} Engine3\+D\+::\+Quad3d\+::t1}
+
+
+
+Premier triangle. 
+
+\Hypertarget{class_engine3_d_1_1_quad3d_a56ad732901c1c322a4332bff278123bf}\index{Engine3D::Quad3d@{Engine3D::Quad3d}!t2@{t2}}
+\index{t2@{t2}!Engine3D::Quad3d@{Engine3D::Quad3d}}
+\doxysubsubsection{\texorpdfstring{t2}{t2}}
+{\footnotesize\ttfamily \label{class_engine3_d_1_1_quad3d_a56ad732901c1c322a4332bff278123bf} 
+\mbox{\hyperlink{class_engine3_d_1_1_triangle3d}{Triangle3d}} Engine3\+D\+::\+Quad3d\+::t2}
+
+
+
+Deuxième triangle. 
+
+
+
+La documentation de cette classe a été générée à partir des fichiers suivants \+:\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{_geometry_8hpp}{Geometry.\+hpp}}\item 
+\mbox{\hyperlink{_geometry_8cpp}{Geometry.\+cpp}}\end{DoxyCompactItemize}

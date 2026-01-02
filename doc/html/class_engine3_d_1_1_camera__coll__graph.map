@@ -1,0 +1,8 @@
+<map id="Engine3D::Camera" name="Engine3D::Camera">
+<area shape="rect" id="Node000001" title="Représente la caméra (œil) dans la scène." alt="" coords="5,523,127,677"/>
+<area shape="rect" id="Node000002" href="$class_engine3_d_1_1_point3d.html" title="Représente un point dans l&#39;espace 3D." alt="" coords="114,189,234,408"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="138,409,102,508,97,506,133,407"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="20,5,56,75"/>
+<area shape="poly" id="edge3_Node000001_Node000003" title=" " alt="" coords="38,74,31,189,26,299,31,408,47,506,41,507,26,408,21,299,26,189,33,74"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="58,73,111,173,107,176,53,76"/>
+</map>

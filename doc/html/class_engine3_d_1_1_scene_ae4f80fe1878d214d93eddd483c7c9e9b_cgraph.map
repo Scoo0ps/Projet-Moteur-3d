@@ -1,0 +1,10 @@
+<map id="Engine3D::Scene::rasterizeTriangle" name="Engine3D::Scene::rasterizeTriangle">
+<area shape="rect" id="Node000001" title="Rasterise un triangle 2D." alt="" coords="5,35,187,77"/>
+<area shape="rect" id="Node000002" href="$class_engine3_d_1_1_scene.html#a8837c73c8733a95bc50118d1aded5155" title="Rasterise la partie plate du triangle (haut ou bas)." alt="" coords="245,5,412,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="186,42,229,36,230,42,187,47"/>
+<area shape="rect" id="Node000004" href="$class_engine3_d_1_1_scene.html#a817b9c0fd5988cb4867e3c73773b2584" title="Rasterise la partie plate supérieure du triangle." alt="" coords="235,72,422,99"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="187,65,219,69,219,74,186,70"/>
+<area shape="rect" id="Node000003" href="$class_engine3_d_1_1_scene.html#a68735735b2e868f144acdb359c153025" title="Dessine une ligne horizontale du triangle via technique scanline." alt="" coords="470,43,679,69"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="412,34,455,39,454,44,412,39"/>
+<area shape="poly" id="edge4_Node000004_Node000003" title=" " alt="" coords="422,72,454,68,455,73,423,77"/>
+</map>

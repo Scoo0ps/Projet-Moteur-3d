@@ -7,6 +7,8 @@
 #include <limits>
 #include <cstring>
 
+namespace Engine3D {
+
 /**
  * @brief Constructeur initialisant SDL, la fenêtre et les tampons
  */
@@ -102,3 +104,5 @@ int Sdl::getHeight() const {
 bool Sdl::isValid() const {
     return window && renderer && texture && pixelBuffer && depthBuffer;
 }
+
+} // namespace Engine3D

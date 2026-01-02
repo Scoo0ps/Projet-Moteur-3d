@@ -1,0 +1,17 @@
+<map id="Engine3D::Scene::isTriangleVisible" name="Engine3D::Scene::isTriangleVisible">
+<area shape="rect" id="Node000001" title="Vérifie si un triangle est visible." alt="" coords="5,64,193,107"/>
+<area shape="rect" id="Node000002" href="$class_engine3_d_1_1_triangle3d.html#ac8467f3fbeb5ebd572c5b86dc8e5efba" title="Calcule le centre du triangle." alt="" coords="241,5,387,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="179,61,225,48,226,53,180,66"/>
+<area shape="rect" id="Node000003" href="$class_engine3_d_1_1_point3d.html#ae2fe7656b9388965fb9e890a89b28dcb" title="Produit scalaire." alt="" coords="435,72,591,99"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="193,83,419,83,419,88,193,88"/>
+<area shape="rect" id="Node000005" href="$class_engine3_d_1_1_triangle3d.html#a36a10c8fdb5ead425abf77d7bd3ec6d4" title="Calcule la normale du triangle." alt="" coords="241,123,387,165"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="180,105,226,117,225,123,179,110"/>
+<area shape="rect" id="Node000004" href="$class_engine3_d_1_1_point3d.html#a0fe8b9187cff415e2e11cc0043bbedb6" title="Constructeur par défaut." alt="" coords="639,123,778,165"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="561,97,625,116,624,121,559,102"/>
+<area shape="rect" id="Node000006" href="$class_engine3_d_1_1_point3d.html#a5bda2a757a3d5c95fa931087c7b21ae6" title="Produit vectoriel." alt="" coords="444,123,582,165"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="387,141,428,141,428,147,387,147"/>
+<area shape="rect" id="Node000007" href="$class_engine3_d_1_1_point3d.html#a47b11f8208e5c25f2d5f04c49cd10bd4" title="Normalise le vecteur." alt="" coords="444,189,582,232"/>
+<area shape="poly" id="edge7_Node000005_Node000007" title=" " alt="" coords="380,163,433,181,432,186,379,168"/>
+<area shape="poly" id="edge6_Node000006_Node000004" title=" " alt="" coords="583,141,624,141,624,147,583,147"/>
+<area shape="poly" id="edge8_Node000007_Node000004" title=" " alt="" coords="577,186,629,168,631,173,578,191"/>
+</map>

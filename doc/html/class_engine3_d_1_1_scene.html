@@ -1,0 +1,699 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="fr">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.15.0"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Moteur 3D - PRAP: Référence de la classe Engine3D::Scene</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="clipboard.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript" src="cookie.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectalign">
+   <div id="projectname">Moteur 3D - PRAP
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Généré par Doxygen 1.15.0 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+</script>
+<script type="text/javascript">
+$(function() { codefold.init(); });
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+$(function() {
+  initMenu('',true,false,'search.php','Recherche',true);
+  $(function() { init_search(); });
+});
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(function(){initNavTree('class_engine3_d_1_1_scene.html','','class_engine3_d_1_1_scene-members'); });
+</script>
+<div id="container">
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Chargement...</div>
+<div class="SRStatus" id="Searching">Recherche...</div>
+<div class="SRStatus" id="NoMatches">Aucune correspondance</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="headertitle"><div class="title">Référence de la classe Engine3D::Scene<div class="ingroups"><a class="el" href="group___engine3_d_classes.html">Moteur 3D</a></div></div></div>
+</div><!--header-->
+<div class="contents">
+
+<p>Gère le rendu de la scène 3D.  
+ <a href="#details">Plus de détails...</a></p>
+
+<p><code>#include &lt;<a class="el" href="_scene_8hpp_source.html">Scene.hpp</a>&gt;</code></p>
+<div class="dynheader">
+Graphe de collaboration de Engine3D::Scene:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="class_engine3_d_1_1_scene__coll__graph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
+Fonctions membres publiques</h2></td></tr>
+<tr class="memitem:a382c1dd6c8d59739aaea10ffd3f7d80f" id="r_a382c1dd6c8d59739aaea10ffd3f7d80f"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a382c1dd6c8d59739aaea10ffd3f7d80f">Scene</a> (<a class="el" href="class_engine3_d_1_1_sdl.html">Sdl</a> &amp;<a class="el" href="#a9462e2028f13a398a3eccfb27ad89686">sdl</a>)</td></tr>
+<tr class="memdesc:a382c1dd6c8d59739aaea10ffd3f7d80f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructeur.  <br /></td></tr>
+<tr class="memitem:a00742547f5704154300b459fdf626afc" id="r_a00742547f5704154300b459fdf626afc"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a00742547f5704154300b459fdf626afc">addTriangles</a> (const std::vector&lt; <a class="el" href="class_engine3_d_1_1_triangle3d.html">Triangle3d</a> &gt; &amp;tris, uint8_t r, uint8_t g, uint8_t b)</td></tr>
+<tr class="memdesc:a00742547f5704154300b459fdf626afc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Ajoute des triangles à la scène.  <br /></td></tr>
+<tr class="memitem:a6f62266c5c737fc1b52920370cd063ee" id="r_a6f62266c5c737fc1b52920370cd063ee"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6f62266c5c737fc1b52920370cd063ee">clearTriangles</a> ()</td></tr>
+<tr class="memdesc:a6f62266c5c737fc1b52920370cd063ee"><td class="mdescLeft">&#160;</td><td class="mdescRight">Efface les triangles de la scène.  <br /></td></tr>
+<tr class="memitem:a31514c322149277ab158e3ebe4e4627b" id="r_a31514c322149277ab158e3ebe4e4627b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a31514c322149277ab158e3ebe4e4627b">render</a> ()</td></tr>
+<tr class="memdesc:a31514c322149277ab158e3ebe4e4627b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Effectue le rendu de la scène.  <br /></td></tr>
+<tr class="memitem:a1f8a56782e30aafa6f74158f8b36b0e8" id="r_a1f8a56782e30aafa6f74158f8b36b0e8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_engine3_d_1_1_camera.html">Camera</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1f8a56782e30aafa6f74158f8b36b0e8">getCamera</a> ()</td></tr>
+<tr class="memdesc:a1f8a56782e30aafa6f74158f8b36b0e8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Retourne une référence vers la caméra.  <br /></td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-pri-methods" class="groupheader"><a id="pri-methods" name="pri-methods"></a>
+Fonctions membres privées</h2></td></tr>
+<tr class="memitem:ac59015c65f655e7843507970be7178a4" id="r_ac59015c65f655e7843507970be7178a4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_engine3_d_1_1_point2d.html">Point2d</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac59015c65f655e7843507970be7178a4">project</a> (const <a class="el" href="class_engine3_d_1_1_point3d.html">Point3d</a> &amp;p) const</td></tr>
+<tr class="memdesc:ac59015c65f655e7843507970be7178a4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Projette un point 3D en point 2D.  <br /></td></tr>
+<tr class="memitem:a572a13e5c6c08eced30fc482cc9fdeee" id="r_a572a13e5c6c08eced30fc482cc9fdeee"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a572a13e5c6c08eced30fc482cc9fdeee">isTriangleVisible</a> (const <a class="el" href="class_engine3_d_1_1_triangle3d.html">Triangle3d</a> &amp;triangle) const</td></tr>
+<tr class="memdesc:a572a13e5c6c08eced30fc482cc9fdeee"><td class="mdescLeft">&#160;</td><td class="mdescRight">Vérifie si un triangle est visible.  <br /></td></tr>
+<tr class="memitem:ae4f80fe1878d214d93eddd483c7c9e9b" id="r_ae4f80fe1878d214d93eddd483c7c9e9b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae4f80fe1878d214d93eddd483c7c9e9b">rasterizeTriangle</a> (const <a class="el" href="class_engine3_d_1_1_triangle2d.html">Triangle2d</a> &amp;triangle, float avgDepth, uint8_t r, uint8_t g, uint8_t b)</td></tr>
+<tr class="memdesc:ae4f80fe1878d214d93eddd483c7c9e9b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Rasterise un triangle 2D.  <br /></td></tr>
+<tr class="memitem:a68735735b2e868f144acdb359c153025" id="r_a68735735b2e868f144acdb359c153025"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a68735735b2e868f144acdb359c153025">drawScanline</a> (int y, int x1, int x2, float depth, uint8_t r, uint8_t g, uint8_t b)</td></tr>
+<tr class="memdesc:a68735735b2e868f144acdb359c153025"><td class="mdescLeft">&#160;</td><td class="mdescRight">Dessine une ligne horizontale du triangle via technique scanline.  <br /></td></tr>
+<tr class="memitem:a8837c73c8733a95bc50118d1aded5155" id="r_a8837c73c8733a95bc50118d1aded5155"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8837c73c8733a95bc50118d1aded5155">fillFlatBottom</a> (const <a class="el" href="class_engine3_d_1_1_point2d.html">Point2d</a> &amp;p1, const <a class="el" href="class_engine3_d_1_1_point2d.html">Point2d</a> &amp;p2, const <a class="el" href="class_engine3_d_1_1_point2d.html">Point2d</a> &amp;p3, float depth, uint8_t r, uint8_t g, uint8_t b)</td></tr>
+<tr class="memdesc:a8837c73c8733a95bc50118d1aded5155"><td class="mdescLeft">&#160;</td><td class="mdescRight">Rasterise la partie plate du triangle (haut ou bas).  <br /></td></tr>
+<tr class="memitem:a817b9c0fd5988cb4867e3c73773b2584" id="r_a817b9c0fd5988cb4867e3c73773b2584"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a817b9c0fd5988cb4867e3c73773b2584">fillFlatTop</a> (const <a class="el" href="class_engine3_d_1_1_point2d.html">Point2d</a> &amp;p1, const <a class="el" href="class_engine3_d_1_1_point2d.html">Point2d</a> &amp;p2, const <a class="el" href="class_engine3_d_1_1_point2d.html">Point2d</a> &amp;p3, float depth, uint8_t r, uint8_t g, uint8_t b)</td></tr>
+<tr class="memdesc:a817b9c0fd5988cb4867e3c73773b2584"><td class="mdescLeft">&#160;</td><td class="mdescRight">Rasterise la partie plate supérieure du triangle.  <br /></td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-pri-attribs" class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
+Attributs privés</h2></td></tr>
+<tr class="memitem:a9462e2028f13a398a3eccfb27ad89686" id="r_a9462e2028f13a398a3eccfb27ad89686"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_engine3_d_1_1_sdl.html">Sdl</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9462e2028f13a398a3eccfb27ad89686">sdl</a></td></tr>
+<tr class="memdesc:a9462e2028f13a398a3eccfb27ad89686"><td class="mdescLeft">&#160;</td><td class="mdescRight">Référence vers SDL.  <br /></td></tr>
+<tr class="memitem:acb2c471ba5260faa253adb20a6293c42" id="r_acb2c471ba5260faa253adb20a6293c42"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_engine3_d_1_1_camera.html">Camera</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acb2c471ba5260faa253adb20a6293c42">camera</a></td></tr>
+<tr class="memdesc:acb2c471ba5260faa253adb20a6293c42"><td class="mdescLeft">&#160;</td><td class="mdescRight">Caméra de la scène.  <br /></td></tr>
+<tr class="memitem:ad793c17e59d7de9dffc1138f5890e7cf" id="r_ad793c17e59d7de9dffc1138f5890e7cf"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="struct_engine3_d_1_1_colored_triangle.html">ColoredTriangle</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad793c17e59d7de9dffc1138f5890e7cf">triangles</a></td></tr>
+<tr class="memdesc:ad793c17e59d7de9dffc1138f5890e7cf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Triangles colorés à render.  <br /></td></tr>
+</table>
+<a name="details" id="details"></a><h2 id="header-details" class="groupheader">Description détaillée</h2>
+<div class="textblock"><p>Gère le rendu de la scène 3D. </p>
+</div><a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Documentation des constructeurs et destructeur</h2>
+<a id="a382c1dd6c8d59739aaea10ffd3f7d80f" name="a382c1dd6c8d59739aaea10ffd3f7d80f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a382c1dd6c8d59739aaea10ffd3f7d80f">&#9670;&#160;</a></span>Scene()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Engine3D::Scene::Scene </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_engine3_d_1_1_sdl.html">Sdl</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>sdl</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Constructeur. </p>
+<dl class="params"><dt>Paramètres</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">sdl</td><td>Référence vers l'objet <a class="el" href="class_engine3_d_1_1_sdl.html" title="Classe contenant les fonctionnalités SDL pour le rendu graphique.">Sdl</a> </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Documentation des fonctions membres</h2>
+<a id="a00742547f5704154300b459fdf626afc" name="a00742547f5704154300b459fdf626afc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a00742547f5704154300b459fdf626afc">&#9670;&#160;</a></span>addTriangles()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Engine3D::Scene::addTriangles </td>
+          <td>(</td>
+          <td class="paramtype">const std::vector&lt; <a class="el" href="class_engine3_d_1_1_triangle3d.html">Triangle3d</a> &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>tris</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint8_t</td>          <td class="paramname"><span class="paramname"><em>r</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint8_t</td>          <td class="paramname"><span class="paramname"><em>g</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint8_t</td>          <td class="paramname"><span class="paramname"><em>b</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Ajoute des triangles à la scène. </p>
+<div class="dynheader">
+Voici le graphe des appelants de cette fonction :</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="class_engine3_d_1_1_scene_a00742547f5704154300b459fdf626afc_icgraph.svg" width="571" height="88"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+<a id="a6f62266c5c737fc1b52920370cd063ee" name="a6f62266c5c737fc1b52920370cd063ee"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6f62266c5c737fc1b52920370cd063ee">&#9670;&#160;</a></span>clearTriangles()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Engine3D::Scene::clearTriangles </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Efface les triangles de la scène. </p>
+<div class="dynheader">
+Voici le graphe des appelants de cette fonction :</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="class_engine3_d_1_1_scene_a6f62266c5c737fc1b52920370cd063ee_icgraph.svg" width="446" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+<a id="a68735735b2e868f144acdb359c153025" name="a68735735b2e868f144acdb359c153025"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a68735735b2e868f144acdb359c153025">&#9670;&#160;</a></span>drawScanline()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Engine3D::Scene::drawScanline </td>
+          <td>(</td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>y</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>x1</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>x2</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>depth</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint8_t</td>          <td class="paramname"><span class="paramname"><em>r</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint8_t</td>          <td class="paramname"><span class="paramname"><em>g</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint8_t</td>          <td class="paramname"><span class="paramname"><em>b</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Dessine une ligne horizontale du triangle via technique scanline. </p>
+<div class="dynheader">
+Voici le graphe des appelants de cette fonction :</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="class_engine3_d_1_1_scene_a68735735b2e868f144acdb359c153025_icgraph.svg" width="100%" height="378"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
+<a id="a8837c73c8733a95bc50118d1aded5155" name="a8837c73c8733a95bc50118d1aded5155"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8837c73c8733a95bc50118d1aded5155">&#9670;&#160;</a></span>fillFlatBottom()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Engine3D::Scene::fillFlatBottom </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="class_engine3_d_1_1_point2d.html">Point2d</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>p1</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="class_engine3_d_1_1_point2d.html">Point2d</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>p2</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="class_engine3_d_1_1_point2d.html">Point2d</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>p3</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>depth</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint8_t</td>          <td class="paramname"><span class="paramname"><em>r</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint8_t</td>          <td class="paramname"><span class="paramname"><em>g</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint8_t</td>          <td class="paramname"><span class="paramname"><em>b</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Rasterise la partie plate du triangle (haut ou bas). </p>
+<div class="dynheader">
+Voici le graphe d'appel pour cette fonction :</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="class_engine3_d_1_1_scene_a8837c73c8733a95bc50118d1aded5155_cgraph.svg" width="435" height="54"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+<div class="dynheader">
+Voici le graphe des appelants de cette fonction :</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="class_engine3_d_1_1_scene_a8837c73c8733a95bc50118d1aded5155_icgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
+<a id="a817b9c0fd5988cb4867e3c73773b2584" name="a817b9c0fd5988cb4867e3c73773b2584"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a817b9c0fd5988cb4867e3c73773b2584">&#9670;&#160;</a></span>fillFlatTop()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Engine3D::Scene::fillFlatTop </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="class_engine3_d_1_1_point2d.html">Point2d</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>p1</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="class_engine3_d_1_1_point2d.html">Point2d</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>p2</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="class_engine3_d_1_1_point2d.html">Point2d</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>p3</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>depth</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint8_t</td>          <td class="paramname"><span class="paramname"><em>r</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint8_t</td>          <td class="paramname"><span class="paramname"><em>g</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint8_t</td>          <td class="paramname"><span class="paramname"><em>b</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Rasterise la partie plate supérieure du triangle. </p>
+<div class="dynheader">
+Voici le graphe d'appel pour cette fonction :</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="class_engine3_d_1_1_scene_a817b9c0fd5988cb4867e3c73773b2584_cgraph.svg" width="456" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+<div class="dynheader">
+Voici le graphe des appelants de cette fonction :</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="class_engine3_d_1_1_scene_a817b9c0fd5988cb4867e3c73773b2584_icgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
+<a id="a1f8a56782e30aafa6f74158f8b36b0e8" name="a1f8a56782e30aafa6f74158f8b36b0e8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1f8a56782e30aafa6f74158f8b36b0e8">&#9670;&#160;</a></span>getCamera()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_engine3_d_1_1_camera.html">Camera</a> &amp; Engine3D::Scene::getCamera </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Retourne une référence vers la caméra. </p>
+<div class="dynheader">
+Voici le graphe des appelants de cette fonction :</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="class_engine3_d_1_1_scene_a1f8a56782e30aafa6f74158f8b36b0e8_icgraph.svg" width="430" height="63"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+<a id="a572a13e5c6c08eced30fc482cc9fdeee" name="a572a13e5c6c08eced30fc482cc9fdeee"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a572a13e5c6c08eced30fc482cc9fdeee">&#9670;&#160;</a></span>isTriangleVisible()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Engine3D::Scene::isTriangleVisible </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="class_engine3_d_1_1_triangle3d.html">Triangle3d</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>triangle</em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Vérifie si un triangle est visible. </p>
+<div class="dynheader">
+Voici le graphe d'appel pour cette fonction :</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="class_engine3_d_1_1_scene_a572a13e5c6c08eced30fc482cc9fdeee_cgraph.svg" width="100%" height="478"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+<div class="dynheader">
+Voici le graphe des appelants de cette fonction :</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="class_engine3_d_1_1_scene_a572a13e5c6c08eced30fc482cc9fdeee_icgraph.svg" width="636" height="54"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+<a id="ac59015c65f655e7843507970be7178a4" name="ac59015c65f655e7843507970be7178a4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac59015c65f655e7843507970be7178a4">&#9670;&#160;</a></span>project()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_engine3_d_1_1_point2d.html">Point2d</a> Engine3D::Scene::project </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="class_engine3_d_1_1_point3d.html">Point3d</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>p</em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Projette un point 3D en point 2D. </p>
+<div class="dynheader">
+Voici le graphe des appelants de cette fonction :</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="class_engine3_d_1_1_scene_ac59015c65f655e7843507970be7178a4_icgraph.svg" width="619" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+<a id="ae4f80fe1878d214d93eddd483c7c9e9b" name="ae4f80fe1878d214d93eddd483c7c9e9b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae4f80fe1878d214d93eddd483c7c9e9b">&#9670;&#160;</a></span>rasterizeTriangle()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Engine3D::Scene::rasterizeTriangle </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="class_engine3_d_1_1_triangle2d.html">Triangle2d</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>triangle</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>avgDepth</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint8_t</td>          <td class="paramname"><span class="paramname"><em>r</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint8_t</td>          <td class="paramname"><span class="paramname"><em>g</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint8_t</td>          <td class="paramname"><span class="paramname"><em>b</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Rasterise un triangle 2D. </p>
+<div class="dynheader">
+Voici le graphe d'appel pour cette fonction :</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="class_engine3_d_1_1_scene_ae4f80fe1878d214d93eddd483c7c9e9b_cgraph.svg" width="100%" height="378"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+<div class="dynheader">
+Voici le graphe des appelants de cette fonction :</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="class_engine3_d_1_1_scene_ae4f80fe1878d214d93eddd483c7c9e9b_icgraph.svg" width="631" height="54"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+<a id="a31514c322149277ab158e3ebe4e4627b" name="a31514c322149277ab158e3ebe4e4627b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a31514c322149277ab158e3ebe4e4627b">&#9670;&#160;</a></span>render()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Engine3D::Scene::render </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Effectue le rendu de la scène. </p>
+<div class="dynheader">
+Voici le graphe d'appel pour cette fonction :</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="class_engine3_d_1_1_scene_a31514c322149277ab158e3ebe4e4627b_cgraph.svg" width="100%" height="516"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+<div class="dynheader">
+Voici le graphe des appelants de cette fonction :</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="class_engine3_d_1_1_scene_a31514c322149277ab158e3ebe4e4627b_icgraph.svg" width="402" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+<a name="doc-variable-members" id="doc-variable-members"></a><h2 id="header-doc-variable-members" class="groupheader">Documentation des données membres</h2>
+<a id="acb2c471ba5260faa253adb20a6293c42" name="acb2c471ba5260faa253adb20a6293c42"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acb2c471ba5260faa253adb20a6293c42">&#9670;&#160;</a></span>camera</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_engine3_d_1_1_camera.html">Camera</a> Engine3D::Scene::camera</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Caméra de la scène. </p>
+
+</div>
+</div>
+<a id="a9462e2028f13a398a3eccfb27ad89686" name="a9462e2028f13a398a3eccfb27ad89686"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9462e2028f13a398a3eccfb27ad89686">&#9670;&#160;</a></span>sdl</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_engine3_d_1_1_sdl.html">Sdl</a>&amp; Engine3D::Scene::sdl</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Référence vers SDL. </p>
+
+</div>
+</div>
+<a id="ad793c17e59d7de9dffc1138f5890e7cf" name="ad793c17e59d7de9dffc1138f5890e7cf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad793c17e59d7de9dffc1138f5890e7cf">&#9670;&#160;</a></span>triangles</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt;<a class="el" href="struct_engine3_d_1_1_colored_triangle.html">ColoredTriangle</a>&gt; Engine3D::Scene::triangles</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Triangles colorés à render. </p>
+
+</div>
+</div>
+<hr/>La documentation de cette classe a été générée à partir des fichiers suivants :<ul>
+<li><a class="el" href="_scene_8hpp_source.html">Scene.hpp</a></li>
+<li><a class="el" href="_scene_8cpp.html">Scene.cpp</a></li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<div id="page-nav" class="page-nav-panel">
+<div id="page-nav-resize-handle"></div>
+<div id="page-nav-tree">
+<div id="page-nav-contents">
+</div><!-- page-nav-contents -->
+</div><!-- page-nav-tree -->
+</div><!-- page-nav -->
+</div><!-- container -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a href="namespace_engine3_d.html">Engine3D</a></li><li class="navelem"><a href="class_engine3_d_1_1_scene.html">Scene</a></li>
+    <li class="footer">Généré par <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.15.0 </li>
+  </ul>
+</div>
+</body>
+</html>

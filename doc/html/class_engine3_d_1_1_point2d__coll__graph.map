@@ -1,0 +1,7 @@
+<map id="Engine3D::Point2d" name="Engine3D::Point2d">
+<area shape="rect" id="Node000001" title="Représente un point sur l&#39;écran 2D." alt="" coords="5,168,125,259"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="26,5,51,75"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="39,74,40,108,43,144,45,151,40,152,38,144,34,108,34,74"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="75,5,111,75"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="90,75,78,152,72,151,85,74"/>
+</map>

@@ -10,6 +10,8 @@
 #include "Sdl.hpp"
 #include <vector>
 
+namespace Engine3D {
+
 /**
  * @class Camera
  * @brief Représente la caméra (œil) dans la scène
@@ -61,6 +63,7 @@ struct ColoredTriangle {
 
 /**
  * @class Scene
+ * @ingroup Engine3DClasses
  * @brief Gère le rendu de la scène 3D
  */
 class Scene {
@@ -134,5 +137,7 @@ private:
                      const Point2d& p3, float depth,
                      uint8_t r, uint8_t g, uint8_t b);
 };
+
+} 
 
 #endif 

@@ -7,6 +7,7 @@
 #include <algorithm>
 #include <cmath>
 
+namespace Engine3D {
 
 Camera::Camera()
     : position(0, 0, -5), direction(0, 0, 1), up(0, 1, 0),
@@ -217,3 +218,5 @@ void Scene::render() {
     
     sdl.present();
 }
+
+} // namespace Engine3D

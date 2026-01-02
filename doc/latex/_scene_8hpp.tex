@@ -1,4 +1,4 @@
-\doxysection{Scene.\+hpp File Reference}
+\doxysection{Référence du fichier Scene.\+hpp}
 \hypertarget{_scene_8hpp}{}\label{_scene_8hpp}\index{Scene.hpp@{Scene.hpp}}
 
 
@@ -8,17 +8,38 @@ Gestion de la scène, caméra et rasterisation.
 {\ttfamily \#include "{}Geometry.\+hpp"{}}\newline
 {\ttfamily \#include "{}Sdl.\+hpp"{}}\newline
 {\ttfamily \#include $<$vector$>$}\newline
+Graphe des dépendances par inclusion de Scene.\+hpp\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{_scene_8hpp__incl}
+\end{center}
+\end{figure}
+Ce graphe montre quels fichiers incluent directement ou indirectement ce fichier \+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=216pt]{_scene_8hpp__dep__incl}
+\end{center}
+\end{figure}
 \doxysubsubsection*{Classes}
 \begin{DoxyCompactItemize}
 \item 
-class \mbox{\hyperlink{class_camera}{Camera}}
+class \mbox{\hyperlink{class_engine3_d_1_1_camera}{Engine3\+D\+::\+Camera}}
 \begin{DoxyCompactList}\small\item\em Représente la caméra (œil) dans la scène. \end{DoxyCompactList}\item 
-struct \mbox{\hyperlink{struct_colored_triangle}{Colored\+Triangle}}
+struct \mbox{\hyperlink{struct_engine3_d_1_1_colored_triangle}{Engine3\+D\+::\+Colored\+Triangle}}
 \begin{DoxyCompactList}\small\item\em Triangle avec sa couleur associée. \end{DoxyCompactList}\item 
-class \mbox{\hyperlink{class_scene}{Scene}}
+class \mbox{\hyperlink{class_engine3_d_1_1_scene}{Engine3\+D\+::\+Scene}}
 \begin{DoxyCompactList}\small\item\em Gère le rendu de la scène 3D. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Espaces de nommage}
+\begin{DoxyCompactItemize}
+\item 
+namespace \mbox{\hyperlink{namespace_engine3_d}{Engine3D}}
+\begin{DoxyCompactList}\small\item\em Espace de noms contenant toutes les classes du moteur 3D. \end{DoxyCompactList}\end{DoxyCompactItemize}
 
 
-\doxysubsection{Detailed Description}
+\doxysubsection{Description détaillée}
 Gestion de la scène, caméra et rasterisation. 
 

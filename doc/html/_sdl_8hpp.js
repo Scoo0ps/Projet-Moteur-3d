@@ -1,4 +1,4 @@
 var _sdl_8hpp =
 [
-    [ "Sdl", "class_sdl.html", "class_sdl" ]
+    [ "Engine3D::Sdl", "class_engine3_d_1_1_sdl.html", "class_engine3_d_1_1_sdl" ]
 ];

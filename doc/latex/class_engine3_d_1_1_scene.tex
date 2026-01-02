@@ -1,0 +1,347 @@
+\doxysection{Référence de la classe Engine3D\+::Scene}
+\hypertarget{class_engine3_d_1_1_scene}{}\label{class_engine3_d_1_1_scene}\index{Engine3D::Scene@{Engine3D::Scene}}
+
+
+Gère le rendu de la scène 3D.  
+
+
+
+
+{\ttfamily \#include $<$Scene.\+hpp$>$}
+
+
+
+Graphe de collaboration de Engine3D\+::Scene\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_engine3_d_1_1_scene__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Fonctions membres publiques}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_engine3_d_1_1_scene_a382c1dd6c8d59739aaea10ffd3f7d80f}{Scene}} (\mbox{\hyperlink{class_engine3_d_1_1_sdl}{Sdl}} \&\mbox{\hyperlink{class_engine3_d_1_1_scene_a9462e2028f13a398a3eccfb27ad89686}{sdl}})
+\begin{DoxyCompactList}\small\item\em Constructeur. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_engine3_d_1_1_scene_a00742547f5704154300b459fdf626afc}{add\+Triangles}} (const std\+::vector$<$ \mbox{\hyperlink{class_engine3_d_1_1_triangle3d}{Triangle3d}} $>$ \&tris, uint8\+\_\+t r, uint8\+\_\+t g, uint8\+\_\+t b)
+\begin{DoxyCompactList}\small\item\em Ajoute des triangles à la scène. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_engine3_d_1_1_scene_a6f62266c5c737fc1b52920370cd063ee}{clear\+Triangles}} ()
+\begin{DoxyCompactList}\small\item\em Efface les triangles de la scène. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_engine3_d_1_1_scene_a31514c322149277ab158e3ebe4e4627b}{render}} ()
+\begin{DoxyCompactList}\small\item\em Effectue le rendu de la scène. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_engine3_d_1_1_camera}{Camera}} \& \mbox{\hyperlink{class_engine3_d_1_1_scene_a1f8a56782e30aafa6f74158f8b36b0e8}{get\+Camera}} ()
+\begin{DoxyCompactList}\small\item\em Retourne une référence vers la caméra. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Fonctions membres privées}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_engine3_d_1_1_point2d}{Point2d}} \mbox{\hyperlink{class_engine3_d_1_1_scene_ac59015c65f655e7843507970be7178a4}{project}} (const \mbox{\hyperlink{class_engine3_d_1_1_point3d}{Point3d}} \&p) const
+\begin{DoxyCompactList}\small\item\em Projette un point 3D en point 2D. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{class_engine3_d_1_1_scene_a572a13e5c6c08eced30fc482cc9fdeee}{is\+Triangle\+Visible}} (const \mbox{\hyperlink{class_engine3_d_1_1_triangle3d}{Triangle3d}} \&triangle) const
+\begin{DoxyCompactList}\small\item\em Vérifie si un triangle est visible. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_engine3_d_1_1_scene_ae4f80fe1878d214d93eddd483c7c9e9b}{rasterize\+Triangle}} (const \mbox{\hyperlink{class_engine3_d_1_1_triangle2d}{Triangle2d}} \&triangle, float avg\+Depth, uint8\+\_\+t r, uint8\+\_\+t g, uint8\+\_\+t b)
+\begin{DoxyCompactList}\small\item\em Rasterise un triangle 2D. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_engine3_d_1_1_scene_a68735735b2e868f144acdb359c153025}{draw\+Scanline}} (int y, int x1, int x2, float depth, uint8\+\_\+t r, uint8\+\_\+t g, uint8\+\_\+t b)
+\begin{DoxyCompactList}\small\item\em Dessine une ligne horizontale du triangle via technique scanline. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_engine3_d_1_1_scene_a8837c73c8733a95bc50118d1aded5155}{fill\+Flat\+Bottom}} (const \mbox{\hyperlink{class_engine3_d_1_1_point2d}{Point2d}} \&p1, const \mbox{\hyperlink{class_engine3_d_1_1_point2d}{Point2d}} \&p2, const \mbox{\hyperlink{class_engine3_d_1_1_point2d}{Point2d}} \&p3, float depth, uint8\+\_\+t r, uint8\+\_\+t g, uint8\+\_\+t b)
+\begin{DoxyCompactList}\small\item\em Rasterise la partie plate du triangle (haut ou bas). \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_engine3_d_1_1_scene_a817b9c0fd5988cb4867e3c73773b2584}{fill\+Flat\+Top}} (const \mbox{\hyperlink{class_engine3_d_1_1_point2d}{Point2d}} \&p1, const \mbox{\hyperlink{class_engine3_d_1_1_point2d}{Point2d}} \&p2, const \mbox{\hyperlink{class_engine3_d_1_1_point2d}{Point2d}} \&p3, float depth, uint8\+\_\+t r, uint8\+\_\+t g, uint8\+\_\+t b)
+\begin{DoxyCompactList}\small\item\em Rasterise la partie plate supérieure du triangle. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Attributs privés}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_engine3_d_1_1_sdl}{Sdl}} \& \mbox{\hyperlink{class_engine3_d_1_1_scene_a9462e2028f13a398a3eccfb27ad89686}{sdl}}
+\begin{DoxyCompactList}\small\item\em Référence vers SDL. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_engine3_d_1_1_camera}{Camera}} \mbox{\hyperlink{class_engine3_d_1_1_scene_acb2c471ba5260faa253adb20a6293c42}{camera}}
+\begin{DoxyCompactList}\small\item\em Caméra de la scène. \end{DoxyCompactList}\item 
+std\+::vector$<$ \mbox{\hyperlink{struct_engine3_d_1_1_colored_triangle}{Colored\+Triangle}} $>$ \mbox{\hyperlink{class_engine3_d_1_1_scene_ad793c17e59d7de9dffc1138f5890e7cf}{triangles}}
+\begin{DoxyCompactList}\small\item\em Triangles colorés à render. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Description détaillée}
+Gère le rendu de la scène 3D. 
+
+\label{doc-constructors}
+\Hypertarget{class_engine3_d_1_1_scene_doc-constructors}
+\doxysubsection{Documentation des constructeurs et destructeur}
+\Hypertarget{class_engine3_d_1_1_scene_a382c1dd6c8d59739aaea10ffd3f7d80f}\index{Engine3D::Scene@{Engine3D::Scene}!Scene@{Scene}}
+\index{Scene@{Scene}!Engine3D::Scene@{Engine3D::Scene}}
+\doxysubsubsection{\texorpdfstring{Scene()}{Scene()}}
+{\footnotesize\ttfamily \label{class_engine3_d_1_1_scene_a382c1dd6c8d59739aaea10ffd3f7d80f} 
+Engine3\+D\+::\+Scene\+::\+Scene (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_engine3_d_1_1_sdl}{Sdl}} \&}]{sdl}{}\end{DoxyParamCaption})}
+
+
+
+Constructeur. 
+
+
+\begin{DoxyParams}{Paramètres}
+{\em sdl} & Référence vers l\textquotesingle{}objet \doxylink{class_engine3_d_1_1_sdl}{Sdl} \\
+\hline
+\end{DoxyParams}
+
+
+\label{doc-func-members}
+\Hypertarget{class_engine3_d_1_1_scene_doc-func-members}
+\doxysubsection{Documentation des fonctions membres}
+\Hypertarget{class_engine3_d_1_1_scene_a00742547f5704154300b459fdf626afc}\index{Engine3D::Scene@{Engine3D::Scene}!addTriangles@{addTriangles}}
+\index{addTriangles@{addTriangles}!Engine3D::Scene@{Engine3D::Scene}}
+\doxysubsubsection{\texorpdfstring{addTriangles()}{addTriangles()}}
+{\footnotesize\ttfamily \label{class_engine3_d_1_1_scene_a00742547f5704154300b459fdf626afc} 
+void Engine3\+D\+::\+Scene\+::add\+Triangles (\begin{DoxyParamCaption}\item[{const std\+::vector$<$ \mbox{\hyperlink{class_engine3_d_1_1_triangle3d}{Triangle3d}} $>$ \&}]{tris}{, }\item[{uint8\+\_\+t}]{r}{, }\item[{uint8\+\_\+t}]{g}{, }\item[{uint8\+\_\+t}]{b}{}\end{DoxyParamCaption})}
+
+
+
+Ajoute des triangles à la scène. 
+
+Voici le graphe des appelants de cette fonction \+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_engine3_d_1_1_scene_a00742547f5704154300b459fdf626afc_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_engine3_d_1_1_scene_a6f62266c5c737fc1b52920370cd063ee}\index{Engine3D::Scene@{Engine3D::Scene}!clearTriangles@{clearTriangles}}
+\index{clearTriangles@{clearTriangles}!Engine3D::Scene@{Engine3D::Scene}}
+\doxysubsubsection{\texorpdfstring{clearTriangles()}{clearTriangles()}}
+{\footnotesize\ttfamily \label{class_engine3_d_1_1_scene_a6f62266c5c737fc1b52920370cd063ee} 
+void Engine3\+D\+::\+Scene\+::clear\+Triangles (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+
+
+Efface les triangles de la scène. 
+
+Voici le graphe des appelants de cette fonction \+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_engine3_d_1_1_scene_a6f62266c5c737fc1b52920370cd063ee_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_engine3_d_1_1_scene_a68735735b2e868f144acdb359c153025}\index{Engine3D::Scene@{Engine3D::Scene}!drawScanline@{drawScanline}}
+\index{drawScanline@{drawScanline}!Engine3D::Scene@{Engine3D::Scene}}
+\doxysubsubsection{\texorpdfstring{drawScanline()}{drawScanline()}}
+{\footnotesize\ttfamily \label{class_engine3_d_1_1_scene_a68735735b2e868f144acdb359c153025} 
+void Engine3\+D\+::\+Scene\+::draw\+Scanline (\begin{DoxyParamCaption}\item[{int}]{y}{, }\item[{int}]{x1}{, }\item[{int}]{x2}{, }\item[{float}]{depth}{, }\item[{uint8\+\_\+t}]{r}{, }\item[{uint8\+\_\+t}]{g}{, }\item[{uint8\+\_\+t}]{b}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Dessine une ligne horizontale du triangle via technique scanline. 
+
+Voici le graphe des appelants de cette fonction \+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_engine3_d_1_1_scene_a68735735b2e868f144acdb359c153025_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_engine3_d_1_1_scene_a8837c73c8733a95bc50118d1aded5155}\index{Engine3D::Scene@{Engine3D::Scene}!fillFlatBottom@{fillFlatBottom}}
+\index{fillFlatBottom@{fillFlatBottom}!Engine3D::Scene@{Engine3D::Scene}}
+\doxysubsubsection{\texorpdfstring{fillFlatBottom()}{fillFlatBottom()}}
+{\footnotesize\ttfamily \label{class_engine3_d_1_1_scene_a8837c73c8733a95bc50118d1aded5155} 
+void Engine3\+D\+::\+Scene\+::fill\+Flat\+Bottom (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{class_engine3_d_1_1_point2d}{Point2d}} \&}]{p1}{, }\item[{const \mbox{\hyperlink{class_engine3_d_1_1_point2d}{Point2d}} \&}]{p2}{, }\item[{const \mbox{\hyperlink{class_engine3_d_1_1_point2d}{Point2d}} \&}]{p3}{, }\item[{float}]{depth}{, }\item[{uint8\+\_\+t}]{r}{, }\item[{uint8\+\_\+t}]{g}{, }\item[{uint8\+\_\+t}]{b}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Rasterise la partie plate du triangle (haut ou bas). 
+
+Voici le graphe d\textquotesingle{}appel pour cette fonction \+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_engine3_d_1_1_scene_a8837c73c8733a95bc50118d1aded5155_cgraph}
+\end{center}
+\end{figure}
+Voici le graphe des appelants de cette fonction \+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_engine3_d_1_1_scene_a8837c73c8733a95bc50118d1aded5155_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_engine3_d_1_1_scene_a817b9c0fd5988cb4867e3c73773b2584}\index{Engine3D::Scene@{Engine3D::Scene}!fillFlatTop@{fillFlatTop}}
+\index{fillFlatTop@{fillFlatTop}!Engine3D::Scene@{Engine3D::Scene}}
+\doxysubsubsection{\texorpdfstring{fillFlatTop()}{fillFlatTop()}}
+{\footnotesize\ttfamily \label{class_engine3_d_1_1_scene_a817b9c0fd5988cb4867e3c73773b2584} 
+void Engine3\+D\+::\+Scene\+::fill\+Flat\+Top (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{class_engine3_d_1_1_point2d}{Point2d}} \&}]{p1}{, }\item[{const \mbox{\hyperlink{class_engine3_d_1_1_point2d}{Point2d}} \&}]{p2}{, }\item[{const \mbox{\hyperlink{class_engine3_d_1_1_point2d}{Point2d}} \&}]{p3}{, }\item[{float}]{depth}{, }\item[{uint8\+\_\+t}]{r}{, }\item[{uint8\+\_\+t}]{g}{, }\item[{uint8\+\_\+t}]{b}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Rasterise la partie plate supérieure du triangle. 
+
+Voici le graphe d\textquotesingle{}appel pour cette fonction \+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_engine3_d_1_1_scene_a817b9c0fd5988cb4867e3c73773b2584_cgraph}
+\end{center}
+\end{figure}
+Voici le graphe des appelants de cette fonction \+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_engine3_d_1_1_scene_a817b9c0fd5988cb4867e3c73773b2584_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_engine3_d_1_1_scene_a1f8a56782e30aafa6f74158f8b36b0e8}\index{Engine3D::Scene@{Engine3D::Scene}!getCamera@{getCamera}}
+\index{getCamera@{getCamera}!Engine3D::Scene@{Engine3D::Scene}}
+\doxysubsubsection{\texorpdfstring{getCamera()}{getCamera()}}
+{\footnotesize\ttfamily \label{class_engine3_d_1_1_scene_a1f8a56782e30aafa6f74158f8b36b0e8} 
+\mbox{\hyperlink{class_engine3_d_1_1_camera}{Camera}} \& Engine3\+D\+::\+Scene\+::get\+Camera (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+
+
+Retourne une référence vers la caméra. 
+
+Voici le graphe des appelants de cette fonction \+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_engine3_d_1_1_scene_a1f8a56782e30aafa6f74158f8b36b0e8_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_engine3_d_1_1_scene_a572a13e5c6c08eced30fc482cc9fdeee}\index{Engine3D::Scene@{Engine3D::Scene}!isTriangleVisible@{isTriangleVisible}}
+\index{isTriangleVisible@{isTriangleVisible}!Engine3D::Scene@{Engine3D::Scene}}
+\doxysubsubsection{\texorpdfstring{isTriangleVisible()}{isTriangleVisible()}}
+{\footnotesize\ttfamily \label{class_engine3_d_1_1_scene_a572a13e5c6c08eced30fc482cc9fdeee} 
+bool Engine3\+D\+::\+Scene\+::is\+Triangle\+Visible (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{class_engine3_d_1_1_triangle3d}{Triangle3d}} \&}]{triangle}{}\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Vérifie si un triangle est visible. 
+
+Voici le graphe d\textquotesingle{}appel pour cette fonction \+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_engine3_d_1_1_scene_a572a13e5c6c08eced30fc482cc9fdeee_cgraph}
+\end{center}
+\end{figure}
+Voici le graphe des appelants de cette fonction \+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_engine3_d_1_1_scene_a572a13e5c6c08eced30fc482cc9fdeee_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_engine3_d_1_1_scene_ac59015c65f655e7843507970be7178a4}\index{Engine3D::Scene@{Engine3D::Scene}!project@{project}}
+\index{project@{project}!Engine3D::Scene@{Engine3D::Scene}}
+\doxysubsubsection{\texorpdfstring{project()}{project()}}
+{\footnotesize\ttfamily \label{class_engine3_d_1_1_scene_ac59015c65f655e7843507970be7178a4} 
+\mbox{\hyperlink{class_engine3_d_1_1_point2d}{Point2d}} Engine3\+D\+::\+Scene\+::project (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{class_engine3_d_1_1_point3d}{Point3d}} \&}]{p}{}\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Projette un point 3D en point 2D. 
+
+Voici le graphe des appelants de cette fonction \+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_engine3_d_1_1_scene_ac59015c65f655e7843507970be7178a4_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_engine3_d_1_1_scene_ae4f80fe1878d214d93eddd483c7c9e9b}\index{Engine3D::Scene@{Engine3D::Scene}!rasterizeTriangle@{rasterizeTriangle}}
+\index{rasterizeTriangle@{rasterizeTriangle}!Engine3D::Scene@{Engine3D::Scene}}
+\doxysubsubsection{\texorpdfstring{rasterizeTriangle()}{rasterizeTriangle()}}
+{\footnotesize\ttfamily \label{class_engine3_d_1_1_scene_ae4f80fe1878d214d93eddd483c7c9e9b} 
+void Engine3\+D\+::\+Scene\+::rasterize\+Triangle (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{class_engine3_d_1_1_triangle2d}{Triangle2d}} \&}]{triangle}{, }\item[{float}]{avg\+Depth}{, }\item[{uint8\+\_\+t}]{r}{, }\item[{uint8\+\_\+t}]{g}{, }\item[{uint8\+\_\+t}]{b}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Rasterise un triangle 2D. 
+
+Voici le graphe d\textquotesingle{}appel pour cette fonction \+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_engine3_d_1_1_scene_ae4f80fe1878d214d93eddd483c7c9e9b_cgraph}
+\end{center}
+\end{figure}
+Voici le graphe des appelants de cette fonction \+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_engine3_d_1_1_scene_ae4f80fe1878d214d93eddd483c7c9e9b_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_engine3_d_1_1_scene_a31514c322149277ab158e3ebe4e4627b}\index{Engine3D::Scene@{Engine3D::Scene}!render@{render}}
+\index{render@{render}!Engine3D::Scene@{Engine3D::Scene}}
+\doxysubsubsection{\texorpdfstring{render()}{render()}}
+{\footnotesize\ttfamily \label{class_engine3_d_1_1_scene_a31514c322149277ab158e3ebe4e4627b} 
+void Engine3\+D\+::\+Scene\+::render (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+
+
+Effectue le rendu de la scène. 
+
+Voici le graphe d\textquotesingle{}appel pour cette fonction \+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_engine3_d_1_1_scene_a31514c322149277ab158e3ebe4e4627b_cgraph}
+\end{center}
+\end{figure}
+Voici le graphe des appelants de cette fonction \+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_engine3_d_1_1_scene_a31514c322149277ab158e3ebe4e4627b_icgraph}
+\end{center}
+\end{figure}
+
+
+\label{doc-variable-members}
+\Hypertarget{class_engine3_d_1_1_scene_doc-variable-members}
+\doxysubsection{Documentation des données membres}
+\Hypertarget{class_engine3_d_1_1_scene_acb2c471ba5260faa253adb20a6293c42}\index{Engine3D::Scene@{Engine3D::Scene}!camera@{camera}}
+\index{camera@{camera}!Engine3D::Scene@{Engine3D::Scene}}
+\doxysubsubsection{\texorpdfstring{camera}{camera}}
+{\footnotesize\ttfamily \label{class_engine3_d_1_1_scene_acb2c471ba5260faa253adb20a6293c42} 
+\mbox{\hyperlink{class_engine3_d_1_1_camera}{Camera}} Engine3\+D\+::\+Scene\+::camera\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Caméra de la scène. 
+
+\Hypertarget{class_engine3_d_1_1_scene_a9462e2028f13a398a3eccfb27ad89686}\index{Engine3D::Scene@{Engine3D::Scene}!sdl@{sdl}}
+\index{sdl@{sdl}!Engine3D::Scene@{Engine3D::Scene}}
+\doxysubsubsection{\texorpdfstring{sdl}{sdl}}
+{\footnotesize\ttfamily \label{class_engine3_d_1_1_scene_a9462e2028f13a398a3eccfb27ad89686} 
+\mbox{\hyperlink{class_engine3_d_1_1_sdl}{Sdl}}\& Engine3\+D\+::\+Scene\+::sdl\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Référence vers SDL. 
+
+\Hypertarget{class_engine3_d_1_1_scene_ad793c17e59d7de9dffc1138f5890e7cf}\index{Engine3D::Scene@{Engine3D::Scene}!triangles@{triangles}}
+\index{triangles@{triangles}!Engine3D::Scene@{Engine3D::Scene}}
+\doxysubsubsection{\texorpdfstring{triangles}{triangles}}
+{\footnotesize\ttfamily \label{class_engine3_d_1_1_scene_ad793c17e59d7de9dffc1138f5890e7cf} 
+std\+::vector$<$\mbox{\hyperlink{struct_engine3_d_1_1_colored_triangle}{Colored\+Triangle}}$>$ Engine3\+D\+::\+Scene\+::triangles\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Triangles colorés à render. 
+
+
+
+La documentation de cette classe a été générée à partir des fichiers suivants \+:\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{_scene_8hpp}{Scene.\+hpp}}\item 
+\mbox{\hyperlink{_scene_8cpp}{Scene.\+cpp}}\end{DoxyCompactItemize}

@@ -1,349 +1,374 @@
 \begin{theindex}
 
   \item {\texorpdfstring{$\sim$}{\string~}Sdl}
-    \subitem {Sdl}, \hyperpage{22}
+    \subitem {Engine3D::Sdl}, \hyperpage{48}
 
   \indexspace
 
   \item {addCube}
-    \subitem {main.cpp}, \hyperpage{36}
+    \subitem {main.cpp}, \hyperpage{68}
   \item {addSphere}
-    \subitem {main.cpp}, \hyperpage{36}
+    \subitem {main.cpp}, \hyperpage{69}
   \item {addTriangles}
-    \subitem {Scene}, \hyperpage{19}
+    \subitem {Engine3D::Scene}, \hyperpage{40}
   \item {angleX}
-    \subitem {Pave3d}, \hyperpage{10}
+    \subitem {Engine3D::Pave3d}, \hyperpage{24}
   \item {angleY}
-    \subitem {Pave3d}, \hyperpage{10}
+    \subitem {Engine3D::Pave3d}, \hyperpage{24}
   \item {angleZ}
-    \subitem {Pave3d}, \hyperpage{10}
+    \subitem {Engine3D::Pave3d}, \hyperpage{24}
 
   \indexspace
 
   \item {b}
-    \subitem {ColoredTriangle}, \hyperpage{8}
+    \subitem {Engine3D::ColoredTriangle}, \hyperpage{20}
 
   \indexspace
 
-  \item {Camera}, \hyperpage{5}
-    \subitem {Camera}, \hyperpage{6}
-    \subitem {direction}, \hyperpage{7}
-    \subitem {fov}, \hyperpage{7}
-    \subitem {moveForward}, \hyperpage{6}
-    \subitem {moveLeft}, \hyperpage{6}
-    \subitem {moveRight}, \hyperpage{6}
-    \subitem {moveUp}, \hyperpage{6}
-    \subitem {nearPlane}, \hyperpage{7}
-    \subitem {position}, \hyperpage{7}
-    \subitem {up}, \hyperpage{7}
+  \item {Camera}
+    \subitem {Engine3D::Camera}, \hyperpage{15}
   \item {camera}
-    \subitem {Scene}, \hyperpage{21}
+    \subitem {Engine3D::Scene}, \hyperpage{45}
   \item {CAMERA\_SPEED}
-    \subitem {main.cpp}, \hyperpage{37}
+    \subitem {main.cpp}, \hyperpage{72}
   \item {center}
-    \subitem {Pave3d}, \hyperpage{11}
-    \subitem {Sphere3d}, \hyperpage{27}
-    \subitem {Triangle3d}, \hyperpage{30}
+    \subitem {Engine3D::Pave3d}, \hyperpage{25}
+    \subitem {Engine3D::Sphere3d}, \hyperpage{55}
+    \subitem {Engine3D::Triangle3d}, \hyperpage{61}
   \item {clear}
-    \subitem {Sdl}, \hyperpage{23}
+    \subitem {Engine3D::Sdl}, \hyperpage{48}
   \item {clearTriangles}
-    \subitem {Scene}, \hyperpage{19}
-  \item {ColoredTriangle}, \hyperpage{7}
-    \subitem {b}, \hyperpage{8}
-    \subitem {g}, \hyperpage{8}
-    \subitem {r}, \hyperpage{8}
-    \subitem {triangle}, \hyperpage{8}
+    \subitem {Engine3D::Scene}, \hyperpage{40}
   \item {cross}
-    \subitem {Point3d}, \hyperpage{14}
+    \subitem {Engine3D::Point3d}, \hyperpage{30}
 
   \indexspace
 
   \item {depthBuffer}
-    \subitem {Sdl}, \hyperpage{24}
+    \subitem {Engine3D::Sdl}, \hyperpage{50}
   \item {direction}
-    \subitem {Camera}, \hyperpage{7}
+    \subitem {Engine3D::Camera}, \hyperpage{17}
   \item {dot}
-    \subitem {Point3d}, \hyperpage{14}
+    \subitem {Engine3D::Point3d}, \hyperpage{31}
   \item {drawScanline}
-    \subitem {Scene}, \hyperpage{19}
+    \subitem {Engine3D::Scene}, \hyperpage{40}
+
+  \indexspace
+
+  \item {Engine3D}, \hyperpage{11}
+  \item {Engine3D::Camera}, \hyperpage{13}
+    \subitem {Camera}, \hyperpage{15}
+    \subitem {direction}, \hyperpage{17}
+    \subitem {fov}, \hyperpage{17}
+    \subitem {moveForward}, \hyperpage{16}
+    \subitem {moveLeft}, \hyperpage{16}
+    \subitem {moveRight}, \hyperpage{16}
+    \subitem {moveUp}, \hyperpage{16}
+    \subitem {nearPlane}, \hyperpage{17}
+    \subitem {position}, \hyperpage{17}
+    \subitem {up}, \hyperpage{17}
+  \item {Engine3D::ColoredTriangle}, \hyperpage{18}
+    \subitem {b}, \hyperpage{20}
+    \subitem {g}, \hyperpage{20}
+    \subitem {r}, \hyperpage{20}
+    \subitem {triangle}, \hyperpage{20}
+  \item {Engine3D::Pave3d}, \hyperpage{21}
+    \subitem {angleX}, \hyperpage{24}
+    \subitem {angleY}, \hyperpage{24}
+    \subitem {angleZ}, \hyperpage{24}
+    \subitem {center}, \hyperpage{25}
+    \subitem {getTriangles}, \hyperpage{23}
+    \subitem {Pave3d}, \hyperpage{23}
+    \subitem {rotatePoint}, \hyperpage{23}
+    \subitem {setRotation}, \hyperpage{24}
+    \subitem {sizeX}, \hyperpage{25}
+    \subitem {sizeY}, \hyperpage{25}
+    \subitem {sizeZ}, \hyperpage{25}
+  \item {Engine3D::Point2d}, \hyperpage{26}
+    \subitem {Point2d}, \hyperpage{27}
+    \subitem {x}, \hyperpage{27}
+    \subitem {y}, \hyperpage{27}
+    \subitem {z}, \hyperpage{27}
+  \item {Engine3D::Point3d}, \hyperpage{28}
+    \subitem {cross}, \hyperpage{30}
+    \subitem {dot}, \hyperpage{31}
+    \subitem {normalize}, \hyperpage{31}
+    \subitem {operator+}, \hyperpage{32}
+    \subitem {operator-\/}, \hyperpage{33}
+    \subitem {operator\texorpdfstring{$\ast$}{*}}, \hyperpage{32}
+    \subitem {Point3d}, \hyperpage{30}
+    \subitem {x}, \hyperpage{33}
+    \subitem {y}, \hyperpage{33}
+    \subitem {z}, \hyperpage{34}
+  \item {Engine3D::Quad3d}, \hyperpage{34}
+    \subitem {getTriangles}, \hyperpage{37}
+    \subitem {Quad3d}, \hyperpage{36}
+    \subitem {t1}, \hyperpage{37}
+    \subitem {t2}, \hyperpage{37}
+  \item {Engine3D::Scene}, \hyperpage{38}
+    \subitem {addTriangles}, \hyperpage{40}
+    \subitem {camera}, \hyperpage{45}
+    \subitem {clearTriangles}, \hyperpage{40}
+    \subitem {drawScanline}, \hyperpage{40}
+    \subitem {fillFlatBottom}, \hyperpage{41}
+    \subitem {fillFlatTop}, \hyperpage{41}
+    \subitem {getCamera}, \hyperpage{42}
+    \subitem {isTriangleVisible}, \hyperpage{42}
+    \subitem {project}, \hyperpage{43}
+    \subitem {rasterizeTriangle}, \hyperpage{43}
+    \subitem {render}, \hyperpage{44}
+    \subitem {Scene}, \hyperpage{40}
+    \subitem {sdl}, \hyperpage{45}
+    \subitem {triangles}, \hyperpage{45}
+  \item {Engine3D::Sdl}, \hyperpage{46}
+    \subitem {\texorpdfstring{$\sim$}{\string~}Sdl}, \hyperpage{48}
+    \subitem {clear}, \hyperpage{48}
+    \subitem {depthBuffer}, \hyperpage{50}
+    \subitem {getHeight}, \hyperpage{48}
+    \subitem {getWidth}, \hyperpage{48}
+    \subitem {height}, \hyperpage{50}
+    \subitem {isValid}, \hyperpage{49}
+    \subitem {pixelBuffer}, \hyperpage{50}
+    \subitem {present}, \hyperpage{49}
+    \subitem {renderer}, \hyperpage{50}
+    \subitem {Sdl}, \hyperpage{47}
+    \subitem {setPixel}, \hyperpage{49}
+    \subitem {texture}, \hyperpage{50}
+    \subitem {width}, \hyperpage{50}
+    \subitem {window}, \hyperpage{50}
+  \item {Engine3D::Sphere3d}, \hyperpage{51}
+    \subitem {center}, \hyperpage{55}
+    \subitem {getTriangles}, \hyperpage{54}
+    \subitem {meridians}, \hyperpage{55}
+    \subitem {parallels}, \hyperpage{55}
+    \subitem {radius}, \hyperpage{55}
+    \subitem {Sphere3d}, \hyperpage{53}
+    \subitem {spherePoint}, \hyperpage{54}
+  \item {Engine3D::Triangle2d}, \hyperpage{55}
+    \subitem {p1}, \hyperpage{57}
+    \subitem {p2}, \hyperpage{57}
+    \subitem {p3}, \hyperpage{57}
+    \subitem {Triangle2d}, \hyperpage{57}
+  \item {Engine3D::Triangle3d}, \hyperpage{58}
+    \subitem {center}, \hyperpage{61}
+    \subitem {normal}, \hyperpage{61}
+    \subitem {p1}, \hyperpage{62}
+    \subitem {p2}, \hyperpage{62}
+    \subitem {p3}, \hyperpage{62}
+    \subitem {Triangle3d}, \hyperpage{60}
 
   \indexspace
 
   \item {fillFlatBottom}
-    \subitem {Scene}, \hyperpage{19}
+    \subitem {Engine3D::Scene}, \hyperpage{41}
   \item {fillFlatTop}
-    \subitem {Scene}, \hyperpage{19}
+    \subitem {Engine3D::Scene}, \hyperpage{41}
   \item {fov}
-    \subitem {Camera}, \hyperpage{7}
+    \subitem {Engine3D::Camera}, \hyperpage{17}
 
   \indexspace
 
   \item {g}
-    \subitem {ColoredTriangle}, \hyperpage{8}
-  \item {Geometry.cpp}, \hyperpage{33}
-  \item {Geometry.hpp}, \hyperpage{33}
+    \subitem {Engine3D::ColoredTriangle}, \hyperpage{20}
+  \item {Geometry.cpp}, \hyperpage{63}
+  \item {Geometry.hpp}, \hyperpage{64}
   \item {getCamera}
-    \subitem {Scene}, \hyperpage{20}
+    \subitem {Engine3D::Scene}, \hyperpage{42}
   \item {getHeight}
-    \subitem {Sdl}, \hyperpage{23}
+    \subitem {Engine3D::Sdl}, \hyperpage{48}
   \item {getTriangles}
-    \subitem {Pave3d}, \hyperpage{10}
-    \subitem {Quad3d}, \hyperpage{17}
-    \subitem {Sphere3d}, \hyperpage{26}
+    \subitem {Engine3D::Pave3d}, \hyperpage{23}
+    \subitem {Engine3D::Quad3d}, \hyperpage{37}
+    \subitem {Engine3D::Sphere3d}, \hyperpage{54}
   \item {getWidth}
-    \subitem {Sdl}, \hyperpage{23}
+    \subitem {Engine3D::Sdl}, \hyperpage{48}
 
   \indexspace
 
   \item {handleKeyboard}
-    \subitem {main.cpp}, \hyperpage{36}
+    \subitem {main.cpp}, \hyperpage{69}
   \item {height}
-    \subitem {Sdl}, \hyperpage{24}
+    \subitem {Engine3D::Sdl}, \hyperpage{50}
 
   \indexspace
 
   \item {isTriangleVisible}
-    \subitem {Scene}, \hyperpage{20}
+    \subitem {Engine3D::Scene}, \hyperpage{42}
   \item {isValid}
-    \subitem {Sdl}, \hyperpage{23}
+    \subitem {Engine3D::Sdl}, \hyperpage{49}
 
   \indexspace
 
   \item {main}
-    \subitem {main.cpp}, \hyperpage{37}
-  \item {main.cpp}, \hyperpage{35}
-    \subitem {addCube}, \hyperpage{36}
-    \subitem {addSphere}, \hyperpage{36}
-    \subitem {CAMERA\_SPEED}, \hyperpage{37}
-    \subitem {handleKeyboard}, \hyperpage{36}
-    \subitem {main}, \hyperpage{37}
-    \subitem {mainLoop}, \hyperpage{37}
-    \subitem {ROTATION\_SPEED}, \hyperpage{37}
-    \subitem {WINDOW\_HEIGHT}, \hyperpage{38}
-    \subitem {WINDOW\_WIDTH}, \hyperpage{38}
+    \subitem {main.cpp}, \hyperpage{70}
+  \item {main.cpp}, \hyperpage{67}
+    \subitem {addCube}, \hyperpage{68}
+    \subitem {addSphere}, \hyperpage{69}
+    \subitem {CAMERA\_SPEED}, \hyperpage{72}
+    \subitem {handleKeyboard}, \hyperpage{69}
+    \subitem {main}, \hyperpage{70}
+    \subitem {mainLoop}, \hyperpage{71}
+    \subitem {ROTATION\_SPEED}, \hyperpage{72}
+    \subitem {WINDOW\_HEIGHT}, \hyperpage{72}
+    \subitem {WINDOW\_WIDTH}, \hyperpage{72}
   \item {mainLoop}
-    \subitem {main.cpp}, \hyperpage{37}
+    \subitem {main.cpp}, \hyperpage{71}
   \item {meridians}
-    \subitem {Sphere3d}, \hyperpage{27}
+    \subitem {Engine3D::Sphere3d}, \hyperpage{55}
+  \item {Moteur 3D}, \hyperpage{9}
   \item {moveForward}
-    \subitem {Camera}, \hyperpage{6}
+    \subitem {Engine3D::Camera}, \hyperpage{16}
   \item {moveLeft}
-    \subitem {Camera}, \hyperpage{6}
+    \subitem {Engine3D::Camera}, \hyperpage{16}
   \item {moveRight}
-    \subitem {Camera}, \hyperpage{6}
+    \subitem {Engine3D::Camera}, \hyperpage{16}
   \item {moveUp}
-    \subitem {Camera}, \hyperpage{6}
+    \subitem {Engine3D::Camera}, \hyperpage{16}
 
   \indexspace
 
   \item {nearPlane}
-    \subitem {Camera}, \hyperpage{7}
+    \subitem {Engine3D::Camera}, \hyperpage{17}
   \item {normal}
-    \subitem {Triangle3d}, \hyperpage{30}
+    \subitem {Engine3D::Triangle3d}, \hyperpage{61}
   \item {normalize}
-    \subitem {Point3d}, \hyperpage{14}
+    \subitem {Engine3D::Point3d}, \hyperpage{31}
 
   \indexspace
 
   \item {operator+}
-    \subitem {Point3d}, \hyperpage{15}
+    \subitem {Engine3D::Point3d}, \hyperpage{32}
   \item {operator-\/}
-    \subitem {Point3d}, \hyperpage{15}
+    \subitem {Engine3D::Point3d}, \hyperpage{33}
   \item {operator\texorpdfstring{$\ast$}{*}}
-    \subitem {Point3d}, \hyperpage{15}
+    \subitem {Engine3D::Point3d}, \hyperpage{32}
 
   \indexspace
 
   \item {p1}
-    \subitem {Triangle2d}, \hyperpage{29}
-    \subitem {Triangle3d}, \hyperpage{31}
+    \subitem {Engine3D::Triangle2d}, \hyperpage{57}
+    \subitem {Engine3D::Triangle3d}, \hyperpage{62}
   \item {p2}
-    \subitem {Triangle2d}, \hyperpage{29}
-    \subitem {Triangle3d}, \hyperpage{31}
+    \subitem {Engine3D::Triangle2d}, \hyperpage{57}
+    \subitem {Engine3D::Triangle3d}, \hyperpage{62}
   \item {p3}
-    \subitem {Triangle2d}, \hyperpage{29}
-    \subitem {Triangle3d}, \hyperpage{31}
+    \subitem {Engine3D::Triangle2d}, \hyperpage{57}
+    \subitem {Engine3D::Triangle3d}, \hyperpage{62}
   \item {parallels}
-    \subitem {Sphere3d}, \hyperpage{27}
-  \item {Pave3d}, \hyperpage{9}
-    \subitem {angleX}, \hyperpage{10}
-    \subitem {angleY}, \hyperpage{10}
-    \subitem {angleZ}, \hyperpage{10}
-    \subitem {center}, \hyperpage{11}
-    \subitem {getTriangles}, \hyperpage{10}
-    \subitem {Pave3d}, \hyperpage{9}
-    \subitem {rotatePoint}, \hyperpage{10}
-    \subitem {setRotation}, \hyperpage{10}
-    \subitem {sizeX}, \hyperpage{11}
-    \subitem {sizeY}, \hyperpage{11}
-    \subitem {sizeZ}, \hyperpage{11}
+    \subitem {Engine3D::Sphere3d}, \hyperpage{55}
+  \item {Pave3d}
+    \subitem {Engine3D::Pave3d}, \hyperpage{23}
   \item {pixelBuffer}
-    \subitem {Sdl}, \hyperpage{24}
-  \item {Point2d}, \hyperpage{11}
-    \subitem {Point2d}, \hyperpage{12}
-    \subitem {x}, \hyperpage{12}
-    \subitem {y}, \hyperpage{12}
-    \subitem {z}, \hyperpage{13}
-  \item {Point3d}, \hyperpage{13}
-    \subitem {cross}, \hyperpage{14}
-    \subitem {dot}, \hyperpage{14}
-    \subitem {normalize}, \hyperpage{14}
-    \subitem {operator+}, \hyperpage{15}
-    \subitem {operator-\/}, \hyperpage{15}
-    \subitem {operator\texorpdfstring{$\ast$}{*}}, \hyperpage{15}
-    \subitem {Point3d}, \hyperpage{14}
-    \subitem {x}, \hyperpage{15}
-    \subitem {y}, \hyperpage{15}
-    \subitem {z}, \hyperpage{15}
+    \subitem {Engine3D::Sdl}, \hyperpage{50}
+  \item {Point2d}
+    \subitem {Engine3D::Point2d}, \hyperpage{27}
+  \item {Point3d}
+    \subitem {Engine3D::Point3d}, \hyperpage{30}
   \item {position}
-    \subitem {Camera}, \hyperpage{7}
+    \subitem {Engine3D::Camera}, \hyperpage{17}
   \item {present}
-    \subitem {Sdl}, \hyperpage{23}
+    \subitem {Engine3D::Sdl}, \hyperpage{49}
   \item {project}
-    \subitem {Scene}, \hyperpage{20}
+    \subitem {Engine3D::Scene}, \hyperpage{43}
 
   \indexspace
 
-  \item {Quad3d}, \hyperpage{16}
-    \subitem {getTriangles}, \hyperpage{17}
-    \subitem {Quad3d}, \hyperpage{16}
-    \subitem {t1}, \hyperpage{17}
-    \subitem {t2}, \hyperpage{17}
+  \item {Quad3d}
+    \subitem {Engine3D::Quad3d}, \hyperpage{36}
 
   \indexspace
 
   \item {r}
-    \subitem {ColoredTriangle}, \hyperpage{8}
+    \subitem {Engine3D::ColoredTriangle}, \hyperpage{20}
   \item {radius}
-    \subitem {Sphere3d}, \hyperpage{27}
+    \subitem {Engine3D::Sphere3d}, \hyperpage{55}
   \item {rasterizeTriangle}
-    \subitem {Scene}, \hyperpage{20}
+    \subitem {Engine3D::Scene}, \hyperpage{43}
   \item {render}
-    \subitem {Scene}, \hyperpage{20}
+    \subitem {Engine3D::Scene}, \hyperpage{44}
   \item {renderer}
-    \subitem {Sdl}, \hyperpage{25}
+    \subitem {Engine3D::Sdl}, \hyperpage{50}
   \item {rotatePoint}
-    \subitem {Pave3d}, \hyperpage{10}
+    \subitem {Engine3D::Pave3d}, \hyperpage{23}
   \item {ROTATION\_SPEED}
-    \subitem {main.cpp}, \hyperpage{37}
+    \subitem {main.cpp}, \hyperpage{72}
 
   \indexspace
 
-  \item {Scene}, \hyperpage{17}
-    \subitem {addTriangles}, \hyperpage{19}
-    \subitem {camera}, \hyperpage{21}
-    \subitem {clearTriangles}, \hyperpage{19}
-    \subitem {drawScanline}, \hyperpage{19}
-    \subitem {fillFlatBottom}, \hyperpage{19}
-    \subitem {fillFlatTop}, \hyperpage{19}
-    \subitem {getCamera}, \hyperpage{20}
-    \subitem {isTriangleVisible}, \hyperpage{20}
-    \subitem {project}, \hyperpage{20}
-    \subitem {rasterizeTriangle}, \hyperpage{20}
-    \subitem {render}, \hyperpage{20}
-    \subitem {Scene}, \hyperpage{18}
-    \subitem {sdl}, \hyperpage{21}
-    \subitem {triangles}, \hyperpage{21}
-  \item {Scene.cpp}, \hyperpage{38}
-  \item {Scene.hpp}, \hyperpage{38}
-  \item {Sdl}, \hyperpage{21}
-    \subitem {\texorpdfstring{$\sim$}{\string~}Sdl}, \hyperpage{22}
-    \subitem {clear}, \hyperpage{23}
-    \subitem {depthBuffer}, \hyperpage{24}
-    \subitem {getHeight}, \hyperpage{23}
-    \subitem {getWidth}, \hyperpage{23}
-    \subitem {height}, \hyperpage{24}
-    \subitem {isValid}, \hyperpage{23}
-    \subitem {pixelBuffer}, \hyperpage{24}
-    \subitem {present}, \hyperpage{23}
-    \subitem {renderer}, \hyperpage{25}
-    \subitem {Sdl}, \hyperpage{22}
-    \subitem {setPixel}, \hyperpage{24}
-    \subitem {texture}, \hyperpage{25}
-    \subitem {width}, \hyperpage{25}
-    \subitem {window}, \hyperpage{25}
+  \item {Scene}
+    \subitem {Engine3D::Scene}, \hyperpage{40}
+  \item {Scene.cpp}, \hyperpage{73}
+  \item {Scene.hpp}, \hyperpage{73}
+  \item {Sdl}
+    \subitem {Engine3D::Sdl}, \hyperpage{47}
   \item {sdl}
-    \subitem {Scene}, \hyperpage{21}
-  \item {Sdl.cpp}, \hyperpage{40}
-  \item {Sdl.hpp}, \hyperpage{40}
+    \subitem {Engine3D::Scene}, \hyperpage{45}
+  \item {Sdl.cpp}, \hyperpage{76}
+  \item {Sdl.hpp}, \hyperpage{77}
   \item {setPixel}
-    \subitem {Sdl}, \hyperpage{24}
+    \subitem {Engine3D::Sdl}, \hyperpage{49}
   \item {setRotation}
-    \subitem {Pave3d}, \hyperpage{10}
+    \subitem {Engine3D::Pave3d}, \hyperpage{24}
   \item {sizeX}
-    \subitem {Pave3d}, \hyperpage{11}
+    \subitem {Engine3D::Pave3d}, \hyperpage{25}
   \item {sizeY}
-    \subitem {Pave3d}, \hyperpage{11}
+    \subitem {Engine3D::Pave3d}, \hyperpage{25}
   \item {sizeZ}
-    \subitem {Pave3d}, \hyperpage{11}
-  \item {Sphere3d}, \hyperpage{25}
-    \subitem {center}, \hyperpage{27}
-    \subitem {getTriangles}, \hyperpage{26}
-    \subitem {meridians}, \hyperpage{27}
-    \subitem {parallels}, \hyperpage{27}
-    \subitem {radius}, \hyperpage{27}
-    \subitem {Sphere3d}, \hyperpage{26}
-    \subitem {spherePoint}, \hyperpage{26}
+    \subitem {Engine3D::Pave3d}, \hyperpage{25}
+  \item {Sphere3d}
+    \subitem {Engine3D::Sphere3d}, \hyperpage{53}
   \item {spherePoint}
-    \subitem {Sphere3d}, \hyperpage{26}
+    \subitem {Engine3D::Sphere3d}, \hyperpage{54}
 
   \indexspace
 
   \item {t1}
-    \subitem {Quad3d}, \hyperpage{17}
+    \subitem {Engine3D::Quad3d}, \hyperpage{37}
   \item {t2}
-    \subitem {Quad3d}, \hyperpage{17}
+    \subitem {Engine3D::Quad3d}, \hyperpage{37}
   \item {texture}
-    \subitem {Sdl}, \hyperpage{25}
+    \subitem {Engine3D::Sdl}, \hyperpage{50}
   \item {triangle}
-    \subitem {ColoredTriangle}, \hyperpage{8}
-  \item {Triangle2d}, \hyperpage{27}
-    \subitem {p1}, \hyperpage{29}
-    \subitem {p2}, \hyperpage{29}
-    \subitem {p3}, \hyperpage{29}
-    \subitem {Triangle2d}, \hyperpage{28}
-  \item {Triangle3d}, \hyperpage{29}
-    \subitem {center}, \hyperpage{30}
-    \subitem {normal}, \hyperpage{30}
-    \subitem {p1}, \hyperpage{31}
-    \subitem {p2}, \hyperpage{31}
-    \subitem {p3}, \hyperpage{31}
-    \subitem {Triangle3d}, \hyperpage{30}
+    \subitem {Engine3D::ColoredTriangle}, \hyperpage{20}
+  \item {Triangle2d}
+    \subitem {Engine3D::Triangle2d}, \hyperpage{57}
+  \item {Triangle3d}
+    \subitem {Engine3D::Triangle3d}, \hyperpage{60}
   \item {triangles}
-    \subitem {Scene}, \hyperpage{21}
+    \subitem {Engine3D::Scene}, \hyperpage{45}
 
   \indexspace
 
   \item {up}
-    \subitem {Camera}, \hyperpage{7}
+    \subitem {Engine3D::Camera}, \hyperpage{17}
 
   \indexspace
 
   \item {width}
-    \subitem {Sdl}, \hyperpage{25}
+    \subitem {Engine3D::Sdl}, \hyperpage{50}
   \item {window}
-    \subitem {Sdl}, \hyperpage{25}
+    \subitem {Engine3D::Sdl}, \hyperpage{50}
   \item {WINDOW\_HEIGHT}
-    \subitem {main.cpp}, \hyperpage{38}
+    \subitem {main.cpp}, \hyperpage{72}
   \item {WINDOW\_WIDTH}
-    \subitem {main.cpp}, \hyperpage{38}
+    \subitem {main.cpp}, \hyperpage{72}
 
   \indexspace
 
   \item {x}
-    \subitem {Point2d}, \hyperpage{12}
-    \subitem {Point3d}, \hyperpage{15}
+    \subitem {Engine3D::Point2d}, \hyperpage{27}
+    \subitem {Engine3D::Point3d}, \hyperpage{33}
 
   \indexspace
 
   \item {y}
-    \subitem {Point2d}, \hyperpage{12}
-    \subitem {Point3d}, \hyperpage{15}
+    \subitem {Engine3D::Point2d}, \hyperpage{27}
+    \subitem {Engine3D::Point3d}, \hyperpage{33}
 
   \indexspace
 
   \item {z}
-    \subitem {Point2d}, \hyperpage{13}
-    \subitem {Point3d}, \hyperpage{15}
+    \subitem {Engine3D::Point2d}, \hyperpage{27}
+    \subitem {Engine3D::Point3d}, \hyperpage{34}
 
 \end{theindex}

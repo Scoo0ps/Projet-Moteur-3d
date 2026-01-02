@@ -10,7 +10,14 @@
 #include <cmath>
 
 /**
+ * @namespace Engine3D
+ * @brief Espace de noms contenant toutes les classes du moteur 3D
+ */
+namespace Engine3D {
+
+/**
  * @class Point3d
+ * @ingroup Engine3DClasses
  * @brief Représente un point dans l'espace 3D
  */
 class Point3d {
@@ -65,6 +72,7 @@ public:
 
 /**
  * @class Point2d
+ * @ingroup Engine3DClasses
  * @brief Représente un point sur l'écran 2D
  */
 class Point2d {
@@ -89,6 +97,7 @@ public:
 
 /**
  * @class Triangle3d
+ * @ingroup Engine3DClasses
  * @brief Triangle dans l'espace 3D
  */
 class Triangle3d {
@@ -123,6 +132,7 @@ public:
 
 /**
  * @class Triangle2d
+ * @ingroup Engine3DClasses
  * @brief Triangle projeté sur l'écran 2D
  */
 class Triangle2d {
@@ -147,6 +157,7 @@ public:
 
 /**
  * @class Quad3d
+ * @ingroup Engine3DClasses
  * @brief Quadrilatère composé de deux triangles
  */
 class Quad3d {
@@ -177,6 +188,7 @@ public:
 
 /**
  * @class Pave3d
+ * @ingroup Engine3DClasses
  * @brief Pavé composé de 6 faces (Quad3d)
  */
 class Pave3d {
@@ -218,6 +230,7 @@ private:
 
 /**
  * @class Sphere3d
+ * @ingroup Engine3DClasses
  * @brief Sphère composée d'un maillage de Quad3d
  */
 class Sphere3d {
@@ -248,5 +261,7 @@ private:
      */
     Point3d spherePoint(float theta, float phi) const;
 };
+
+} 
 
 #endif 

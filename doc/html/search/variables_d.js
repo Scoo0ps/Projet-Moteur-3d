@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['up_0',['up',['../class_camera.html#ab5524221e33d11b2128e79aa32d9fad3',1,'Camera']]]
+  ['up_0',['up',['../class_engine3_d_1_1_camera.html#aca5d9becf5d82cebd9acc74ab932dba8',1,'Engine3D::Camera']]]
 ];

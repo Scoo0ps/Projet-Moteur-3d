@@ -13,7 +13,7 @@ EXTRACT_PROTECTED     = YES
 
 # Output
 GENERATE_HTML          = YES
-GENERATE_LATEX         = NO
+GENERATE_LATEX         = YES
 
 # Diagrams
 HAVE_DOT               = YES
@@ -29,3 +29,24 @@ DOT_GRAPH_MAX_NODES    = 100
 MAX_DOT_GRAPH_DEPTH    = 0
 UML_LIMIT_NUM_FIELDS   = 50
 HIDE_UNDOC_RELATIONS   = NO
+
+
+GROUP_GRAPHS           = YES
+INCLUDE_GRAPH          = YES
+INCLUDED_BY_GRAPH      = YES
+CALL_GRAPH             = YES
+CALLER_GRAPH           = YES
+
+# DOT configuration
+DOT_IMAGE_FORMAT       = svg
+INTERACTIVE_SVG        = YES
+DOT_TRANSPARENT        = YES
+DOT_MULTI_TARGETS      = YES
+
+# Ensure all members shown in UML
+SHOW_USED_FILES        = YES
+SHOW_FILES             = YES
+SHOW_NAMESPACES        = YES
+
+# Language
+OUTPUT_LANGUAGE        = French

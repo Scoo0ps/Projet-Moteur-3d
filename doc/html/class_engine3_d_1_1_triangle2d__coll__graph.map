@@ -1,0 +1,9 @@
+<map id="Engine3D::Triangle2d" name="Engine3D::Triangle2d">
+<area shape="rect" id="Node000001" title="Triangle projeté sur l&#39;écran 2D." alt="" coords="5,373,141,464"/>
+<area shape="rect" id="Node000002" href="$class_engine3_d_1_1_point2d.html" title="Représente un point sur l&#39;écran 2D." alt="" coords="13,168,133,259"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="76,259,76,356,70,356,70,259"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="34,5,59,75"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="47,74,48,108,51,144,53,151,48,152,46,144,42,108,42,74"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="83,5,119,75"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="98,75,86,152,80,151,93,74"/>
+</map>

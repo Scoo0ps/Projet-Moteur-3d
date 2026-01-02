@@ -5,6 +5,7 @@
 
 #include "Geometry.hpp"
 
+namespace Engine3D {
 
 Point3d::Point3d() : x(0), y(0), z(0) {}
 
@@ -196,3 +197,5 @@ std::vector<Triangle3d> Sphere3d::getTriangles() const {
 
     return triangles;
 }
+
+} // namespace Engine3D

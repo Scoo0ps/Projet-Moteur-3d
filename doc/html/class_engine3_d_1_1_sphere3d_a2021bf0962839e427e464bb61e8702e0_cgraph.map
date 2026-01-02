@@ -1,0 +1,7 @@
+<map id="Engine3D::Sphere3d::getTriangles" name="Engine3D::Sphere3d::getTriangles">
+<area shape="rect" id="Node000001" title="Retourne tous les triangles de la sphère." alt="" coords="5,27,147,69"/>
+<area shape="rect" id="Node000002" href="$class_engine3_d_1_1_quad3d.html#aaa0bdee0dc9d2376064665d7caf6b0f5" title="Retourne les triangles du quad." alt="" coords="195,5,405,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="147,36,179,32,180,37,148,41"/>
+<area shape="rect" id="Node000003" href="$class_engine3_d_1_1_sphere3d.html#aa65545be81f5e53f004d31e7a368879e" title="Calcule un point sur la sphère." alt="" coords="229,56,370,99"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="148,55,214,63,213,69,147,60"/>
+</map>

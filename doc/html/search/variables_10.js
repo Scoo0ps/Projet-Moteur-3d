@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['y_0',['y',['../class_point3d.html#a87e58cd468ab781b6259ab42aa02befd',1,'Point3d::y'],['../class_point2d.html#a2626bd0c5cce36fb441a5c1720b2c537',1,'Point2d::y']]]
+  ['y_0',['y',['../class_engine3_d_1_1_point3d.html#a725a90ef97bb48c7098ea75828afb431',1,'Engine3D::Point3d::y'],['../class_engine3_d_1_1_point2d.html#a12c9f0f8966c688315a6c7f40a8415e5',1,'Engine3D::Point2d::y']]]
 ];

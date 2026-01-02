@@ -1,5 +1,5 @@
 \doxysection{Sdl.\+hpp}
-\hypertarget{_sdl_8hpp_source}{}\label{_sdl_8hpp_source}\mbox{\hyperlink{_sdl_8hpp}{Go to the documentation of this file.}}
+\hypertarget{_sdl_8hpp_source}{}\label{_sdl_8hpp_source}\mbox{\hyperlink{_sdl_8hpp}{Aller à la documentation de ce fichier.}}
 \begin{DoxyCode}{0}
 \DoxyCodeLine{00001\ }
 \DoxyCodeLine{00005\ }
@@ -10,34 +10,38 @@
 \DoxyCodeLine{00010\ \textcolor{preprocessor}{\#include\ <string>}}
 \DoxyCodeLine{00011\ \textcolor{preprocessor}{\#include\ <cstdint>}}
 \DoxyCodeLine{00012\ }
-\DoxyCodeLine{00017\ \textcolor{keyword}{class\ }\mbox{\hyperlink{class_sdl_a1e6d3dfcf4bb1051b9dfa77f859ec801}{Sdl}}\ \{}
-\DoxyCodeLine{00018\ \textcolor{keyword}{private}:}
-\DoxyCodeLine{00019\ \ \ \ \ SDL\_Window*\ \mbox{\hyperlink{class_sdl_a2d2ea5eff56026bfd5e60fd861a3cc03}{window}};\ }
-\DoxyCodeLine{00020\ \ \ \ \ SDL\_Renderer*\ \mbox{\hyperlink{class_sdl_a355c7250c9cca8a1064ca12184db89ae}{renderer}};\ }
-\DoxyCodeLine{00021\ \ \ \ \ SDL\_Texture*\ \mbox{\hyperlink{class_sdl_a03d522bd385ca577dca02103e95470f9}{texture}};\ }
-\DoxyCodeLine{00022\ \ \ \ \ uint32\_t*\ \mbox{\hyperlink{class_sdl_a8a60ad16fe2fe604047259fc376a61d5}{pixelBuffer}};\ }
-\DoxyCodeLine{00023\ \ \ \ \ \textcolor{keywordtype}{float}*\ \mbox{\hyperlink{class_sdl_a8ccdda7cdeb44d7bfd373cb98f15a008}{depthBuffer}};\ }
-\DoxyCodeLine{00024\ \ \ \ \ \textcolor{keywordtype}{int}\ \mbox{\hyperlink{class_sdl_a4988037f9db1f127f2761af8b8bba4f6}{width}};\ }
-\DoxyCodeLine{00025\ \ \ \ \ \textcolor{keywordtype}{int}\ \mbox{\hyperlink{class_sdl_a74408c328f1c353e6bd85d7410811c68}{height}};\ }
-\DoxyCodeLine{00026\ }
-\DoxyCodeLine{00027\ \textcolor{keyword}{public}:}
-\DoxyCodeLine{00034\ \ \ \ \ \mbox{\hyperlink{class_sdl_a1e6d3dfcf4bb1051b9dfa77f859ec801}{Sdl}}(\textcolor{keyword}{const}\ std::string\&\ title,\ \textcolor{keywordtype}{int}\ w,\ \textcolor{keywordtype}{int}\ h);}
-\DoxyCodeLine{00035\ }
-\DoxyCodeLine{00039\ \ \ \ \ \mbox{\hyperlink{class_sdl_a855bbadc37c0f1e224fb1c8c1ab579d4}{\string~Sdl}}();}
-\DoxyCodeLine{00040\ }
-\DoxyCodeLine{00047\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_sdl_a288af96a1b73cf004228187fbbcafea2}{clear}}(uint8\_t\ r,\ uint8\_t\ g,\ uint8\_t\ b);}
-\DoxyCodeLine{00048\ }
-\DoxyCodeLine{00058\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_sdl_a87d81995e83eadcb9c618ddf12d985d2}{setPixel}}(\textcolor{keywordtype}{int}\ x,\ \textcolor{keywordtype}{int}\ y,\ \textcolor{keywordtype}{float}\ depth,\ uint8\_t\ r,\ uint8\_t\ g,\ uint8\_t\ b);}
-\DoxyCodeLine{00059\ }
-\DoxyCodeLine{00063\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_sdl_ac68afff4d03b27359c2958534ef52a43}{present}}();}
-\DoxyCodeLine{00064\ }
-\DoxyCodeLine{00069\ \ \ \ \ \textcolor{keywordtype}{int}\ \mbox{\hyperlink{class_sdl_a6b816ae01604002abb75a874d1c97d8a}{getWidth}}()\ \textcolor{keyword}{const};}
-\DoxyCodeLine{00070\ }
-\DoxyCodeLine{00075\ \ \ \ \ \textcolor{keywordtype}{int}\ \mbox{\hyperlink{class_sdl_ad51292e8065e88bbe37596a0e11b50d2}{getHeight}}()\ \textcolor{keyword}{const};}
-\DoxyCodeLine{00076\ }
-\DoxyCodeLine{00081\ \ \ \ \ \textcolor{keywordtype}{bool}\ \mbox{\hyperlink{class_sdl_a30e3084687e5cf1b996b7e573fc93519}{isValid}}()\ \textcolor{keyword}{const};}
-\DoxyCodeLine{00082\ \};}
+\DoxyCodeLine{00017\ \textcolor{keyword}{namespace\ }\mbox{\hyperlink{namespace_engine3_d}{Engine3D}}\ \{}
+\DoxyCodeLine{00018\ }
+\DoxyCodeLine{00024\ \textcolor{keyword}{class\ }\mbox{\hyperlink{class_engine3_d_1_1_sdl_a5a021c186aec82ddc9ca774ac904921e}{Sdl}}\ \{}
+\DoxyCodeLine{00025\ \textcolor{keyword}{private}:}
+\DoxyCodeLine{00026\ \ \ \ \ SDL\_Window*\ \mbox{\hyperlink{class_engine3_d_1_1_sdl_adfb8882a3c39e17bd18f01766b9d10e6}{window}};\ }
+\DoxyCodeLine{00027\ \ \ \ \ SDL\_Renderer*\ \mbox{\hyperlink{class_engine3_d_1_1_sdl_acde67f033535c1902a578580807e6f08}{renderer}};\ }
+\DoxyCodeLine{00028\ \ \ \ \ SDL\_Texture*\ \mbox{\hyperlink{class_engine3_d_1_1_sdl_a54c7b3b7545cebe424393c2f71b04479}{texture}};\ }
+\DoxyCodeLine{00029\ \ \ \ \ uint32\_t*\ \mbox{\hyperlink{class_engine3_d_1_1_sdl_ac5dfc0e215198e4e28f53169dc945c7b}{pixelBuffer}};\ }
+\DoxyCodeLine{00030\ \ \ \ \ \textcolor{keywordtype}{float}*\ \mbox{\hyperlink{class_engine3_d_1_1_sdl_af86017ffd50bf4462b5fecd07aeae4db}{depthBuffer}};\ }
+\DoxyCodeLine{00031\ \ \ \ \ \textcolor{keywordtype}{int}\ \mbox{\hyperlink{class_engine3_d_1_1_sdl_a2cebe5665a4c28744f1219f1affeee3c}{width}};\ }
+\DoxyCodeLine{00032\ \ \ \ \ \textcolor{keywordtype}{int}\ \mbox{\hyperlink{class_engine3_d_1_1_sdl_a3449ca0244c5b4fd8ad9e3b41343ec38}{height}};\ }
+\DoxyCodeLine{00033\ }
+\DoxyCodeLine{00034\ \textcolor{keyword}{public}:}
+\DoxyCodeLine{00041\ \ \ \ \ \mbox{\hyperlink{class_engine3_d_1_1_sdl_a5a021c186aec82ddc9ca774ac904921e}{Sdl}}(\textcolor{keyword}{const}\ std::string\&\ title,\ \textcolor{keywordtype}{int}\ w,\ \textcolor{keywordtype}{int}\ h);}
+\DoxyCodeLine{00042\ }
+\DoxyCodeLine{00046\ \ \ \ \ \mbox{\hyperlink{class_engine3_d_1_1_sdl_a7bc673087bf4e60d7ed53d4724f8ebf2}{\string~Sdl}}();}
+\DoxyCodeLine{00047\ }
+\DoxyCodeLine{00054\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_engine3_d_1_1_sdl_a1d0bcf8d465782eb122d7879fade5c55}{clear}}(uint8\_t\ r,\ uint8\_t\ g,\ uint8\_t\ b);}
+\DoxyCodeLine{00055\ }
+\DoxyCodeLine{00065\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_engine3_d_1_1_sdl_a4ccdd0a08ab45017abe1690b9720fd55}{setPixel}}(\textcolor{keywordtype}{int}\ x,\ \textcolor{keywordtype}{int}\ y,\ \textcolor{keywordtype}{float}\ depth,\ uint8\_t\ r,\ uint8\_t\ g,\ uint8\_t\ b);}
+\DoxyCodeLine{00066\ }
+\DoxyCodeLine{00070\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_engine3_d_1_1_sdl_a306984351cb3945f16741685236058c1}{present}}();}
+\DoxyCodeLine{00071\ }
+\DoxyCodeLine{00076\ \ \ \ \ \textcolor{keywordtype}{int}\ \mbox{\hyperlink{class_engine3_d_1_1_sdl_a933f15ca8765b49a170df0de54109961}{getWidth}}()\ \textcolor{keyword}{const};}
+\DoxyCodeLine{00077\ }
+\DoxyCodeLine{00082\ \ \ \ \ \textcolor{keywordtype}{int}\ \mbox{\hyperlink{class_engine3_d_1_1_sdl_a41d3dfccbf2dd7b58c8075514c494877}{getHeight}}()\ \textcolor{keyword}{const};}
 \DoxyCodeLine{00083\ }
-\DoxyCodeLine{00084\ \textcolor{preprocessor}{\#endif\ }}
+\DoxyCodeLine{00088\ \ \ \ \ \textcolor{keywordtype}{bool}\ \mbox{\hyperlink{class_engine3_d_1_1_sdl_a7be926387d8afcd6ddf762472d9407ca}{isValid}}()\ \textcolor{keyword}{const};}
+\DoxyCodeLine{00089\ \};}
+\DoxyCodeLine{00090\ }
+\DoxyCodeLine{00091\ \}\ \textcolor{comment}{//\ namespace\ Engine3D}}
+\DoxyCodeLine{00092\ }
+\DoxyCodeLine{00093\ \textcolor{preprocessor}{\#endif\ }}
 
 \end{DoxyCode}

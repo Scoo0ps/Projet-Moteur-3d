@@ -1,0 +1,7 @@
+<map id="Engine3D::Triangle3d" name="Engine3D::Triangle3d">
+<area shape="rect" id="Node000001" title="Triangle dans l&#39;espace 3D." alt="" coords="5,523,141,656"/>
+<area shape="rect" id="Node000002" href="$class_engine3_d_1_1_point3d.html" title="Représente un point dans l&#39;espace 3D." alt="" coords="13,189,133,408"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="76,408,76,505,70,505,70,408"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="55,5,91,75"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="76,74,76,173,70,173,70,74"/>
+</map>

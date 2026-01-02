@@ -1,0 +1,163 @@
+@startuml Moteur3D_UML
+!theme plain
+skinparam classAttributeIconSize 0
+skinparam classFontSize 12
+skinparam classAttributeFontSize 10
+skinparam packageStyle rectangle
+
+title Diagramme UML - Moteur 3D
+
+namespace Engine3D {
+
+    class Point3d {
+        +x : float
+        +y : float
+        +z : float
+        --
+        +Point3d()
+        +Point3d(x: float, y: float, z: float)
+        +operator-(other: Point3d) : Point3d
+        +operator+(other: Point3d) : Point3d
+        +operator*(scalar: float) : Point3d
+        +cross(other: Point3d) : Point3d
+        +dot(other: Point3d) : float
+        +normalize() : Point3d
+    }
+
+    class Point2d {
+        +x : int
+        +y : int
+        +z : float
+        --
+        +Point2d()
+        +Point2d(x: int, y: int, z: float)
+    }
+
+    class Triangle3d {
+        +p1 : Point3d
+        +p2 : Point3d
+        +p3 : Point3d
+        --
+        +Triangle3d()
+        +Triangle3d(p1: Point3d, p2: Point3d, p3: Point3d)
+        +normal() : Point3d
+        +center() : Point3d
+    }
+
+    class Triangle2d {
+        +p1 : Point2d
+        +p2 : Point2d
+        +p3 : Point2d
+        --
+        +Triangle2d()
+        +Triangle2d(p1: Point2d, p2: Point2d, p3: Point2d)
+    }
+
+    class Quad3d {
+        +t1 : Triangle3d
+        +t2 : Triangle3d
+        --
+        +Quad3d()
+        +Quad3d(p1: Point3d, p2: Point3d, p3: Point3d, p4: Point3d)
+        +getTriangles() : vector<Triangle3d>
+    }
+
+    class Pave3d {
+        -center : Point3d
+        -sizeX : float
+        -sizeY : float
+        -sizeZ : float
+        -angleX : float
+        -angleY : float
+        -angleZ : float
+        --
+        +Pave3d(center: Point3d, sizeX: float, sizeY: float, sizeZ: float)
+        +setRotation(angleX: float, angleY: float, angleZ: float)
+        +getTriangles() : vector<Triangle3d>
+        -rotatePoint(p: Point3d) : Point3d
+    }
+
+    class Sphere3d {
+        -center : Point3d
+        -radius : float
+        -meridians : int
+        -parallels : int
+        --
+        +Sphere3d(center: Point3d, radius: float, meridians: int, parallels: int)
+        +getTriangles() : vector<Triangle3d>
+        -spherePoint(theta: float, phi: float) : Point3d
+    }
+
+    class Camera {
+        +position : Point3d
+        +direction : Point3d
+        +up : Point3d
+        +fov : float
+        +nearPlane : float
+        --
+        +Camera()
+        +moveForward(delta: float)
+        +moveRight(delta: float)
+        +moveLeft(delta: float)
+        +moveUp(delta: float)
+    }
+
+    struct ColoredTriangle {
+        +triangle : Triangle3d
+        +r : uint8_t
+        +g : uint8_t
+        +b : uint8_t
+    }
+
+    class Scene {
+        -sdl : Sdl&
+        -camera : Camera
+        -triangles : vector<ColoredTriangle>
+        --
+        +Scene(sdl: Sdl&)
+        +addTriangles(tris: vector<Triangle3d>, r: uint8_t, g: uint8_t, b: uint8_t)
+        +clearTriangles()
+        +render()
+        +getCamera() : Camera&
+        -project(p: Point3d) : Point2d
+        -isTriangleVisible(triangle: Triangle3d) : bool
+        -rasterizeTriangle(triangle: Triangle2d, avgDepth: float, r: uint8_t, g: uint8_t, b: uint8_t)
+        -drawScanline(y: int, x1: int, x2: int, depth: float, r: uint8_t, g: uint8_t, b: uint8_t)
+        -fillFlatBottom(p1: Point2d, p2: Point2d, p3: Point2d, depth: float, r: uint8_t, g: uint8_t, b: uint8_t)
+        -fillFlatTop(p1: Point2d, p2: Point2d, p3: Point2d, depth: float, r: uint8_t, g: uint8_t, b: uint8_t)
+    }
+
+    class Sdl {
+        -window : SDL_Window*
+        -renderer : SDL_Renderer*
+        -texture : SDL_Texture*
+        -pixelBuffer : uint32_t*
+        -depthBuffer : float*
+        -width : int
+        -height : int
+        --
+        +Sdl(title: string, w: int, h: int)
+        +~Sdl()
+        +clear(r: uint8_t, g: uint8_t, b: uint8_t)
+        +setPixel(x: int, y: int, depth: float, r: uint8_t, g: uint8_t, b: uint8_t)
+        +present()
+        +getWidth() : int
+        +getHeight() : int
+        +isValid() : bool
+    }
+
+    ' Compositions et associations
+    Triangle3d "3" *-- Point3d : contient
+    Triangle2d "3" *-- Point2d : contient
+    Quad3d "2" *-- Triangle3d : contient
+    Pave3d "1" *-- Point3d : center
+    Sphere3d "1" *-- Point3d : center
+    Camera "3" *-- Point3d : position, direction, up
+    ColoredTriangle "1" *-- Triangle3d : contient
+    Scene "1" *-- Camera : possède
+    Scene "*" o-- ColoredTriangle : stocke
+    Scene "1" --> Sdl : utilise
+
+}
+
+@enduml

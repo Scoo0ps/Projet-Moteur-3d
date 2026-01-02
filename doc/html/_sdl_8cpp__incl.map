@@ -1,0 +1,15 @@
+<map id="Sdl.cpp" name="Sdl.cpp">
+<area shape="rect" id="Node000001" title="Implémentation de la classe Sdl." alt="" coords="164,5,230,32"/>
+<area shape="rect" id="Node000002" href="$_sdl_8hpp.html" title="Encapsulation de la bibliothèque SDL2." alt="" coords="82,80,147,107"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="185,35,142,72,138,68,181,31"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="171,80,223,107"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="200,33,200,64,194,64,194,33"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="247,80,307,107"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="213,31,254,68,251,72,209,35"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="5,155,64,181"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="102,109,61,146,58,142,99,105"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="88,155,141,181"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="117,107,117,139,112,139,112,107"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="166,155,226,181"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="130,105,172,142,169,146,127,109"/>
+</map>

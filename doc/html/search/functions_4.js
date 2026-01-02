@@ -1,7 +1,7 @@
 var searchData=
 [
-  ['getcamera_0',['getCamera',['../class_scene.html#a3ed172716831329fef9909a9ccf32bc1',1,'Scene']]],
-  ['getheight_1',['getHeight',['../class_sdl.html#ad51292e8065e88bbe37596a0e11b50d2',1,'Sdl']]],
-  ['gettriangles_2',['getTriangles',['../class_quad3d.html#ad79aa5a7b77481607cb62d7945c362dc',1,'Quad3d::getTriangles()'],['../class_pave3d.html#aa4d2066cd148a40fb383be0d36b4d27b',1,'Pave3d::getTriangles()'],['../class_sphere3d.html#ae65597f503f8a8b2541bba0d04629d58',1,'Sphere3d::getTriangles()']]],
-  ['getwidth_3',['getWidth',['../class_sdl.html#a6b816ae01604002abb75a874d1c97d8a',1,'Sdl']]]
+  ['getcamera_0',['getCamera',['../class_engine3_d_1_1_scene.html#a1f8a56782e30aafa6f74158f8b36b0e8',1,'Engine3D::Scene']]],
+  ['getheight_1',['getHeight',['../class_engine3_d_1_1_sdl.html#a41d3dfccbf2dd7b58c8075514c494877',1,'Engine3D::Sdl']]],
+  ['gettriangles_2',['getTriangles',['../class_engine3_d_1_1_quad3d.html#aaa0bdee0dc9d2376064665d7caf6b0f5',1,'Engine3D::Quad3d::getTriangles()'],['../class_engine3_d_1_1_pave3d.html#a4119fbf8bcb7a8e53bf791e07dad4a36',1,'Engine3D::Pave3d::getTriangles()'],['../class_engine3_d_1_1_sphere3d.html#a2021bf0962839e427e464bb61e8702e0',1,'Engine3D::Sphere3d::getTriangles()']]],
+  ['getwidth_3',['getWidth',['../class_engine3_d_1_1_sdl.html#a933f15ca8765b49a170df0de54109961',1,'Engine3D::Sdl']]]
 ];

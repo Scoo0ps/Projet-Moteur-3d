@@ -1,0 +1,229 @@
+\doxysection{Référence de la classe Engine3D\+::Pave3d}
+\hypertarget{class_engine3_d_1_1_pave3d}{}\label{class_engine3_d_1_1_pave3d}\index{Engine3D::Pave3d@{Engine3D::Pave3d}}
+
+
+Pavé composé de 6 faces (\doxylink{class_engine3_d_1_1_quad3d}{Quad3d}).  
+
+
+
+
+{\ttfamily \#include $<$Geometry.\+hpp$>$}
+
+
+
+Graphe de collaboration de Engine3D\+::Pave3d\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=239pt]{class_engine3_d_1_1_pave3d__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Fonctions membres publiques}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_engine3_d_1_1_pave3d_aca7601e26542c064add48a9a1a8d4543}{Pave3d}} (const \mbox{\hyperlink{class_engine3_d_1_1_point3d}{Point3d}} \&\mbox{\hyperlink{class_engine3_d_1_1_pave3d_a87a744edf8cd5322b26133970c0f89d8}{center}}, float \mbox{\hyperlink{class_engine3_d_1_1_pave3d_a3d6c03d90d4b6266ec93d8432fe12bc5}{sizeX}}, float \mbox{\hyperlink{class_engine3_d_1_1_pave3d_a384e54e8d162f4e8c3a7b12c1ecfea12}{sizeY}}, float \mbox{\hyperlink{class_engine3_d_1_1_pave3d_a67c5ec3eb83317e4125195f04c4b60e0}{sizeZ}})
+\begin{DoxyCompactList}\small\item\em Constructeur avec paramètres. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_engine3_d_1_1_pave3d_a17d8fdec0f274f775de834fe0b1a6366}{set\+Rotation}} (float \mbox{\hyperlink{class_engine3_d_1_1_pave3d_ae706eefe1deb6a1dcc24077b32b6d603}{angleX}}, float \mbox{\hyperlink{class_engine3_d_1_1_pave3d_ac43b3f14618030d920de76e21e98f5a9}{angleY}}, float \mbox{\hyperlink{class_engine3_d_1_1_pave3d_a272fb89fa573c3c3768da7bf92e64f17}{angleZ}})
+\begin{DoxyCompactList}\small\item\em Définit les angles de rotation. \end{DoxyCompactList}\item 
+std\+::vector$<$ \mbox{\hyperlink{class_engine3_d_1_1_triangle3d}{Triangle3d}} $>$ \mbox{\hyperlink{class_engine3_d_1_1_pave3d_a4119fbf8bcb7a8e53bf791e07dad4a36}{get\+Triangles}} () const
+\begin{DoxyCompactList}\small\item\em Retourne tous les triangles du pavé \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Fonctions membres privées}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_engine3_d_1_1_point3d}{Point3d}} \mbox{\hyperlink{class_engine3_d_1_1_pave3d_a9ac0e8d9d88b16945a180d5e86b09879}{rotate\+Point}} (const \mbox{\hyperlink{class_engine3_d_1_1_point3d}{Point3d}} \&p) const
+\begin{DoxyCompactList}\small\item\em Applique la rotation à un point. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Attributs privés}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_engine3_d_1_1_point3d}{Point3d}} \mbox{\hyperlink{class_engine3_d_1_1_pave3d_a87a744edf8cd5322b26133970c0f89d8}{center}}
+\begin{DoxyCompactList}\small\item\em Centre du pavé \end{DoxyCompactList}\item 
+float \mbox{\hyperlink{class_engine3_d_1_1_pave3d_a3d6c03d90d4b6266ec93d8432fe12bc5}{sizeX}}
+\begin{DoxyCompactList}\small\item\em Taille en X (largeur). \end{DoxyCompactList}\item 
+float \mbox{\hyperlink{class_engine3_d_1_1_pave3d_a384e54e8d162f4e8c3a7b12c1ecfea12}{sizeY}}
+\begin{DoxyCompactList}\small\item\em Taille en Y (hauteur). \end{DoxyCompactList}\item 
+float \mbox{\hyperlink{class_engine3_d_1_1_pave3d_a67c5ec3eb83317e4125195f04c4b60e0}{sizeZ}}
+\begin{DoxyCompactList}\small\item\em Taille en Z (profondeur). \end{DoxyCompactList}\item 
+float \mbox{\hyperlink{class_engine3_d_1_1_pave3d_ae706eefe1deb6a1dcc24077b32b6d603}{angleX}}
+\begin{DoxyCompactList}\small\item\em Angle de rotation X. \end{DoxyCompactList}\item 
+float \mbox{\hyperlink{class_engine3_d_1_1_pave3d_ac43b3f14618030d920de76e21e98f5a9}{angleY}}
+\begin{DoxyCompactList}\small\item\em Angle de rotation Y. \end{DoxyCompactList}\item 
+float \mbox{\hyperlink{class_engine3_d_1_1_pave3d_a272fb89fa573c3c3768da7bf92e64f17}{angleZ}}
+\begin{DoxyCompactList}\small\item\em Angle de rotation Z. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Description détaillée}
+Pavé composé de 6 faces (\doxylink{class_engine3_d_1_1_quad3d}{Quad3d}). 
+
+\label{doc-constructors}
+\Hypertarget{class_engine3_d_1_1_pave3d_doc-constructors}
+\doxysubsection{Documentation des constructeurs et destructeur}
+\Hypertarget{class_engine3_d_1_1_pave3d_aca7601e26542c064add48a9a1a8d4543}\index{Engine3D::Pave3d@{Engine3D::Pave3d}!Pave3d@{Pave3d}}
+\index{Pave3d@{Pave3d}!Engine3D::Pave3d@{Engine3D::Pave3d}}
+\doxysubsubsection{\texorpdfstring{Pave3d()}{Pave3d()}}
+{\footnotesize\ttfamily \label{class_engine3_d_1_1_pave3d_aca7601e26542c064add48a9a1a8d4543} 
+Engine3\+D\+::\+Pave3d\+::\+Pave3d (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{class_engine3_d_1_1_point3d}{Point3d}} \&}]{center}{, }\item[{float}]{sizeX}{, }\item[{float}]{sizeY}{, }\item[{float}]{sizeZ}{}\end{DoxyParamCaption})}
+
+
+
+Constructeur avec paramètres. 
+
+
+\begin{DoxyParams}{Paramètres}
+{\em center} & \\
+\hline
+{\em sizeX} & \\
+\hline
+{\em sizeY} & \\
+\hline
+{\em sizeZ} & \\
+\hline
+\end{DoxyParams}
+
+
+\label{doc-func-members}
+\Hypertarget{class_engine3_d_1_1_pave3d_doc-func-members}
+\doxysubsection{Documentation des fonctions membres}
+\Hypertarget{class_engine3_d_1_1_pave3d_a4119fbf8bcb7a8e53bf791e07dad4a36}\index{Engine3D::Pave3d@{Engine3D::Pave3d}!getTriangles@{getTriangles}}
+\index{getTriangles@{getTriangles}!Engine3D::Pave3d@{Engine3D::Pave3d}}
+\doxysubsubsection{\texorpdfstring{getTriangles()}{getTriangles()}}
+{\footnotesize\ttfamily \label{class_engine3_d_1_1_pave3d_a4119fbf8bcb7a8e53bf791e07dad4a36} 
+std\+::vector$<$ \mbox{\hyperlink{class_engine3_d_1_1_triangle3d}{Triangle3d}} $>$ Engine3\+D\+::\+Pave3d\+::get\+Triangles (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption}) const}
+
+
+
+Retourne tous les triangles du pavé 
+
+Voici le graphe d\textquotesingle{}appel pour cette fonction \+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_engine3_d_1_1_pave3d_a4119fbf8bcb7a8e53bf791e07dad4a36_cgraph}
+\end{center}
+\end{figure}
+Voici le graphe des appelants de cette fonction \+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_engine3_d_1_1_pave3d_a4119fbf8bcb7a8e53bf791e07dad4a36_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_engine3_d_1_1_pave3d_a9ac0e8d9d88b16945a180d5e86b09879}\index{Engine3D::Pave3d@{Engine3D::Pave3d}!rotatePoint@{rotatePoint}}
+\index{rotatePoint@{rotatePoint}!Engine3D::Pave3d@{Engine3D::Pave3d}}
+\doxysubsubsection{\texorpdfstring{rotatePoint()}{rotatePoint()}}
+{\footnotesize\ttfamily \label{class_engine3_d_1_1_pave3d_a9ac0e8d9d88b16945a180d5e86b09879} 
+\mbox{\hyperlink{class_engine3_d_1_1_point3d}{Point3d}} Engine3\+D\+::\+Pave3d\+::rotate\+Point (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{class_engine3_d_1_1_point3d}{Point3d}} \&}]{p}{}\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Applique la rotation à un point. 
+
+Voici le graphe des appelants de cette fonction \+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_engine3_d_1_1_pave3d_a9ac0e8d9d88b16945a180d5e86b09879_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_engine3_d_1_1_pave3d_a17d8fdec0f274f775de834fe0b1a6366}\index{Engine3D::Pave3d@{Engine3D::Pave3d}!setRotation@{setRotation}}
+\index{setRotation@{setRotation}!Engine3D::Pave3d@{Engine3D::Pave3d}}
+\doxysubsubsection{\texorpdfstring{setRotation()}{setRotation()}}
+{\footnotesize\ttfamily \label{class_engine3_d_1_1_pave3d_a17d8fdec0f274f775de834fe0b1a6366} 
+void Engine3\+D\+::\+Pave3d\+::set\+Rotation (\begin{DoxyParamCaption}\item[{float}]{angleX}{, }\item[{float}]{angleY}{, }\item[{float}]{angleZ}{}\end{DoxyParamCaption})}
+
+
+
+Définit les angles de rotation. 
+
+Voici le graphe des appelants de cette fonction \+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_engine3_d_1_1_pave3d_a17d8fdec0f274f775de834fe0b1a6366_icgraph}
+\end{center}
+\end{figure}
+
+
+\label{doc-variable-members}
+\Hypertarget{class_engine3_d_1_1_pave3d_doc-variable-members}
+\doxysubsection{Documentation des données membres}
+\Hypertarget{class_engine3_d_1_1_pave3d_ae706eefe1deb6a1dcc24077b32b6d603}\index{Engine3D::Pave3d@{Engine3D::Pave3d}!angleX@{angleX}}
+\index{angleX@{angleX}!Engine3D::Pave3d@{Engine3D::Pave3d}}
+\doxysubsubsection{\texorpdfstring{angleX}{angleX}}
+{\footnotesize\ttfamily \label{class_engine3_d_1_1_pave3d_ae706eefe1deb6a1dcc24077b32b6d603} 
+float Engine3\+D\+::\+Pave3d\+::angleX\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Angle de rotation X. 
+
+\Hypertarget{class_engine3_d_1_1_pave3d_ac43b3f14618030d920de76e21e98f5a9}\index{Engine3D::Pave3d@{Engine3D::Pave3d}!angleY@{angleY}}
+\index{angleY@{angleY}!Engine3D::Pave3d@{Engine3D::Pave3d}}
+\doxysubsubsection{\texorpdfstring{angleY}{angleY}}
+{\footnotesize\ttfamily \label{class_engine3_d_1_1_pave3d_ac43b3f14618030d920de76e21e98f5a9} 
+float Engine3\+D\+::\+Pave3d\+::angleY\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Angle de rotation Y. 
+
+\Hypertarget{class_engine3_d_1_1_pave3d_a272fb89fa573c3c3768da7bf92e64f17}\index{Engine3D::Pave3d@{Engine3D::Pave3d}!angleZ@{angleZ}}
+\index{angleZ@{angleZ}!Engine3D::Pave3d@{Engine3D::Pave3d}}
+\doxysubsubsection{\texorpdfstring{angleZ}{angleZ}}
+{\footnotesize\ttfamily \label{class_engine3_d_1_1_pave3d_a272fb89fa573c3c3768da7bf92e64f17} 
+float Engine3\+D\+::\+Pave3d\+::angleZ\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Angle de rotation Z. 
+
+\Hypertarget{class_engine3_d_1_1_pave3d_a87a744edf8cd5322b26133970c0f89d8}\index{Engine3D::Pave3d@{Engine3D::Pave3d}!center@{center}}
+\index{center@{center}!Engine3D::Pave3d@{Engine3D::Pave3d}}
+\doxysubsubsection{\texorpdfstring{center}{center}}
+{\footnotesize\ttfamily \label{class_engine3_d_1_1_pave3d_a87a744edf8cd5322b26133970c0f89d8} 
+\mbox{\hyperlink{class_engine3_d_1_1_point3d}{Point3d}} Engine3\+D\+::\+Pave3d\+::center\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Centre du pavé 
+
+\Hypertarget{class_engine3_d_1_1_pave3d_a3d6c03d90d4b6266ec93d8432fe12bc5}\index{Engine3D::Pave3d@{Engine3D::Pave3d}!sizeX@{sizeX}}
+\index{sizeX@{sizeX}!Engine3D::Pave3d@{Engine3D::Pave3d}}
+\doxysubsubsection{\texorpdfstring{sizeX}{sizeX}}
+{\footnotesize\ttfamily \label{class_engine3_d_1_1_pave3d_a3d6c03d90d4b6266ec93d8432fe12bc5} 
+float Engine3\+D\+::\+Pave3d\+::sizeX\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Taille en X (largeur). 
+
+\Hypertarget{class_engine3_d_1_1_pave3d_a384e54e8d162f4e8c3a7b12c1ecfea12}\index{Engine3D::Pave3d@{Engine3D::Pave3d}!sizeY@{sizeY}}
+\index{sizeY@{sizeY}!Engine3D::Pave3d@{Engine3D::Pave3d}}
+\doxysubsubsection{\texorpdfstring{sizeY}{sizeY}}
+{\footnotesize\ttfamily \label{class_engine3_d_1_1_pave3d_a384e54e8d162f4e8c3a7b12c1ecfea12} 
+float Engine3\+D\+::\+Pave3d\+::sizeY\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Taille en Y (hauteur). 
+
+\Hypertarget{class_engine3_d_1_1_pave3d_a67c5ec3eb83317e4125195f04c4b60e0}\index{Engine3D::Pave3d@{Engine3D::Pave3d}!sizeZ@{sizeZ}}
+\index{sizeZ@{sizeZ}!Engine3D::Pave3d@{Engine3D::Pave3d}}
+\doxysubsubsection{\texorpdfstring{sizeZ}{sizeZ}}
+{\footnotesize\ttfamily \label{class_engine3_d_1_1_pave3d_a67c5ec3eb83317e4125195f04c4b60e0} 
+float Engine3\+D\+::\+Pave3d\+::sizeZ\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Taille en Z (profondeur). 
+
+
+
+La documentation de cette classe a été générée à partir des fichiers suivants \+:\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{_geometry_8hpp}{Geometry.\+hpp}}\item 
+\mbox{\hyperlink{_geometry_8cpp}{Geometry.\+cpp}}\end{DoxyCompactItemize}

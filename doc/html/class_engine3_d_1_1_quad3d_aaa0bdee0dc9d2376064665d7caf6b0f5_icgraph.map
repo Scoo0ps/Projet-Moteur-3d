@@ -1,0 +1,16 @@
+<map id="Engine3D::Quad3d::getTriangles" name="Engine3D::Quad3d::getTriangles">
+<area shape="rect" id="Node000001" title="Retourne les triangles du quad." alt="" coords="617,35,827,61"/>
+<area shape="rect" id="Node000002" href="$class_engine3_d_1_1_pave3d.html#a4119fbf8bcb7a8e53bf791e07dad4a36" title="Retourne tous les triangles du pavé" alt="" coords="359,5,569,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="601,37,569,33,569,28,602,32"/>
+<area shape="rect" id="Node000006" href="$class_engine3_d_1_1_sphere3d.html#a2021bf0962839e427e464bb61e8702e0" title="Retourne tous les triangles de la sphère." alt="" coords="393,56,535,99"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="602,64,536,72,535,67,601,59"/>
+<area shape="rect" id="Node000003" href="$main_8cpp.html#a3f8bbedc9cc7a81915ae12b5d66c00cd" title="Crée et ajoute le cube à la scène." alt="" coords="233,8,306,35"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="344,23,307,23,307,18,344,18"/>
+<area shape="rect" id="Node000004" href="$main_8cpp.html#a43c63981d2c39c1e3e08614ee3f83b4f" title="Boucle principale du programme." alt="" coords="103,35,180,61"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="219,35,181,43,180,37,217,29"/>
+<area shape="rect" id="Node000005" href="$main_8cpp.html#a0ddf1224851353fc92bfbff6f499fa97" title="main" alt="" coords="5,35,55,61"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="87,51,55,51,55,45,87,45"/>
+<area shape="rect" id="Node000007" href="$main_8cpp.html#a413ed82437706932602a46bf716063ca" title="Crée et ajoute la sphère à la scène." alt="" coords="228,60,311,87"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="378,78,312,77,312,72,378,73"/>
+<area shape="poly" id="edge7_Node000007_Node000004" title=" " alt="" coords="212,65,180,58,181,53,213,60"/>
+</map>

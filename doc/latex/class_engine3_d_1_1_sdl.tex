@@ -1,0 +1,287 @@
+\doxysection{Référence de la classe Engine3D\+::Sdl}
+\hypertarget{class_engine3_d_1_1_sdl}{}\label{class_engine3_d_1_1_sdl}\index{Engine3D::Sdl@{Engine3D::Sdl}}
+
+
+Classe contenant les fonctionnalités SDL pour le rendu graphique.  
+
+
+
+
+{\ttfamily \#include $<$Sdl.\+hpp$>$}
+
+
+
+Graphe de collaboration de Engine3D\+::Sdl\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_engine3_d_1_1_sdl__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Fonctions membres publiques}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_engine3_d_1_1_sdl_a5a021c186aec82ddc9ca774ac904921e}{Sdl}} (const std\+::string \&title, int w, int h)
+\begin{DoxyCompactList}\small\item\em Constructeur de la classe \doxylink{class_engine3_d_1_1_sdl}{Sdl}. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_engine3_d_1_1_sdl_a7bc673087bf4e60d7ed53d4724f8ebf2}{\texorpdfstring{$\sim$}{\string~}\+Sdl}} ()
+\begin{DoxyCompactList}\small\item\em Destructeur de la classe \doxylink{class_engine3_d_1_1_sdl}{Sdl}. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_engine3_d_1_1_sdl_a1d0bcf8d465782eb122d7879fade5c55}{clear}} (uint8\+\_\+t r, uint8\+\_\+t g, uint8\+\_\+t b)
+\begin{DoxyCompactList}\small\item\em Efface le tampon de pixels avec une couleur. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_engine3_d_1_1_sdl_a4ccdd0a08ab45017abe1690b9720fd55}{set\+Pixel}} (int x, int y, float depth, uint8\+\_\+t r, uint8\+\_\+t g, uint8\+\_\+t b)
+\begin{DoxyCompactList}\small\item\em Dessine un pixel dans le tampon. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_engine3_d_1_1_sdl_a306984351cb3945f16741685236058c1}{present}} ()
+\begin{DoxyCompactList}\small\item\em Présente le contenu du tampon à l\textquotesingle{}écran. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{class_engine3_d_1_1_sdl_a933f15ca8765b49a170df0de54109961}{get\+Width}} () const
+\begin{DoxyCompactList}\small\item\em Retourne la largeur de la fenêtre. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{class_engine3_d_1_1_sdl_a41d3dfccbf2dd7b58c8075514c494877}{get\+Height}} () const
+\begin{DoxyCompactList}\small\item\em Retourne la hauteur de la fenêtre. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{class_engine3_d_1_1_sdl_a7be926387d8afcd6ddf762472d9407ca}{is\+Valid}} () const
+\begin{DoxyCompactList}\small\item\em Vérifie si SDL a été initialisé correctement. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Attributs privés}
+\begin{DoxyCompactItemize}
+\item 
+SDL\+\_\+\+Window \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{class_engine3_d_1_1_sdl_adfb8882a3c39e17bd18f01766b9d10e6}{window}}
+\begin{DoxyCompactList}\small\item\em Pointeur vers la fenêtre SDL. \end{DoxyCompactList}\item 
+SDL\+\_\+\+Renderer \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{class_engine3_d_1_1_sdl_acde67f033535c1902a578580807e6f08}{renderer}}
+\begin{DoxyCompactList}\small\item\em Pointeur vers le renderer SDL. \end{DoxyCompactList}\item 
+SDL\+\_\+\+Texture \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{class_engine3_d_1_1_sdl_a54c7b3b7545cebe424393c2f71b04479}{texture}}
+\begin{DoxyCompactList}\small\item\em Texture pour le rendu pixel par pixel. \end{DoxyCompactList}\item 
+uint32\+\_\+t \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{class_engine3_d_1_1_sdl_ac5dfc0e215198e4e28f53169dc945c7b}{pixel\+Buffer}}
+\begin{DoxyCompactList}\small\item\em Tampon de pixels. \end{DoxyCompactList}\item 
+float \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{class_engine3_d_1_1_sdl_af86017ffd50bf4462b5fecd07aeae4db}{depth\+Buffer}}
+\begin{DoxyCompactList}\small\item\em Tampon de profondeur. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{class_engine3_d_1_1_sdl_a2cebe5665a4c28744f1219f1affeee3c}{width}}
+\begin{DoxyCompactList}\small\item\em Largeur de la fenêtre. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{class_engine3_d_1_1_sdl_a3449ca0244c5b4fd8ad9e3b41343ec38}{height}}
+\begin{DoxyCompactList}\small\item\em Hauteur de la fenêtre. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Description détaillée}
+Classe contenant les fonctionnalités SDL pour le rendu graphique. 
+
+\label{doc-constructors}
+\Hypertarget{class_engine3_d_1_1_sdl_doc-constructors}
+\doxysubsection{Documentation des constructeurs et destructeur}
+\Hypertarget{class_engine3_d_1_1_sdl_a5a021c186aec82ddc9ca774ac904921e}\index{Engine3D::Sdl@{Engine3D::Sdl}!Sdl@{Sdl}}
+\index{Sdl@{Sdl}!Engine3D::Sdl@{Engine3D::Sdl}}
+\doxysubsubsection{\texorpdfstring{Sdl()}{Sdl()}}
+{\footnotesize\ttfamily \label{class_engine3_d_1_1_sdl_a5a021c186aec82ddc9ca774ac904921e} 
+Engine3\+D\+::\+Sdl\+::\+Sdl (\begin{DoxyParamCaption}\item[{const std\+::string \&}]{title}{, }\item[{int}]{w}{, }\item[{int}]{h}{}\end{DoxyParamCaption})}
+
+
+
+Constructeur de la classe \doxylink{class_engine3_d_1_1_sdl}{Sdl}. 
+
+Constructeur initialisant SDL, la fenêtre et les tampons.
+
+
+\begin{DoxyParams}{Paramètres}
+{\em title} & Titre de la fenêtre \\
+\hline
+{\em w} & Largeur de la fenêtre \\
+\hline
+{\em h} & Hauteur de la fenêtre \\
+\hline
+\end{DoxyParams}
+\Hypertarget{class_engine3_d_1_1_sdl_a7bc673087bf4e60d7ed53d4724f8ebf2}\index{Engine3D::Sdl@{Engine3D::Sdl}!````~Sdl@{\texorpdfstring{$\sim$}{\string~}Sdl}}
+\index{````~Sdl@{\texorpdfstring{$\sim$}{\string~}Sdl}!Engine3D::Sdl@{Engine3D::Sdl}}
+\doxysubsubsection{\texorpdfstring{\texorpdfstring{$\sim$}{\string~}Sdl()}{\string~Sdl()}}
+{\footnotesize\ttfamily \label{class_engine3_d_1_1_sdl_a7bc673087bf4e60d7ed53d4724f8ebf2} 
+Engine3\+D\+::\+Sdl\+::\texorpdfstring{$\sim$}{\string~}\+Sdl (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+
+
+Destructeur de la classe \doxylink{class_engine3_d_1_1_sdl}{Sdl}. 
+
+Destructeur libérant les ressources SDL. 
+
+\label{doc-func-members}
+\Hypertarget{class_engine3_d_1_1_sdl_doc-func-members}
+\doxysubsection{Documentation des fonctions membres}
+\Hypertarget{class_engine3_d_1_1_sdl_a1d0bcf8d465782eb122d7879fade5c55}\index{Engine3D::Sdl@{Engine3D::Sdl}!clear@{clear}}
+\index{clear@{clear}!Engine3D::Sdl@{Engine3D::Sdl}}
+\doxysubsubsection{\texorpdfstring{clear()}{clear()}}
+{\footnotesize\ttfamily \label{class_engine3_d_1_1_sdl_a1d0bcf8d465782eb122d7879fade5c55} 
+void Engine3\+D\+::\+Sdl\+::clear (\begin{DoxyParamCaption}\item[{uint8\+\_\+t}]{r}{, }\item[{uint8\+\_\+t}]{g}{, }\item[{uint8\+\_\+t}]{b}{}\end{DoxyParamCaption})}
+
+
+
+Efface le tampon de pixels avec une couleur. 
+
+Efface les tampons avec la couleur spécifiée.
+
+
+\begin{DoxyParams}{Paramètres}
+{\em r} & Composante rouge (0-\/255) \\
+\hline
+{\em g} & Composante verte (0-\/255) \\
+\hline
+{\em b} & Composante bleue (0-\/255) \\
+\hline
+\end{DoxyParams}
+\Hypertarget{class_engine3_d_1_1_sdl_a41d3dfccbf2dd7b58c8075514c494877}\index{Engine3D::Sdl@{Engine3D::Sdl}!getHeight@{getHeight}}
+\index{getHeight@{getHeight}!Engine3D::Sdl@{Engine3D::Sdl}}
+\doxysubsubsection{\texorpdfstring{getHeight()}{getHeight()}}
+{\footnotesize\ttfamily \label{class_engine3_d_1_1_sdl_a41d3dfccbf2dd7b58c8075514c494877} 
+int Engine3\+D\+::\+Sdl\+::get\+Height (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption}) const}
+
+
+
+Retourne la hauteur de la fenêtre. 
+
+\begin{DoxyReturn}{Renvoie}
+Hauteur en pixels 
+\end{DoxyReturn}
+\Hypertarget{class_engine3_d_1_1_sdl_a933f15ca8765b49a170df0de54109961}\index{Engine3D::Sdl@{Engine3D::Sdl}!getWidth@{getWidth}}
+\index{getWidth@{getWidth}!Engine3D::Sdl@{Engine3D::Sdl}}
+\doxysubsubsection{\texorpdfstring{getWidth()}{getWidth()}}
+{\footnotesize\ttfamily \label{class_engine3_d_1_1_sdl_a933f15ca8765b49a170df0de54109961} 
+int Engine3\+D\+::\+Sdl\+::get\+Width (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption}) const}
+
+
+
+Retourne la largeur de la fenêtre. 
+
+\begin{DoxyReturn}{Renvoie}
+Largeur en pixels 
+\end{DoxyReturn}
+\Hypertarget{class_engine3_d_1_1_sdl_a7be926387d8afcd6ddf762472d9407ca}\index{Engine3D::Sdl@{Engine3D::Sdl}!isValid@{isValid}}
+\index{isValid@{isValid}!Engine3D::Sdl@{Engine3D::Sdl}}
+\doxysubsubsection{\texorpdfstring{isValid()}{isValid()}}
+{\footnotesize\ttfamily \label{class_engine3_d_1_1_sdl_a7be926387d8afcd6ddf762472d9407ca} 
+bool Engine3\+D\+::\+Sdl\+::is\+Valid (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption}) const}
+
+
+
+Vérifie si SDL a été initialisé correctement. 
+
+\begin{DoxyReturn}{Renvoie}
+true si l\textquotesingle{}initialisation est réussie 
+\end{DoxyReturn}
+Voici le graphe des appelants de cette fonction \+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=267pt]{class_engine3_d_1_1_sdl_a7be926387d8afcd6ddf762472d9407ca_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_engine3_d_1_1_sdl_a306984351cb3945f16741685236058c1}\index{Engine3D::Sdl@{Engine3D::Sdl}!present@{present}}
+\index{present@{present}!Engine3D::Sdl@{Engine3D::Sdl}}
+\doxysubsubsection{\texorpdfstring{present()}{present()}}
+{\footnotesize\ttfamily \label{class_engine3_d_1_1_sdl_a306984351cb3945f16741685236058c1} 
+void Engine3\+D\+::\+Sdl\+::present (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+
+
+Présente le contenu du tampon à l\textquotesingle{}écran. 
+
+Affiche le contenu du tampon à l\textquotesingle{}écran. \Hypertarget{class_engine3_d_1_1_sdl_a4ccdd0a08ab45017abe1690b9720fd55}\index{Engine3D::Sdl@{Engine3D::Sdl}!setPixel@{setPixel}}
+\index{setPixel@{setPixel}!Engine3D::Sdl@{Engine3D::Sdl}}
+\doxysubsubsection{\texorpdfstring{setPixel()}{setPixel()}}
+{\footnotesize\ttfamily \label{class_engine3_d_1_1_sdl_a4ccdd0a08ab45017abe1690b9720fd55} 
+void Engine3\+D\+::\+Sdl\+::set\+Pixel (\begin{DoxyParamCaption}\item[{int}]{x}{, }\item[{int}]{y}{, }\item[{float}]{depth}{, }\item[{uint8\+\_\+t}]{r}{, }\item[{uint8\+\_\+t}]{g}{, }\item[{uint8\+\_\+t}]{b}{}\end{DoxyParamCaption})}
+
+
+
+Dessine un pixel dans le tampon. 
+
+Dessine un pixel avec profondeur.
+
+
+\begin{DoxyParams}{Paramètres}
+{\em x} & Coordonnée X \\
+\hline
+{\em y} & Coordonnée Y \\
+\hline
+{\em depth} & Profondeur du pixel \\
+\hline
+{\em r} & Composante rouge \\
+\hline
+{\em g} & Composante verte \\
+\hline
+{\em b} & Composante bleue \\
+\hline
+\end{DoxyParams}
+
+
+\label{doc-variable-members}
+\Hypertarget{class_engine3_d_1_1_sdl_doc-variable-members}
+\doxysubsection{Documentation des données membres}
+\Hypertarget{class_engine3_d_1_1_sdl_af86017ffd50bf4462b5fecd07aeae4db}\index{Engine3D::Sdl@{Engine3D::Sdl}!depthBuffer@{depthBuffer}}
+\index{depthBuffer@{depthBuffer}!Engine3D::Sdl@{Engine3D::Sdl}}
+\doxysubsubsection{\texorpdfstring{depthBuffer}{depthBuffer}}
+{\footnotesize\ttfamily \label{class_engine3_d_1_1_sdl_af86017ffd50bf4462b5fecd07aeae4db} 
+float\texorpdfstring{$\ast$}{*} Engine3\+D\+::\+Sdl\+::depth\+Buffer\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Tampon de profondeur. 
+
+\Hypertarget{class_engine3_d_1_1_sdl_a3449ca0244c5b4fd8ad9e3b41343ec38}\index{Engine3D::Sdl@{Engine3D::Sdl}!height@{height}}
+\index{height@{height}!Engine3D::Sdl@{Engine3D::Sdl}}
+\doxysubsubsection{\texorpdfstring{height}{height}}
+{\footnotesize\ttfamily \label{class_engine3_d_1_1_sdl_a3449ca0244c5b4fd8ad9e3b41343ec38} 
+int Engine3\+D\+::\+Sdl\+::height\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Hauteur de la fenêtre. 
+
+\Hypertarget{class_engine3_d_1_1_sdl_ac5dfc0e215198e4e28f53169dc945c7b}\index{Engine3D::Sdl@{Engine3D::Sdl}!pixelBuffer@{pixelBuffer}}
+\index{pixelBuffer@{pixelBuffer}!Engine3D::Sdl@{Engine3D::Sdl}}
+\doxysubsubsection{\texorpdfstring{pixelBuffer}{pixelBuffer}}
+{\footnotesize\ttfamily \label{class_engine3_d_1_1_sdl_ac5dfc0e215198e4e28f53169dc945c7b} 
+uint32\+\_\+t\texorpdfstring{$\ast$}{*} Engine3\+D\+::\+Sdl\+::pixel\+Buffer\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Tampon de pixels. 
+
+\Hypertarget{class_engine3_d_1_1_sdl_acde67f033535c1902a578580807e6f08}\index{Engine3D::Sdl@{Engine3D::Sdl}!renderer@{renderer}}
+\index{renderer@{renderer}!Engine3D::Sdl@{Engine3D::Sdl}}
+\doxysubsubsection{\texorpdfstring{renderer}{renderer}}
+{\footnotesize\ttfamily \label{class_engine3_d_1_1_sdl_acde67f033535c1902a578580807e6f08} 
+SDL\+\_\+\+Renderer\texorpdfstring{$\ast$}{*} Engine3\+D\+::\+Sdl\+::renderer\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Pointeur vers le renderer SDL. 
+
+\Hypertarget{class_engine3_d_1_1_sdl_a54c7b3b7545cebe424393c2f71b04479}\index{Engine3D::Sdl@{Engine3D::Sdl}!texture@{texture}}
+\index{texture@{texture}!Engine3D::Sdl@{Engine3D::Sdl}}
+\doxysubsubsection{\texorpdfstring{texture}{texture}}
+{\footnotesize\ttfamily \label{class_engine3_d_1_1_sdl_a54c7b3b7545cebe424393c2f71b04479} 
+SDL\+\_\+\+Texture\texorpdfstring{$\ast$}{*} Engine3\+D\+::\+Sdl\+::texture\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Texture pour le rendu pixel par pixel. 
+
+\Hypertarget{class_engine3_d_1_1_sdl_a2cebe5665a4c28744f1219f1affeee3c}\index{Engine3D::Sdl@{Engine3D::Sdl}!width@{width}}
+\index{width@{width}!Engine3D::Sdl@{Engine3D::Sdl}}
+\doxysubsubsection{\texorpdfstring{width}{width}}
+{\footnotesize\ttfamily \label{class_engine3_d_1_1_sdl_a2cebe5665a4c28744f1219f1affeee3c} 
+int Engine3\+D\+::\+Sdl\+::width\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Largeur de la fenêtre. 
+
+\Hypertarget{class_engine3_d_1_1_sdl_adfb8882a3c39e17bd18f01766b9d10e6}\index{Engine3D::Sdl@{Engine3D::Sdl}!window@{window}}
+\index{window@{window}!Engine3D::Sdl@{Engine3D::Sdl}}
+\doxysubsubsection{\texorpdfstring{window}{window}}
+{\footnotesize\ttfamily \label{class_engine3_d_1_1_sdl_adfb8882a3c39e17bd18f01766b9d10e6} 
+SDL\+\_\+\+Window\texorpdfstring{$\ast$}{*} Engine3\+D\+::\+Sdl\+::window\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Pointeur vers la fenêtre SDL. 
+
+
+
+La documentation de cette classe a été générée à partir des fichiers suivants \+:\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{_sdl_8hpp}{Sdl.\+hpp}}\item 
+\mbox{\hyperlink{_sdl_8cpp}{Sdl.\+cpp}}\end{DoxyCompactItemize}

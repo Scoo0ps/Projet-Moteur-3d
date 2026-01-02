@@ -25,20 +25,24 @@
 var NAVTREE =
 [
   [ "Moteur 3D - PRAP", "index.html", [
+    [ "Topics", "topics.html", "topics" ],
+    [ "Espaces de nommage", "namespaces.html", [
+      [ "Liste des espaces de nommage", "namespaces.html", "namespaces_dup" ]
+    ] ],
     [ "Classes", "annotated.html", [
-      [ "Class List", "annotated.html", "annotated_dup" ],
-      [ "Class Index", "classes.html", null ],
-      [ "Class Members", "functions.html", [
-        [ "All", "functions.html", null ],
-        [ "Functions", "functions_func.html", null ],
+      [ "Liste des classes", "annotated.html", "annotated_dup" ],
+      [ "Index des classes", "classes.html", null ],
+      [ "Membres de classe", "functions.html", [
+        [ "Tout", "functions.html", null ],
+        [ "Fonctions", "functions_func.html", null ],
         [ "Variables", "functions_vars.html", null ]
       ] ]
     ] ],
-    [ "Files", "files.html", [
-      [ "File List", "files.html", "files_dup" ],
-      [ "File Members", "globals.html", [
-        [ "All", "globals.html", null ],
-        [ "Functions", "globals_func.html", null ],
+    [ "Fichiers", "files.html", [
+      [ "Liste des fichiers", "files.html", "files_dup" ],
+      [ "Membres de fichier", "globals.html", [
+        [ "Tout", "globals.html", null ],
+        [ "Fonctions", "globals_func.html", null ],
         [ "Variables", "globals_vars.html", null ]
       ] ]
     ] ]
@@ -50,6 +54,6 @@ var NAVTREEINDEX =
 "_geometry_8cpp.html"
 ];
 
-var SYNCONMSG = 'click to disable panel synchronization';
-var SYNCOFFMSG = 'click to enable panel synchronization';
-var LISTOFALLMEMBERS = 'List of all members';
+var SYNCONMSG = 'cliquez pour désactiver la synchronisation du panel';
+var SYNCOFFMSG = 'cliquez pour activer la synchronisation du panel';
+var LISTOFALLMEMBERS = 'Liste de tous les membres';

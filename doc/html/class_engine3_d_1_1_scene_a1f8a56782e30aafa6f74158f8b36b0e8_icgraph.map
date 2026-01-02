@@ -1,0 +1,8 @@
+<map id="Engine3D::Scene::getCamera" name="Engine3D::Scene::getCamera">
+<area shape="rect" id="Node000001" title="Retourne une référence vers la caméra." alt="" coords="228,5,423,32"/>
+<area shape="rect" id="Node000002" href="$main_8cpp.html#a0ddf1224851353fc92bfbff6f499fa97" title="main" alt="" coords="5,5,55,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="212,21,55,21,55,16,212,16"/>
+<area shape="rect" id="Node000003" href="$main_8cpp.html#a43c63981d2c39c1e3e08614ee3f83b4f" title="Boucle principale du programme." alt="" coords="103,31,180,57"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="213,37,181,41,180,36,212,32"/>
+<area shape="poly" id="edge3_Node000003_Node000002" title=" " alt="" coords="87,34,55,27,56,22,88,29"/>
+</map>

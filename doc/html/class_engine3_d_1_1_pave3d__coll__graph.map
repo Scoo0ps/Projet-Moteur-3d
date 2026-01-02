@@ -1,0 +1,8 @@
+<map id="Engine3D::Pave3d" name="Engine3D::Pave3d">
+<area shape="rect" id="Node000001" title="Pavé composé de 6 faces (Quad3d)." alt="" coords="5,480,125,613"/>
+<area shape="rect" id="Node000002" href="$class_engine3_d_1_1_point3d.html" title="Représente un point dans l&#39;espace 3D." alt="" coords="97,189,217,408"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="119,409,98,465,93,463,114,407"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="25,5,60,75"/>
+<area shape="poly" id="edge3_Node000001_Node000003" title=" " alt="" coords="41,75,31,220,30,313,36,408,45,463,40,464,31,408,24,313,25,219,36,74"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="60,73,104,173,99,175,55,75"/>
+</map>

@@ -1,0 +1,13 @@
+<map id="addCube" name="addCube">
+<area shape="rect" id="Node000001" title="Crée et ajoute le cube à la scène." alt="" coords="5,56,79,83"/>
+<area shape="rect" id="Node000002" href="$class_engine3_d_1_1_scene.html#a00742547f5704154300b459fdf626afc" title="Ajoute des triangles à la scène." alt="" coords="129,5,334,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="79,55,126,41,155,34,157,39,127,47,80,60"/>
+<area shape="rect" id="Node000003" href="$class_engine3_d_1_1_pave3d.html#a4119fbf8bcb7a8e53bf791e07dad4a36" title="Retourne tous les triangles du pavé" alt="" coords="127,56,336,83"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="79,67,111,67,111,72,79,72"/>
+<area shape="rect" id="Node000006" href="$class_engine3_d_1_1_pave3d.html#a17d8fdec0f274f775de834fe0b1a6366" title="Définit les angles de rotation." alt="" coords="129,107,334,133"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="80,78,127,92,157,100,155,105,126,97,79,83"/>
+<area shape="rect" id="Node000004" href="$class_engine3_d_1_1_quad3d.html#aaa0bdee0dc9d2376064665d7caf6b0f5" title="Retourne les triangles du quad." alt="" coords="384,27,594,53"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="336,55,368,51,369,56,337,60"/>
+<area shape="rect" id="Node000005" href="$class_engine3_d_1_1_pave3d.html#a9ac0e8d9d88b16945a180d5e86b09879" title="Applique la rotation à un point." alt="" coords="404,77,575,120"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="337,79,388,85,387,90,336,84"/>
+</map>

@@ -1,0 +1,272 @@
+\doxysection{Référence de la classe Engine3D\+::Point3d}
+\hypertarget{class_engine3_d_1_1_point3d}{}\label{class_engine3_d_1_1_point3d}\index{Engine3D::Point3d@{Engine3D::Point3d}}
+
+
+Représente un point dans l\textquotesingle{}espace 3D.  
+
+
+
+
+{\ttfamily \#include $<$Geometry.\+hpp$>$}
+
+
+
+Graphe de collaboration de Engine3D\+::Point3d\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=170pt]{class_engine3_d_1_1_point3d__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Fonctions membres publiques}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_engine3_d_1_1_point3d_a0fe8b9187cff415e2e11cc0043bbedb6}{Point3d}} ()
+\begin{DoxyCompactList}\small\item\em Constructeur par défaut. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_engine3_d_1_1_point3d_ae3a95b562c633c31b11cca09577102a1}{Point3d}} (float \mbox{\hyperlink{class_engine3_d_1_1_point3d_a837e7c593e22fe75a46bc5af07b37213}{x}}, float \mbox{\hyperlink{class_engine3_d_1_1_point3d_a725a90ef97bb48c7098ea75828afb431}{y}}, float \mbox{\hyperlink{class_engine3_d_1_1_point3d_afe198ff85cc0b2f94f1b564e433ad9a3}{z}})
+\begin{DoxyCompactList}\small\item\em Constructeur avec coordonnées. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_engine3_d_1_1_point3d_a0fe8b9187cff415e2e11cc0043bbedb6}{Point3d}} \mbox{\hyperlink{class_engine3_d_1_1_point3d_a44680614401a82d16c2e60ae4522de52}{operator-\/}} (const \mbox{\hyperlink{class_engine3_d_1_1_point3d_a0fe8b9187cff415e2e11cc0043bbedb6}{Point3d}} \&other) const
+\begin{DoxyCompactList}\small\item\em Soustraction de deux points (retourne un vecteur). \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_engine3_d_1_1_point3d_a0fe8b9187cff415e2e11cc0043bbedb6}{Point3d}} \mbox{\hyperlink{class_engine3_d_1_1_point3d_a10bb434bfbe5415fb46ba6d7e6897f2f}{operator+}} (const \mbox{\hyperlink{class_engine3_d_1_1_point3d_a0fe8b9187cff415e2e11cc0043bbedb6}{Point3d}} \&other) const
+\begin{DoxyCompactList}\small\item\em Addition de deux points. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_engine3_d_1_1_point3d_a0fe8b9187cff415e2e11cc0043bbedb6}{Point3d}} \mbox{\hyperlink{class_engine3_d_1_1_point3d_a4da094e0fe416bdbdd807fbe610a6897}{operator\texorpdfstring{$\ast$}{*}}} (float scalar) const
+\begin{DoxyCompactList}\small\item\em Multiplication par un scalaire. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_engine3_d_1_1_point3d_a0fe8b9187cff415e2e11cc0043bbedb6}{Point3d}} \mbox{\hyperlink{class_engine3_d_1_1_point3d_a5bda2a757a3d5c95fa931087c7b21ae6}{cross}} (const \mbox{\hyperlink{class_engine3_d_1_1_point3d_a0fe8b9187cff415e2e11cc0043bbedb6}{Point3d}} \&other) const
+\begin{DoxyCompactList}\small\item\em Produit vectoriel. \end{DoxyCompactList}\item 
+float \mbox{\hyperlink{class_engine3_d_1_1_point3d_ae2fe7656b9388965fb9e890a89b28dcb}{dot}} (const \mbox{\hyperlink{class_engine3_d_1_1_point3d_a0fe8b9187cff415e2e11cc0043bbedb6}{Point3d}} \&other) const
+\begin{DoxyCompactList}\small\item\em Produit scalaire. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_engine3_d_1_1_point3d_a0fe8b9187cff415e2e11cc0043bbedb6}{Point3d}} \mbox{\hyperlink{class_engine3_d_1_1_point3d_a47b11f8208e5c25f2d5f04c49cd10bd4}{normalize}} () const
+\begin{DoxyCompactList}\small\item\em Normalise le vecteur. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Attributs publics}
+\begin{DoxyCompactItemize}
+\item 
+float \mbox{\hyperlink{class_engine3_d_1_1_point3d_a837e7c593e22fe75a46bc5af07b37213}{x}}
+\begin{DoxyCompactList}\small\item\em Coordonnée X. \end{DoxyCompactList}\item 
+float \mbox{\hyperlink{class_engine3_d_1_1_point3d_a725a90ef97bb48c7098ea75828afb431}{y}}
+\begin{DoxyCompactList}\small\item\em Coordonnée Y. \end{DoxyCompactList}\item 
+float \mbox{\hyperlink{class_engine3_d_1_1_point3d_afe198ff85cc0b2f94f1b564e433ad9a3}{z}}
+\begin{DoxyCompactList}\small\item\em Coordonnée Z. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Description détaillée}
+Représente un point dans l\textquotesingle{}espace 3D. 
+
+\label{doc-constructors}
+\Hypertarget{class_engine3_d_1_1_point3d_doc-constructors}
+\doxysubsection{Documentation des constructeurs et destructeur}
+\Hypertarget{class_engine3_d_1_1_point3d_a0fe8b9187cff415e2e11cc0043bbedb6}\index{Engine3D::Point3d@{Engine3D::Point3d}!Point3d@{Point3d}}
+\index{Point3d@{Point3d}!Engine3D::Point3d@{Engine3D::Point3d}}
+\doxysubsubsection{\texorpdfstring{Point3d()}{Point3d()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily \label{class_engine3_d_1_1_point3d_a0fe8b9187cff415e2e11cc0043bbedb6} 
+Engine3\+D\+::\+Point3d\+::\+Point3d (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+
+
+Constructeur par défaut. 
+
+Voici le graphe des appelants de cette fonction \+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_engine3_d_1_1_point3d_a0fe8b9187cff415e2e11cc0043bbedb6_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_engine3_d_1_1_point3d_ae3a95b562c633c31b11cca09577102a1}\index{Engine3D::Point3d@{Engine3D::Point3d}!Point3d@{Point3d}}
+\index{Point3d@{Point3d}!Engine3D::Point3d@{Engine3D::Point3d}}
+\doxysubsubsection{\texorpdfstring{Point3d()}{Point3d()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily \label{class_engine3_d_1_1_point3d_ae3a95b562c633c31b11cca09577102a1} 
+Engine3\+D\+::\+Point3d\+::\+Point3d (\begin{DoxyParamCaption}\item[{float}]{x}{, }\item[{float}]{y}{, }\item[{float}]{z}{}\end{DoxyParamCaption})}
+
+
+
+Constructeur avec coordonnées. 
+
+
+\begin{DoxyParams}{Paramètres}
+{\em x} & \\
+\hline
+{\em y} & \\
+\hline
+{\em z} & \\
+\hline
+\end{DoxyParams}
+
+
+\label{doc-func-members}
+\Hypertarget{class_engine3_d_1_1_point3d_doc-func-members}
+\doxysubsection{Documentation des fonctions membres}
+\Hypertarget{class_engine3_d_1_1_point3d_a5bda2a757a3d5c95fa931087c7b21ae6}\index{Engine3D::Point3d@{Engine3D::Point3d}!cross@{cross}}
+\index{cross@{cross}!Engine3D::Point3d@{Engine3D::Point3d}}
+\doxysubsubsection{\texorpdfstring{cross()}{cross()}}
+{\footnotesize\ttfamily \label{class_engine3_d_1_1_point3d_a5bda2a757a3d5c95fa931087c7b21ae6} 
+\mbox{\hyperlink{class_engine3_d_1_1_point3d_a0fe8b9187cff415e2e11cc0043bbedb6}{Point3d}} Engine3\+D\+::\+Point3d\+::cross (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{class_engine3_d_1_1_point3d_a0fe8b9187cff415e2e11cc0043bbedb6}{Point3d}} \&}]{other}{}\end{DoxyParamCaption}) const}
+
+
+
+Produit vectoriel. 
+
+Voici le graphe d\textquotesingle{}appel pour cette fonction \+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=324pt]{class_engine3_d_1_1_point3d_a5bda2a757a3d5c95fa931087c7b21ae6_cgraph}
+\end{center}
+\end{figure}
+Voici le graphe des appelants de cette fonction \+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_engine3_d_1_1_point3d_a5bda2a757a3d5c95fa931087c7b21ae6_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_engine3_d_1_1_point3d_ae2fe7656b9388965fb9e890a89b28dcb}\index{Engine3D::Point3d@{Engine3D::Point3d}!dot@{dot}}
+\index{dot@{dot}!Engine3D::Point3d@{Engine3D::Point3d}}
+\doxysubsubsection{\texorpdfstring{dot()}{dot()}}
+{\footnotesize\ttfamily \label{class_engine3_d_1_1_point3d_ae2fe7656b9388965fb9e890a89b28dcb} 
+float Engine3\+D\+::\+Point3d\+::dot (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{class_engine3_d_1_1_point3d_a0fe8b9187cff415e2e11cc0043bbedb6}{Point3d}} \&}]{other}{}\end{DoxyParamCaption}) const}
+
+
+
+Produit scalaire. 
+
+Voici le graphe d\textquotesingle{}appel pour cette fonction \+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=337pt]{class_engine3_d_1_1_point3d_ae2fe7656b9388965fb9e890a89b28dcb_cgraph}
+\end{center}
+\end{figure}
+Voici le graphe des appelants de cette fonction \+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_engine3_d_1_1_point3d_ae2fe7656b9388965fb9e890a89b28dcb_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_engine3_d_1_1_point3d_a47b11f8208e5c25f2d5f04c49cd10bd4}\index{Engine3D::Point3d@{Engine3D::Point3d}!normalize@{normalize}}
+\index{normalize@{normalize}!Engine3D::Point3d@{Engine3D::Point3d}}
+\doxysubsubsection{\texorpdfstring{normalize()}{normalize()}}
+{\footnotesize\ttfamily \label{class_engine3_d_1_1_point3d_a47b11f8208e5c25f2d5f04c49cd10bd4} 
+\mbox{\hyperlink{class_engine3_d_1_1_point3d_a0fe8b9187cff415e2e11cc0043bbedb6}{Point3d}} Engine3\+D\+::\+Point3d\+::normalize (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption}) const}
+
+
+
+Normalise le vecteur. 
+
+Voici le graphe d\textquotesingle{}appel pour cette fonction \+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=324pt]{class_engine3_d_1_1_point3d_a47b11f8208e5c25f2d5f04c49cd10bd4_cgraph}
+\end{center}
+\end{figure}
+Voici le graphe des appelants de cette fonction \+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_engine3_d_1_1_point3d_a47b11f8208e5c25f2d5f04c49cd10bd4_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_engine3_d_1_1_point3d_a4da094e0fe416bdbdd807fbe610a6897}\index{Engine3D::Point3d@{Engine3D::Point3d}!operator\texorpdfstring{$\ast$}{*}@{operator\texorpdfstring{$\ast$}{*}}}
+\index{operator\texorpdfstring{$\ast$}{*}@{operator\texorpdfstring{$\ast$}{*}}!Engine3D::Point3d@{Engine3D::Point3d}}
+\doxysubsubsection{\texorpdfstring{operator\texorpdfstring{$\ast$}{*}()}{operator*()}}
+{\footnotesize\ttfamily \label{class_engine3_d_1_1_point3d_a4da094e0fe416bdbdd807fbe610a6897} 
+\mbox{\hyperlink{class_engine3_d_1_1_point3d_a0fe8b9187cff415e2e11cc0043bbedb6}{Point3d}} Engine3\+D\+::\+Point3d\+::operator\texorpdfstring{$\ast$}{*} (\begin{DoxyParamCaption}\item[{float}]{scalar}{}\end{DoxyParamCaption}) const}
+
+
+
+Multiplication par un scalaire. 
+
+Voici le graphe d\textquotesingle{}appel pour cette fonction \+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=324pt]{class_engine3_d_1_1_point3d_a4da094e0fe416bdbdd807fbe610a6897_cgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_engine3_d_1_1_point3d_a10bb434bfbe5415fb46ba6d7e6897f2f}\index{Engine3D::Point3d@{Engine3D::Point3d}!operator+@{operator+}}
+\index{operator+@{operator+}!Engine3D::Point3d@{Engine3D::Point3d}}
+\doxysubsubsection{\texorpdfstring{operator+()}{operator+()}}
+{\footnotesize\ttfamily \label{class_engine3_d_1_1_point3d_a10bb434bfbe5415fb46ba6d7e6897f2f} 
+\mbox{\hyperlink{class_engine3_d_1_1_point3d_a0fe8b9187cff415e2e11cc0043bbedb6}{Point3d}} Engine3\+D\+::\+Point3d\+::operator+ (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{class_engine3_d_1_1_point3d_a0fe8b9187cff415e2e11cc0043bbedb6}{Point3d}} \&}]{other}{}\end{DoxyParamCaption}) const}
+
+
+
+Addition de deux points. 
+
+Voici le graphe d\textquotesingle{}appel pour cette fonction \+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=324pt]{class_engine3_d_1_1_point3d_a10bb434bfbe5415fb46ba6d7e6897f2f_cgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_engine3_d_1_1_point3d_a44680614401a82d16c2e60ae4522de52}\index{Engine3D::Point3d@{Engine3D::Point3d}!operator-\/@{operator-\/}}
+\index{operator-\/@{operator-\/}!Engine3D::Point3d@{Engine3D::Point3d}}
+\doxysubsubsection{\texorpdfstring{operator-\/()}{operator-()}}
+{\footnotesize\ttfamily \label{class_engine3_d_1_1_point3d_a44680614401a82d16c2e60ae4522de52} 
+\mbox{\hyperlink{class_engine3_d_1_1_point3d_a0fe8b9187cff415e2e11cc0043bbedb6}{Point3d}} Engine3\+D\+::\+Point3d\+::operator-\/ (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{class_engine3_d_1_1_point3d_a0fe8b9187cff415e2e11cc0043bbedb6}{Point3d}} \&}]{other}{}\end{DoxyParamCaption}) const}
+
+
+
+Soustraction de deux points (retourne un vecteur). 
+
+Voici le graphe d\textquotesingle{}appel pour cette fonction \+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=324pt]{class_engine3_d_1_1_point3d_a44680614401a82d16c2e60ae4522de52_cgraph}
+\end{center}
+\end{figure}
+
+
+\label{doc-variable-members}
+\Hypertarget{class_engine3_d_1_1_point3d_doc-variable-members}
+\doxysubsection{Documentation des données membres}
+\Hypertarget{class_engine3_d_1_1_point3d_a837e7c593e22fe75a46bc5af07b37213}\index{Engine3D::Point3d@{Engine3D::Point3d}!x@{x}}
+\index{x@{x}!Engine3D::Point3d@{Engine3D::Point3d}}
+\doxysubsubsection{\texorpdfstring{x}{x}}
+{\footnotesize\ttfamily \label{class_engine3_d_1_1_point3d_a837e7c593e22fe75a46bc5af07b37213} 
+float Engine3\+D\+::\+Point3d\+::x}
+
+
+
+Coordonnée X. 
+
+\Hypertarget{class_engine3_d_1_1_point3d_a725a90ef97bb48c7098ea75828afb431}\index{Engine3D::Point3d@{Engine3D::Point3d}!y@{y}}
+\index{y@{y}!Engine3D::Point3d@{Engine3D::Point3d}}
+\doxysubsubsection{\texorpdfstring{y}{y}}
+{\footnotesize\ttfamily \label{class_engine3_d_1_1_point3d_a725a90ef97bb48c7098ea75828afb431} 
+float Engine3\+D\+::\+Point3d\+::y}
+
+
+
+Coordonnée Y. 
+
+\Hypertarget{class_engine3_d_1_1_point3d_afe198ff85cc0b2f94f1b564e433ad9a3}\index{Engine3D::Point3d@{Engine3D::Point3d}!z@{z}}
+\index{z@{z}!Engine3D::Point3d@{Engine3D::Point3d}}
+\doxysubsubsection{\texorpdfstring{z}{z}}
+{\footnotesize\ttfamily \label{class_engine3_d_1_1_point3d_afe198ff85cc0b2f94f1b564e433ad9a3} 
+float Engine3\+D\+::\+Point3d\+::z}
+
+
+
+Coordonnée Z. 
+
+
+
+La documentation de cette classe a été générée à partir des fichiers suivants \+:\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{_geometry_8hpp}{Geometry.\+hpp}}\item 
+\mbox{\hyperlink{_geometry_8cpp}{Geometry.\+cpp}}\end{DoxyCompactItemize}
